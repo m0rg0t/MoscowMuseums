@@ -11,7 +11,9 @@ using System.Net.Http;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using Windows.Data.Xml.Dom;
 using Windows.Storage;
+using Windows.UI.Notifications;
 using Windows.Web.Syndication;
 
 namespace M0rg0tRss.ViewModel
@@ -35,55 +37,60 @@ namespace M0rg0tRss.ViewModel
             }
         }
 
-        public async void LoadRss()
+        private bool _loaded = false;
+        public bool Loaded
+        {
+            get
+            {
+                return _loaded;
+            }
+            set
+            {
+                if (_loaded != value)
+                {
+                    _loaded = value;
+                    RaisePropertyChanged("Loaded");
+                };
+            }
+        }
+
+        public async Task<bool> LoadCacheRss(StorageFile[] feedsEntries)
         {
             Loading = true;
-            //AddTourist();
-            await ViewModelLocator.MainStatic.AddGroupForFeedAsync("http://rybinsk.ru/news-2013?format=feed&type=atom");
-            //await ViewModelLocator.MainStatic.AddGroupForFeedAsync("http://rybinsk.ru/afisha?format=feed&type=atom");
-            //await ViewModelLocator.MainStatic.AddGroupForFeedAsync("http://rybinsk.ru/sport-rybinsk?format=feed&type=atom");
-            //await ViewModelLocator.MainStatic.AddGroupForFeedAsync("http://rybinsk.ru/economy/market?format=feed&type=atom");
-            //await ViewModelLocator.MainStatic.AddGroupForFeedAsync("http://rybinsk.ru/admin/division/security-nature/jekologija?format=feed&type=atom");
-            RaisePropertyChanged("AllGroups");
-            LoadTouristQuery("музей");
-            Loading = false;
-        }
+            LoadTouristQuery();
 
-        public async Task<string> MakeWebRequest(string url = "")
-        {
-            HttpClient http = new System.Net.Http.HttpClient();
-            HttpResponseMessage response = await http.GetAsync(url);
-            return await response.Content.ReadAsStringAsync();
-        }
-
-        public async void LoadTouristQuery(string query="", string category="museum")
-        {
-            string response = await MakeWebRequest("http://api.pub.emp.msk.ru:8081/json/v10.0/tourstore/objects/search?token=" + App.TOKEN + "&query=" + query);
-            JObject o = JObject.Parse(response.ToString());
-            var tourist = new RssDataGroup(category,
-                query, "", "Assets/sobor-volga.jpg", "");
-            tourist.Order = 7;
-            this._allGroups.Add(tourist);
-            RaisePropertyChanged("AllGroups");
-            foreach (var item in o["result"]["objects"])
+            foreach (var feed in feedsEntries)
             {
-                try
-                {
-                    string obj_response = await MakeWebRequest("http://api.pub.emp.msk.ru:8081/json/v10.0/tourstore/objects/get?token=" + App.TOKEN + "&object_id=" + item["id"].ToString());
-                    JObject obj = JObject.Parse(obj_response.ToString());
-                    tourist.Items.Add(new MapItem(obj["result"]["object_id"].ToString(),
-                            obj["result"]["object_name"].ToString(),
-                            obj["result"]["object_address"].ToString(), 
-                            obj["result"]["object_photo"].ToString(),
-                            obj["result"]["object_description"].ToString(), 
-                            obj["result"]["object_story"].ToString(),
-                            tourist, item["object_geo"]["latitude"].Value<Double>(),
-                            item["object_geo"]["longitude"].Value<Double>()));
-                }
-                catch { };                
-            };          
+                //await ViewModelLocator.MainStatic.AddGroupForFeedAsync(feed.url, feed.id);
+                await ViewModelLocator.MainStatic.AddGroupForFeedAsync(feed);
+            }
+            UpdateTile();
+            RaisePropertyChanged("AllGroups");
+            Loading = false;
+            return true;
         }
 
+        public async Task<bool> LoadRss()
+        {
+            if (Loaded == false)
+            {
+                Loading = true;
+                //AddTourist();
+
+                var feeds = await App.ReadSettings();
+
+                foreach (var feed in feeds)
+                {
+                    await ViewModelLocator.MainStatic.AddGroupForFeedAsync(feed.url, feed.id, feed.title);
+                }
+
+                UpdateTile();
+                RaisePropertyChanged("AllGroups");
+                Loading = false;
+                Loaded = true;
+            };
+            return true;
+        }
 
         private ObservableCollection<RssDataGroup> _allGroups = new ObservableCollection<RssDataGroup>();
         public ObservableCollection<RssDataGroup> AllGroups
@@ -110,7 +117,47 @@ namespace M0rg0tRss.ViewModel
             }
         }
 
-        public async Task<bool> AddGroupForFeedAsync(string feedUrl, string ID="1")
+        public async Task<bool> AddGroupForFeedAsync(StorageFile sf)
+        {
+            string clearedContent = String.Empty;
+
+            if (GetGroup(sf.DisplayName) != null) return false;
+
+            var feed = new SyndicationFeed();
+            feed.LoadFromXml(await XmlDocument.LoadFromFileAsync(sf));
+
+            var feedGroup = new RssDataGroup(
+                uniqueId: sf.DisplayName.ToString().Replace(".rss", ""),
+                title: "Новости", //feed.Title != null ? feed.Title.Text : null,
+                subtitle: feed.Subtitle != null ? feed.Subtitle.Text : null,
+                imagePath: feed.ImageUri != null ? feed.ImageUri.ToString() : null,
+                description: null);
+
+            foreach (var i in feed.Items)
+            {
+                string imagePath = GetImageFromPostContents(i);
+
+                if (i.Summary != null)
+                    clearedContent = Windows.Data.Html.HtmlUtilities.ConvertToText(i.Summary.Text);
+                else
+                    if (i.Content != null)
+                        clearedContent = Windows.Data.Html.HtmlUtilities.ConvertToText(i.Content.Text);
+
+                if (imagePath != null && feedGroup.Image == null)
+                    feedGroup.SetImage(imagePath);
+
+                if (imagePath == null) imagePath = "ms-appx:///Assets/DarkGray.png";
+
+                feedGroup.Items.Add(new RssDataItem(
+                    uniqueId: i.Id, title: i.Title.Text, subtitle: null, imagePath: imagePath,
+                    description: null, content: clearedContent, @group: feedGroup));
+            }
+
+            _allGroups.Add(feedGroup);
+            return true;
+        }
+
+        public async Task<bool> AddGroupForFeedAsync(string feedUrl, string ID="1", string titleRss="")
         {
             string clearedContent = String.Empty;
 
@@ -127,8 +174,8 @@ namespace M0rg0tRss.ViewModel
             await feed.GetXmlDocument(SyndicationFormat.Rss20).SaveToFileAsync(fileToSave);
 
             var feedGroup = new RssDataGroup(
-                uniqueId: feedUrl,
-                title: feed.Title != null ? feed.Title.Text : null,
+                uniqueId: ID,
+                title: titleRss,
                 subtitle: feed.Subtitle != null ? feed.Subtitle.Text : null,
                 imagePath: feed.ImageUri != null ? feed.ImageUri.ToString() : null,
                 description: null);
@@ -162,9 +209,9 @@ namespace M0rg0tRss.ViewModel
                 catch { };
             }
 
-            switch (feedGroup.UniqueId)
+            /*switch (feedGroup.UniqueId)
             {
-                case "http://rybinsk.ru/news-2013?format=feed&type=atom":
+                case "1":
                     feedGroup.Order = 20;
 
                     try
@@ -185,14 +232,18 @@ namespace M0rg0tRss.ViewModel
                         group1.Items.Add(tempitem);
                         group1.Items.Add(tempitem);
 
+                        group1.Image = tempitem.Image;
+
+                        _allGroups.Remove(_allGroups.FirstOrDefault(c => c.UniqueId == group1.UniqueId));
                         _allGroups.Add(group1);
                         
                         //AllGroups = SortItems();
                     }
                     catch { };
                     break;
-            };
+            };*/
 
+            _allGroups.Remove(_allGroups.FirstOrDefault(c=>c.UniqueId == feedGroup.UniqueId));
             _allGroups.Add(feedGroup);
             //AllGroups = SortItems();
             return true;
@@ -278,7 +329,75 @@ namespace M0rg0tRss.ViewModel
             }
         }
 
-        public void AddTourist()
+        public void UpdateTile()
+        {
+            var news = AllGroups.FirstOrDefault(c=>c.UniqueId=="1").Items.ToList();
+            var xml = new XmlDocument();
+            xml.LoadXml(
+                string.Format(
+                    @"<?xml version=""1.0"" encoding=""utf-8"" ?>
+<tile>
+    <visual branding=""none"">
+        <binding template=""TileSquarePeekImageAndText03"">
+            <image id=""1"" src=""ms-appx:///Assets/Logo.png"" alt=""alt text""/>
+            <text id=""1"">{0}</text>
+            <text id=""2"">{1}</text>
+            <text id=""3"">{2}</text>
+            <text id=""4"">{3}</text>
+        </binding>
+        <binding template=""TileWidePeekImageAndText02"">                        
+            <image id=""1"" src=""ms-appx:///Assets/WideLogo.png"" alt=""alt text""/>
+            <text id=""1"">{0}</text>
+            <text id=""2"">{1}</text>
+            <text id=""3"">{2}</text>
+            <text id=""4"">{3}</text>
+        </binding>  
+    </visual>
+</tile>",
+                    news.Count > 0 ? System.Net.WebUtility.HtmlEncode(news[0].Title) : "",
+                    news.Count > 1 ? System.Net.WebUtility.HtmlEncode(news[1].Title) : "",
+                    news.Count > 2 ? System.Net.WebUtility.HtmlEncode(news[2].Title) : "",
+                    news.Count > 3 ? System.Net.WebUtility.HtmlEncode(news[3].Title) : ""));
+            TileUpdateManager.CreateTileUpdaterForApplication().Update(new TileNotification(xml));
+        }
+
+        public async Task<string> MakeWebRequest(string url = "")
+        {
+            HttpClient http = new System.Net.Http.HttpClient();
+            HttpResponseMessage response = await http.GetAsync(url);
+            return await response.Content.ReadAsStringAsync();
+        }
+
+        public async void LoadTouristQuery(string query = "", string category = "Tourist")
+        {
+            string response = await MakeWebRequest("http://api.pub.emp.msk.ru:8081/json/v10.0/tourstore/objects/search?token=" + App.TOKEN + "&query=");
+            JObject o = JObject.Parse(response.ToString());
+            var tourist = new RssDataGroup(category,
+                query, "", "Assets/sobor-volga.jpg", "");
+            tourist.Order = 7;
+            this._allGroups.Add(tourist);
+            RaisePropertyChanged("AllGroups");
+            foreach (var item in o["result"]["objects"])
+            {
+                try
+                {
+                    string obj_response = await MakeWebRequest("http://api.pub.emp.msk.ru:8081/json/v10.0/tourstore/objects/get?token=" + App.TOKEN + "&object_id=" + item["id"].ToString());
+                    JObject obj = JObject.Parse(obj_response.ToString());
+                    tourist.Items.Add(new MapItem(obj["result"]["object_id"].ToString(),
+                            obj["result"]["object_name"].ToString(),
+                            obj["result"]["object_address"].ToString(),
+                            obj["result"]["object_photo"].ToString(),
+                            obj["result"]["object_description"].ToString(),
+                            obj["result"]["object_story"].ToString(),
+                            tourist, item["object_geo"]["latitude"].Value<Double>(),
+                            item["object_geo"]["longitude"].Value<Double>()));
+                    //RaisePropertyChanged("AllGroups");
+                }
+                catch { };
+            };
+        }
+
+        /*public void AddTourist()
         {
             var tourist = new RssDataGroup("Tourist",
                     "Достопримечательности Рыбинска",
@@ -351,8 +470,9 @@ namespace M0rg0tRss.ViewModel
                     "Раньше, спускаясь по Стоялой улице в Рыбинске, случайных прохожий вряд ли обратил бы внимание на Никольскую часовню. Сегодня это двухэтажное незаметное сооружение с неказистым видом сегодня приняло новый облик. На фотографии выше вы можете видеть здание еще в процессе реставрации.\nУже сейчас на главе часовни установлен крест. Кроме главного креста 10 сентября установлены шесть небольших крестов на главках, украшающих купол часовни. Позднее появятся еще шесть. Все кресты отлиты фирмой «Ярославский реставратор» по правилам, действующим в 19 веке, и покрыты сусальным золотом.\nКак сообщает официальный сайт города, полная реставрация закончатся к маю 2011 года.\n",
                     tourist, 58.05019, 38.85255));
 
+            this._allGroups.Remove(this._allGroups.FirstOrDefault(c => c.UniqueId == "Tourist"));
             this._allGroups.Add(tourist);
-        }
+        }*/
 
     }
 }

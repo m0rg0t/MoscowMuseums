@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MAINPC</Machine>
+    <WindowsUser>m0rg0_000</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>D262733FD512507432C6686D5AF023769B812886F9892B4B52911099008F4AE7</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>c321088d-f38f-443f-b0f3-73fd7285cb38_1.0.0.0_neutral__82r7a9ytfvk9a</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>c321088d-f38f-443f-b0f3-73fd7285cb38_82r7a9ytfvk9a!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>c321088d-f38f-443f-b0f3-73fd7285cb38</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=m0rg0_000</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\m0rg0_000\Documents\GitHub\RybinskNews\M0rg0tRss\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-05-01T19:40:40.395</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\RybinskNews\M0rg0tRss\bin\Debug\M0rg0tRss.exe">
+      <PackagePath>M0rg0tRss.exe</PackagePath>
+      <Modified>2013-05-01T19:40:39.754</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\RybinskNews\M0rg0tRss\bin\Debug\M0rg0tRss.pdb">
+      <PackagePath>M0rg0tRss.pdb</PackagePath>
+      <Modified>2013-05-01T19:40:39.710</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\RybinskNews\packages\Callisto.1.2.9\lib\winrt45\Callisto.dll">
+      <PackagePath>Callisto.dll</PackagePath>
+      <Modified>2013-05-01T12:32:45.683</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\RybinskNews\packages\Coding4Fun.Toolkit.Audio.2.0.5\lib\windows8\Coding4Fun.Toolkit.Audio.dll">
+      <PackagePath>Coding4Fun.Toolkit.Audio.dll</PackagePath>
+      <Modified>2013-05-01T12:05:34.160</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\RybinskNews\packages\Coding4Fun.Toolkit.Net.2.0.5\lib\windows8\Coding4Fun.Toolkit.Net.dll">
+      <PackagePath>Coding4Fun.Toolkit.Net.dll</PackagePath>
+      <Modified>2013-05-01T12:05:34.290</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\RybinskNews\packages\Coding4Fun.Toolkit.Storage.2.0.5\lib\windows8\Coding4Fun.Toolkit.Storage.dll">
+      <PackagePath>Coding4Fun.Toolkit.Storage.dll</PackagePath>
+      <Modified>2013-05-01T12:05:34.437</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\RybinskNews\packages\WindowsMapsHelper.1.0.0\lib\winrt45\WindowsMapsHelper.winmd">
+      <PackagePath>WindowsMapsHelper.winmd</PackagePath>
+      <Modified>2013-05-01T11:33:56.446</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\RybinskNews\M0rg0tRss\appicon.png">
+      <PackagePath>appicon.png</PackagePath>
+      <Modified>2013-05-01T11:33:05.577</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\RybinskNews\M0rg0tRss\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T19:29:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\RybinskNews\M0rg0tRss\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T19:29:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\RybinskNews\M0rg0tRss\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T19:29:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\RybinskNews\M0rg0tRss\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T19:29:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\RybinskNews\M0rg0tRss\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+      <Modified>2012-01-27T06:37:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\RybinskNews\M0rg0tRss\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+      <Modified>2012-01-27T06:37:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\RybinskNews\M0rg0tRss\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+      <Modified>2012-01-27T06:37:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\RybinskNews\M0rg0tRss\metadata.xml">
+      <PackagePath>metadata.xml</PackagePath>
+      <Modified>2013-05-01T11:33:05.393</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\RybinskNews\M0rg0tRss\ReadMe.Coding4Fun.Toolkit.txt">
+      <PackagePath>ReadMe.Coding4Fun.Toolkit.txt</PackagePath>
+      <Modified>2013-05-01T12:05:37.935</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\RybinskNews\M0rg0tRss\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2013-04-24T18:56:02.177</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\RybinskNews\M0rg0tRss\bin\Debug\Controls\AnonimusWriteControl.xaml">
+      <PackagePath>Controls\AnonimusWriteControl.xaml</PackagePath>
+      <Modified>2013-05-01T12:43:04.160</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\RybinskNews\M0rg0tRss\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2013-05-01T12:14:23.493</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\RybinskNews\M0rg0tRss\bin\Debug\GroupedItemsPage.xaml">
+      <PackagePath>GroupedItemsPage.xaml</PackagePath>
+      <Modified>2013-05-01T19:26:47.387</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\RybinskNews\M0rg0tRss\bin\Debug\GroupDetailPage.xaml">
+      <PackagePath>GroupDetailPage.xaml</PackagePath>
+      <Modified>2013-04-05T20:41:50.105</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\RybinskNews\M0rg0tRss\bin\Debug\ItemDetailPage.xaml">
+      <PackagePath>ItemDetailPage.xaml</PackagePath>
+      <Modified>2013-05-01T19:39:03.724</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\RybinskNews\packages\Callisto.1.2.9\lib\winrt45\Callisto\themes\Generic.xaml">
+      <PackagePath>Callisto\themes\Generic.xaml</PackagePath>
+      <Modified>2013-05-01T12:32:45.700</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\RybinskNews\M0rg0tRss\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-05-01T19:40:40.073</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
