@@ -538,6 +538,12 @@
         <Setter Property="Content" Value="&#xE104;"/>
     </Style>
 
+    <Style x:Key="RefreshAppBarButtonStyle" TargetType="ButtonBase" BasedOn="{StaticResource AppBarButtonStyle}">
+        <Setter Property="AutomationProperties.AutomationId" Value="RefreshAppBarButton"/>
+        <Setter Property="AutomationProperties.Name" Value="Обновить"/>
+        <Setter Property="Content" Value="&#xE117;"/>
+    </Style>
+
     <!--
     <Style x:Key="VideoAppBarButtonStyle" TargetType="ButtonBase" BasedOn="{StaticResource AppBarButtonStyle}">
         <Setter Property="AutomationProperties.AutomationId" Value="VideoAppBarButton"/>
@@ -1063,7 +1069,7 @@
     </Style>
     <Style x:Key="MapAppBarButtonStyle" TargetType="ButtonBase" BasedOn="{StaticResource AppBarButtonStyle}">
         <Setter Property="AutomationProperties.AutomationId" Value="MapAppBarButton"/>
-        <Setter Property="AutomationProperties.Name" Value="Карта Рыбинска"/>
+        <Setter Property="AutomationProperties.Name" Value="Карта Москвы"/>
         <Setter Property="Content" Value="&#xE1C4;"/>
     </Style>
 

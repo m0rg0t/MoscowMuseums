@@ -40,7 +40,7 @@ namespace M0rg0tRss
         /// </param>
         /// <param name="pageState">Словарь состояния, сохраненного данной страницей в ходе предыдущего
         /// сеанса. Это значение будет равно NULL при первом посещении страницы.</param>
-        protected override void LoadState(Object navigationParameter, Dictionary<String, Object> pageState)
+        protected async override void LoadState(Object navigationParameter, Dictionary<String, Object> pageState)
         {
             var queryText = navigationParameter as String;
 
@@ -56,6 +56,8 @@ namespace M0rg0tRss
 
             //var filterList = new List<Filter>();
             //filterList.Add(new Filter("All", 0, true));
+
+            await ViewModelLocator.MainStatic.LoadSearchFromDB(queryText);
 
             var filterList = new List<Filter<RssDataItem>>(
                 from feed in ViewModelLocator.MainStatic.AllGroups

@@ -51,52 +51,23 @@ namespace M0rg0tRss
             var localFolder = await ApplicationData.Current.LocalFolder.CreateFolderAsync
                ("Data", CreationCollisionOption.OpenIfExists);
 
-            //получаем список файлов в папке Data
-            var cachedFeeds = await localFolder.GetFilesAsync();
-
-            //получаем список всех файлов, имя которых config.xml
-            var feedsToLoad = from feeds in cachedFeeds
-                              where feeds.Name.EndsWith(".rss")
-                              select feeds;
-
-            //нам возращается IEnumrable - а он гарантирует тольок один проход
-            //копируем в массив                
-            var feedsEntries = feedsToLoad as StorageFile[] ?? feedsToLoad.ToArray();
-            if (feedsEntries.Any())
-            {
-                /*foreach (var feed in feedsEntries)
-                {
-                    await ViewModelLocator.MainStatic.AddGroupForFeedAsync(feed);
-                };*/
-                await ViewModelLocator.MainStatic.LoadCacheRss(feedsEntries);
-            };
-
+            await ViewModelLocator.MainStatic.LoadRss();
             if (NetworkInformation.GetInternetConnectionProfile().GetNetworkConnectivityLevel() != 
               NetworkConnectivityLevel.InternetAccess)
-            {
-                if (feedsEntries.Any())
-                {                   
-                    /*foreach (var feed in feedsEntries)
-                    {
-                        await ViewModelLocator.MainStatic.AddGroupForFeedAsync(feed);
-                    }*/
+            {                  
                     zommedOutView.ItemsSource = groupedItemsViewSource.View.CollectionGroups;
                     OfflineMode.Visibility = Visibility.Visible;
-                }
+                /*}
                 else
                 {
                     var msg = new MessageDialog("Для работы приложения необходимо к интернет подключение.");
                     await msg.ShowAsync();
-                }
+                }*/
             }
             else
             { 
                 OfflineMode.Visibility = Visibility.Collapsed;
-                //if (ViewModelLocator.MainStatic.AllGroups.Count() == 0)
-                //{
-                    await ViewModelLocator.MainStatic.LoadRss();
-                    zommedOutView.ItemsSource = groupedItemsViewSource.View.CollectionGroups;
-                //};
+                zommedOutView.ItemsSource = groupedItemsViewSource.View.CollectionGroups;
             }
         }
 
@@ -144,14 +115,14 @@ namespace M0rg0tRss
             }
             else
             {
-                if (((RssDataGroup)group).UniqueId == "Tourist")
-                {
+                //if (((RssDataGroup)group).UniqueId == "Tourist")
+                //{
                     this.Frame.Navigate(typeof(MapItemsPage), ((RssDataGroup)group).UniqueId);
-                }
+                /*}
                 else
                 {
                     this.Frame.Navigate(typeof(GroupDetailPage), ((RssDataGroup)group).UniqueId);
-                };
+                };*/
             };            
         }
 
@@ -211,6 +182,12 @@ namespace M0rg0tRss
                     settingsFlyout.IsOpen = true;
                 });
                 args.Request.ApplicationCommands.Add(viewAboutMalukahPage);
+
+                var refreshDatabase = new SettingsCommand("", "Обновить базу данных", cmd =>
+                {
+                    ViewModelLocator.MainStatic.LoadTouristQuery();
+                });
+                args.Request.ApplicationCommands.Add(refreshDatabase);
             }
             catch { };
         }
@@ -218,6 +195,11 @@ namespace M0rg0tRss
 
 
         public SettingsCommand viewStreetAndTownPage;
+
+        private void RefreshButton_Click(object sender, RoutedEventArgs e)
+        {
+            ViewModelLocator.MainStatic.LoadRandomFromDB();
+        }
 
     }
 }

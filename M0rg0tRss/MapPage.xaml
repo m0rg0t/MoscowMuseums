@@ -35,14 +35,14 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <Button x:Name="backButton" Click="GoBack" IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
-            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="Рыбинск - карта достопримечательностей" Style="{StaticResource PageHeaderTextStyle}" Tapped="pageTitle_Tapped"/>
+            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="Москва - карта достопримечательностей" Style="{StaticResource PageHeaderTextStyle}" Tapped="pageTitle_Tapped"/>
         </Grid>
 
         <Grid Grid.Row="2" Margin="120,40,40,46">
             <bm:Map x:Name="map" 
                     Credentials="AsqrQmbS1KDNegV3DX6dFn0hQrFsDryl71O0gvH_Uk8M1A-u3gSjT-qolzYRp-SK" ZoomLevel="14" Heading="14">
                 <bm:Map.Center>
-                    <bm:Location Longitude="38.835515" Latitude="58.049314"/>
+                    <bm:Location Longitude="37.623254" Latitude="55.772420"/>
                 </bm:Map.Center>
             </bm:Map>
         </Grid>

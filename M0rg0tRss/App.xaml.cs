@@ -53,12 +53,17 @@ namespace M0rg0tRss
                          where file.Name.Equals("config.xml")
                          select file;
 
+            var places = from file in files
+                         where file.Name.Equals("places.db")
+                         select file;
 
             //нам возращается IEnumrable - а он гарантирует тольок один проход
             //копируем в массив - если не беспокоитесь об этом - просто уберите эту строчку
             //а в условии проверяйте config.Count()
             // if (config.Count() == 0) { }
             var configEntries = config as StorageFile[] ?? config.ToArray();
+
+            var placesEntries = places as StorageFile[] ?? places.ToArray();
 
             //то же самое, что config.Count() == 0, но гарантиует от странных ошибок
             //т.е. в целом мы проверили, что файла config.xml нет в подпапке Data
@@ -71,9 +76,21 @@ namespace M0rg0tRss
                 var configFile = await dataFolder.GetFileAsync("config.xml");
                 //копируем его в локальную папку данных
                 await configFile.CopyAsync(localFolder);
-                return true;
+                //return true;
             }
-            return false;
+
+            if (!placesEntries.Any())
+            {
+                //получаем папку Data из установленого приложения
+                var dataFolder = await Package.Current.InstalledLocation.GetFolderAsync("Data");
+                //получаем файл сonfig.xml
+                var configFile = await dataFolder.GetFileAsync("places.db");
+                //копируем его в локальную папку данных
+                await configFile.CopyAsync(localFolder);
+                //return true;
+            }
+
+            return true;
         }
 
 
@@ -90,7 +107,6 @@ namespace M0rg0tRss
             var config = from file in files
                          where file.Name.Equals("config.xml")
                          select file;
-
 
             //нам возращается IEnumrable - а он гарантирует тольок один проход
             //копируем в массив - если не беспокоитесь об этом - просто уберите эту строчку

@@ -151,7 +151,7 @@
             Margin="120,50,0,0"
             Visibility="Collapsed"
             Style="{StaticResource SubheaderTextStyle}"
-            Text="No results match your search." />
+            Text="Нет подходящих результатов." />
 
         <VisualStateManager.VisualStateGroups>
 

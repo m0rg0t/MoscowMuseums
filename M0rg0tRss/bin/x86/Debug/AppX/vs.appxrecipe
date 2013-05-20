@@ -5,28 +5,28 @@
     <WindowsUser>m0rg0_000</WindowsUser>
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
-    <RegisteredManifestChecksum>C8F662B215ABCD0FA7EAF98BC8CC2CC5C9E2675057C6DA14206F92474E75AAA9</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>43337m0rg0t.336746D1E5EC8_1.5.0.3_x86__an4n55wjnzdp8</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>43337m0rg0t.336746D1E5EC8_an4n55wjnzdp8!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>43337m0rg0t.336746D1E5EC8</RegisteredPackageID>
+    <RegisteredManifestChecksum>5C3D895E948C2045F8424E51615E3B400DBC738CEF59F0357F914CED1480A4A0</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>43337m0rg0t.4221071A35AC9_1.1.0.5_x86__an4n55wjnzdp8</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>43337m0rg0t.4221071A35AC9_an4n55wjnzdp8!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>43337m0rg0t.4221071A35AC9</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=F7642D27-CCE9-4988-9BED-35B1F14EED65</RegisteredPackagePublisher>
-    <RegisteredVersion>1.5.0.3</RegisteredVersion>
+    <RegisteredVersion>1.1.0.5</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-05-19T21:29:32.291</Modified>
+      <Modified>2013-05-20T21:28:20.801</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\bin\x86\Debug\M0rg0tRss.exe">
       <PackagePath>M0rg0tRss.exe</PackagePath>
-      <Modified>2013-05-19T21:29:29.248</Modified>
+      <Modified>2013-05-20T21:36:58.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\bin\x86\Debug\M0rg0tRss.pdb">
       <PackagePath>M0rg0tRss.pdb</PackagePath>
-      <Modified>2013-05-19T21:29:29.196</Modified>
+      <Modified>2013-05-20T21:36:58.851</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\References\commonconfiguration\neutral\Bing.Maps.winmd">
       <PackagePath>Bing.Maps.winmd</PackagePath>
@@ -103,6 +103,10 @@
     <AppxPackagedFile Include="C:\Users\m0rg0_000\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\debug\x86\Bing.Maps.dll">
       <PackagePath>Bing.Maps.dll</PackagePath>
       <Modified>2013-05-01T20:39:07.354</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\SQLite.WinRT\3.7.16.2\Redist\Debug\x86\sqlite3.dll">
+      <PackagePath>sqlite3.dll</PackagePath>
+      <Modified>2013-05-20T17:50:39.630</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\CommonConfiguration\neutral\Bing.Maps\Blocked_Regions_01.png">
       <PackagePath>Bing.Maps\Blocked_Regions_01.png</PackagePath>
@@ -400,9 +404,17 @@
       <PackagePath>Bing.Maps\map.config</PackagePath>
       <Modified>2013-05-01T20:39:06.432</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\SQLite.WinRT\3.7.16.2\Redist\Debug\x86\sqlite3.pdb">
+      <PackagePath>sqlite3.pdb</PackagePath>
+      <Modified>2013-05-20T17:50:39.679</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\Redist\CommonConfiguration\neutral\Bing.Maps\UnifiedStyle.MapStyle">
       <PackagePath>Bing.Maps\UnifiedStyle.MapStyle</PackagePath>
       <Modified>2013-05-01T20:39:06.820</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\Data\places.db">
+      <PackagePath>Data\places.db</PackagePath>
+      <Modified>2013-05-20T20:01:44.652</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\appicon.png">
       <PackagePath>appicon.png</PackagePath>
@@ -447,7 +459,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\Data\config.xml">
       <PackagePath>Data\config.xml</PackagePath>
-      <Modified>2013-05-19T21:04:54.925</Modified>
+      <Modified>2013-05-20T18:41:18.888</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\metadata.xml">
       <PackagePath>metadata.xml</PackagePath>
@@ -467,7 +479,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\bin\x86\Debug\SearchResultsPage.xaml">
       <PackagePath>SearchResultsPage.xaml</PackagePath>
-      <Modified>2013-05-18T07:15:37.517</Modified>
+      <Modified>2013-05-20T20:42:40.482</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\bin\x86\Debug\Controls\AnonimusWriteControl.xaml">
       <PackagePath>Controls\AnonimusWriteControl.xaml</PackagePath>
@@ -475,7 +487,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\bin\x86\Debug\MapPage.xaml">
       <PackagePath>MapPage.xaml</PackagePath>
-      <Modified>2013-05-02T18:04:27.594</Modified>
+      <Modified>2013-05-20T17:01:09.668</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\bin\x86\Debug\Controls\TouristControl.xaml">
       <PackagePath>Controls\TouristControl.xaml</PackagePath>
@@ -491,15 +503,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\bin\x86\Debug\MapItemsPage.xaml">
       <PackagePath>MapItemsPage.xaml</PackagePath>
-      <Modified>2013-05-18T06:48:09.685</Modified>
+      <Modified>2013-05-20T17:00:58.767</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\bin\x86\Debug\Common\StandardStyles.xaml">
       <PackagePath>Common\StandardStyles.xaml</PackagePath>
-      <Modified>2013-05-01T12:14:23.493</Modified>
+      <Modified>2013-05-20T19:01:48.278</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\bin\x86\Debug\GroupedItemsPage.xaml">
       <PackagePath>GroupedItemsPage.xaml</PackagePath>
-      <Modified>2013-05-19T20:55:05.667</Modified>
+      <Modified>2013-05-20T20:16:19.832</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\bin\x86\Debug\GroupDetailPage.xaml">
       <PackagePath>GroupDetailPage.xaml</PackagePath>
@@ -507,7 +519,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\bin\x86\Debug\ItemDetailPage.xaml">
       <PackagePath>ItemDetailPage.xaml</PackagePath>
-      <Modified>2013-05-01T19:39:03.724</Modified>
+      <Modified>2013-05-20T20:24:02.493</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\packages\Callisto.1.2.9\lib\winrt45\Callisto\themes\Generic.xaml">
       <PackagePath>Callisto\themes\Generic.xaml</PackagePath>
@@ -515,7 +527,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-05-19T21:29:29.865</Modified>
+      <Modified>2013-05-20T21:28:17.932</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

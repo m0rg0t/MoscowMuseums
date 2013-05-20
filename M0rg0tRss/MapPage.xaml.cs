@@ -88,14 +88,21 @@ namespace M0rg0tRss
         protected override void LoadState(Object navigationParameter, Dictionary<String, Object> pageState)
         {
             ObservableCollection<RssDataItem> mapsdata = new ObservableCollection<RssDataItem>();
-            mapsdata = ViewModelLocator.MainStatic.GetGroup("Tourist").Items;
-            foreach (MapItem item in mapsdata)
+            foreach (var group in ViewModelLocator.MainStatic.AllGroups)
             {
-                Pushpin pushpin = new Pushpin();
-                MapLayer.SetPosition(pushpin, item.Location);
-                pushpin.Name = item.UniqueId;
-                pushpin.Tapped += pushpinTapped;
-                map.Children.Add(pushpin);
+                mapsdata = group.Items;
+                foreach (MapItem item in mapsdata)
+                {
+                    try
+                    {
+                        Pushpin pushpin = new Pushpin();
+                        MapLayer.SetPosition(pushpin, item.Location);
+                        pushpin.Name = item.UniqueId;
+                        pushpin.Tapped += pushpinTapped;
+                        map.Children.Add(pushpin);
+                    }
+                    catch { };
+                };
             };
         }
 
@@ -105,7 +112,13 @@ namespace M0rg0tRss
         {
             Pushpin tappedpin = sender as Pushpin;  // gets the pin that was tapped
             if (null == tappedpin) return;  // null check to prevent bad stuff if it wasn't a pin.
-            ViewModelLocator.MainStatic.CurrentTouristItem = (MapItem)ViewModelLocator.MainStatic.GetGroup("Tourist").Items.FirstOrDefault(c => c.UniqueId.ToString() == tappedpin.Name.ToString());
+            foreach (var group in ViewModelLocator.MainStatic.AllGroups) {
+                MapItem item = (MapItem)ViewModelLocator.MainStatic.GetGroup(group.UniqueId).Items.FirstOrDefault(c => c.UniqueId.ToString() == tappedpin.Name.ToString());
+                if (item != null)
+                {
+                    ViewModelLocator.MainStatic.CurrentTouristItem = item;
+                };
+            };
 
             var x = MapLayer.GetPosition(tappedpin);
 

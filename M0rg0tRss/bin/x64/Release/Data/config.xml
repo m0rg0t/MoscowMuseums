@@ -8,49 +8,32 @@
   <feeds>
     <feed>
       <id>1</id>
-      <title>Новости Рыбинска за 2013 год</title>
-      <url>http://rybinsk.ru/news-2013?format=feed</url>
-      <description>Администрация города Рыбинск, новости Рыбинска объявления в Рыбинске нормативные документы и муниципальные услуги в Рыбинске. 
-      Планы мероприятий города</description>
+      <title>Новости туризма</title>
+      <url>http://travel.mos.ru/rss.227.xml</url>
+      <description>Новости туризма</description>
       <type>rss</type>
       <view>variablesize</view>
       <policy>http://wintheweb.ru/openprivacy.html</policy>
     </feed>
     <feed>
       <id>2</id>
-      <title>Афиша городских, культурных мероприятий Рыбинска</title>
-      <url>http://rybinsk.ru/afisha?format=feed</url>
-      <description>Администрация города Рыбинск, новости Рыбинска объявления в Рыбинске нормативные документы и муниципальные услуги в Рыбинске. Планы мероприятий города</description>
+      <title>Новости искусства</title>
+      <url>http://travel.mos.ru/rss.537.xml</url>
+      <description>Новости искусства</description>
       <type>rss</type>
       <view>variablesize</view>
       <policy>http://wintheweb.ru/openprivacy.html</policy>
     </feed>
     <feed>
       <id>3</id>
-      <title>Новости и объявления департамента спорта</title>
-      <url>http://rybinsk.ru/sport-rybinsk?format=feed</url>
-      <description>Администрация города Рыбинск, новости Рыбинска объявления в Рыбинске нормативные документы и муниципальные услуги в Рыбинске. Планы мероприятий города</description>
+      <title>Новости театров</title>
+      <url>http://travel.mos.ru/rss.533.xml</url>
+      <description>Новости театров</description>
       <type>rss</type>
       <view>variablesize</view>
       <policy>http://wintheweb.ru/openprivacy.html</policy>
     </feed>
-    <feed>
-      <id>4</id>
-      <title>Торговля</title>
-      <url>http://rybinsk.ru/economy/market?format=feed</url>
-      <description>Администрация города Рыбинск, новости Рыбинска объявления в Рыбинске нормативные документы и муниципальные услуги в Рыбинске. Планы мероприятий города</description>
-      <type>rss</type>
-      <view>variablesize</view>
-      <policy>http://wintheweb.ru/openprivacy.html</policy>
-    </feed>
-    <feed>
-      <id>5</id>
-      <title>Экологический вестник</title>
-      <url>http://rybinsk.ru/admin/division/security-nature/jekologija?format=feed</url>
-      <description>Администрация города Рыбинск, новости Рыбинска объявления в Рыбинске нормативные документы и муниципальные услуги в Рыбинске. Планы мероприятий города</description>
-      <type>rss</type>
-      <view>variablesize</view>
-      <policy>http://wintheweb.ru/openprivacy.html</policy>
-    </feed>
+
+
   </feeds>
 </config>

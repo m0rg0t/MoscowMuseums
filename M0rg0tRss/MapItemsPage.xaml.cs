@@ -109,14 +109,18 @@ namespace M0rg0tRss
             this.DefaultViewModel["Items"] = group.Items;
 
             ObservableCollection<RssDataItem> mapsdata = new ObservableCollection<RssDataItem>();
-            mapsdata = ViewModelLocator.MainStatic.GetGroup("Tourist").Items;
+            mapsdata = ViewModelLocator.MainStatic.GetGroup(group.UniqueId).Items;
             foreach (MapItem item in mapsdata)
             {
-                Pushpin pushpin = new Pushpin();
-                MapLayer.SetPosition(pushpin, item.Location);
-                pushpin.Name = item.UniqueId;
-                pushpin.Tapped += pushpinTapped;
-                map.Children.Add(pushpin);
+                try
+                {
+                    Pushpin pushpin = new Pushpin();
+                    MapLayer.SetPosition(pushpin, item.Location);
+                    pushpin.Name = item.UniqueId;
+                    pushpin.Tapped += pushpinTapped;
+                    map.Children.Add(pushpin);
+                }
+                catch { };
             };
         }
 
@@ -126,7 +130,7 @@ namespace M0rg0tRss
         {
             Pushpin tappedpin = sender as Pushpin;  // gets the pin that was tapped
             if (null == tappedpin) return;  // null check to prevent bad stuff if it wasn't a pin.
-            ViewModelLocator.MainStatic.CurrentTouristItem = (MapItem)ViewModelLocator.MainStatic.GetGroup("Tourist").Items.FirstOrDefault(c => c.UniqueId.ToString() == tappedpin.Name.ToString());
+            ViewModelLocator.MainStatic.CurrentTouristItem = (MapItem)ViewModelLocator.MainStatic.GetGroup(((RssDataGroup)this.DefaultViewModel["Group"]).UniqueId).Items.FirstOrDefault(c => c.UniqueId.ToString() == tappedpin.Name.ToString());
 
             var x = MapLayer.GetPosition(tappedpin);
 

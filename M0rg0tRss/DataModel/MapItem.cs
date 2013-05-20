@@ -1,20 +1,29 @@
 ﻿using Bing.Maps;
+using GalaSoft.MvvmLight;
 using M0rg0tRss.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 
 namespace M0rg0tRss.DataModel
 {
-    public class MapItem : RssDataItem
+    public class MapItem: RssDataItem 
+    {
+    /*: RssDataItem
     {
         public MapItem(String uniqueId, String title, String subtitle, String imagePath, String description, String content, RssDataGroup group, double lat = 0, double lon = 0)
             : base(uniqueId, title, subtitle, imagePath, description, content, group)
         {
             this.Lat = lat;
             this.Lon = lon;
+        }*/
+        public MapItem()
+        {
         }
 
         private double _lat;
@@ -29,6 +38,56 @@ namespace M0rg0tRss.DataModel
                 if (_lat!=value)
                 {
                     _lat = value;
+                };
+            }
+        }
+
+        private double _object_rate = 0;
+        /// <summary>
+        /// Рейтинг объекта
+        /// </summary>
+        public double Object_rate
+        {
+            get
+            {
+                return _object_rate;
+            }
+            set
+            {
+                if (_object_rate != value)
+                {
+                    _object_rate = value;
+                };
+            }
+        }
+
+        [SQLite.Ignore]
+        public string RatingText
+        {
+            get
+            {
+                return "Рейтинг: " + Object_rate.ToString();
+            }
+            private set
+            {
+            }
+        }
+
+        private double _object_address;
+        /// <summary>
+        /// Адрес объекта
+        /// </summary>
+        public double Object_address
+        {
+            get
+            {
+                return _object_address;
+            }
+            set
+            {
+                if (_object_address != value)
+                {
+                    _object_address = value;
                 };
             }
         }
@@ -49,6 +108,7 @@ namespace M0rg0tRss.DataModel
             }
         }
 
+        [SQLite.Ignore]
         public Bing.Maps.Location Location {
             private set { 
 

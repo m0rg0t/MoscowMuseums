@@ -113,6 +113,8 @@
 				<StackPanel Orientation="Horizontal"/>
 				<StackPanel Grid.Column="1" HorizontalAlignment="Right" Orientation="Horizontal">
 					<Button x:Name="MapButton" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Style="{StaticResource MapAppBarButtonStyle}" Click="MapButton_Click"/>
+                    <Button x:Name="RefreshButton" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Style="{StaticResource RefreshAppBarButtonStyle}" Click="RefreshButton_Click"/>
+                    
                     <!--<Button x:Name="WriteProblem1AppBarButton" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Style="{StaticResource WriteProblem1AppBarButtonStyle}" Click="WriteProblem1AppBarButton_Click"/>-->
                 </StackPanel>
 			</Grid>
@@ -176,8 +178,10 @@
                             </GroupStyle.HeaderTemplate>
                             <GroupStyle.Panel>
                                 <ItemsPanelTemplate>
-                                    <VariableSizedWrapGrid Orientation="Horizontal" Margin="0,0,80,0"
-                            ItemWidth="165" ItemHeight="200" MaximumRowsOrColumns="6" />
+                                    <!--<VariableSizedWrapGrid Orientation="Horizontal" Margin="0,0,80,0"
+                                    ItemWidth="165" ItemHeight="200" MaximumRowsOrColumns="6" />-->
+                                    <VariableSizedWrapGrid Orientation="Vertical" Margin="0,0,80,0"
+                                        ItemWidth="200" ItemHeight="125" MaximumRowsOrColumns="9" />
                                 </ItemsPanelTemplate>
                             </GroupStyle.Panel>
                         </GroupStyle>

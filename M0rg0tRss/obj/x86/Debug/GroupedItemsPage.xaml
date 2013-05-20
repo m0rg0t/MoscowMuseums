@@ -113,6 +113,8 @@
 				<StackPanel Orientation="Horizontal"/>
 				<StackPanel Grid.Column="1" HorizontalAlignment="Right" Orientation="Horizontal">
 					<Button x:ConnectionId='1' x:Name="MapButton" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Style="{StaticResource MapAppBarButtonStyle}"                        />
+                    <Button x:ConnectionId='2' x:Name="RefreshButton" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Style="{StaticResource RefreshAppBarButtonStyle}"                            />
+                    
                     <!--<Button x:Name="WriteProblem1AppBarButton" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Style="{StaticResource WriteProblem1AppBarButtonStyle}" Click="WriteProblem1AppBarButton_Click"/>-->
                 </StackPanel>
 			</Grid>
@@ -140,7 +142,7 @@
         <!-- ItemsSource="{Binding Source={StaticResource groupedItemsViewSource}}"-->
         <SemanticZoom Grid.RowSpan="2">
             <SemanticZoom.ZoomedInView>
-                <local:VariableSizeGridView x:ConnectionId='5'
+                <local:VariableSizeGridView x:ConnectionId='6'
             x:Name="itemGridView"
             AutomationProperties.AutomationId="ItemGridView"
             AutomationProperties.Name="Grouped Items"
@@ -162,7 +164,7 @@
                             <GroupStyle.HeaderTemplate>
                                 <DataTemplate>
                                     <Grid Margin="1,0,0,6">
-                                        <Button x:ConnectionId='6'
+                                        <Button x:ConnectionId='7'
                                     AutomationProperties.Name="Group Title"
                                                         
                                     Style="{StaticResource TextPrimaryButtonStyle}">
@@ -176,8 +178,10 @@
                             </GroupStyle.HeaderTemplate>
                             <GroupStyle.Panel>
                                 <ItemsPanelTemplate>
-                                    <VariableSizedWrapGrid Orientation="Horizontal" Margin="0,0,80,0"
-                            ItemWidth="165" ItemHeight="200" MaximumRowsOrColumns="6" />
+                                    <!--<VariableSizedWrapGrid Orientation="Horizontal" Margin="0,0,80,0"
+                                    ItemWidth="165" ItemHeight="200" MaximumRowsOrColumns="6" />-->
+                                    <VariableSizedWrapGrid Orientation="Vertical" Margin="0,0,80,0"
+                                        ItemWidth="200" ItemHeight="125" MaximumRowsOrColumns="9" />
                                 </ItemsPanelTemplate>
                             </GroupStyle.Panel>
                         </GroupStyle>
@@ -218,7 +222,7 @@
         </SemanticZoom>
 
         <!-- Список с вертикальной прокруткой используется только в прикрепленном представлении -->
-        <ListView x:ConnectionId='2'
+        <ListView x:ConnectionId='3'
             x:Name="itemListView"
             AutomationProperties.AutomationId="ItemListView"
             AutomationProperties.Name="Grouped Items"
@@ -238,7 +242,7 @@
                     <GroupStyle.HeaderTemplate>
                         <DataTemplate>
                             <Grid Margin="7,7,0,0">
-                                <Button x:ConnectionId='4'
+                                <Button x:ConnectionId='5'
                                     AutomationProperties.Name="Group Title"
                                                         
                                     Style="{StaticResource TextPrimaryButtonStyle}">
@@ -261,7 +265,7 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             
-            <Button x:ConnectionId='3' x:Name="backButton"                IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
+            <Button x:ConnectionId='4' x:Name="backButton"                IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
             <TextBlock x:Name="pageTitle" Text="Места Москвы" Grid.Column="1" IsHitTestVisible="false" Style="{StaticResource PageHeaderTextStyle}"/>
             <TextBlock x:Name="OfflineMode"  Grid.Column="2" IsHitTestVisible="false" 
                  Style="{StaticResource PageHeaderTextStyle}" Text="оффлайнн режим" FontSize="18" 

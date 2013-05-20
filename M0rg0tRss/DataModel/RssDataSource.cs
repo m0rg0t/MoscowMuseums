@@ -45,7 +45,11 @@ namespace M0rg0tRss.Data
             this._title = title;
             this._subtitle = subtitle;
             this._description = description;
-            this._imagePath = imagePath;
+            this.ImagePath = imagePath;
+        }
+
+        public RssDataCommon()
+        {
         }
 
         private string _uniqueId = string.Empty;
@@ -77,21 +81,29 @@ namespace M0rg0tRss.Data
         }
 
         private ImageSource _image = null;
-        public String _imagePath = null;
+
+        private string _imagePath = string.Empty;
+        public string ImagePath
+        {
+            get { return this._imagePath; }
+            set { this.SetProperty(ref this._imagePath, value); }
+        }
+
+        [SQLite.Ignore]
         public ImageSource Image
         {
             get
             {
-                if (this._image == null && this._imagePath != null)
+                if (this._image == null && this.ImagePath != null)
                 {
-                    this._image = new BitmapImage(new Uri(RssDataCommon._baseUri, this._imagePath));
+                    this._image = new BitmapImage(new Uri(RssDataCommon._baseUri, this.ImagePath));
                 }
                 return this._image;
             }
 
             set
             {
-                this._imagePath = null;
+                this.ImagePath = null;
                 this.SetProperty(ref this._image, value);
             }
         }
@@ -99,7 +111,7 @@ namespace M0rg0tRss.Data
         public void SetImage(String path)
         {
             this._image = null;
-            this._imagePath = path;
+            this.ImagePath = path;
             this.OnPropertyChanged("Image");
         }
 
@@ -121,6 +133,9 @@ namespace M0rg0tRss.Data
             this._group = group;
         }
 
+        public RssDataItem() {
+        }
+
         private string _content = string.Empty;
         public string Content
         {
@@ -137,6 +152,7 @@ namespace M0rg0tRss.Data
         }
 
         private RssDataGroup _group;
+        [SQLite.Ignore]
         public RssDataGroup Group
         {
             get { return this._group; }
@@ -158,7 +174,7 @@ namespace M0rg0tRss.Data
             };
             Items.CollectionChanged += ItemsCollectionChanged;
         }
-        public int itemsCount = 6;
+        public int itemsCount = 10;
 
         private int _order = 0;
         public int Order
@@ -342,7 +358,7 @@ namespace M0rg0tRss.Data
                         group1.Order = 30;
                         var tempitem = new RssDataItem(feedGroup.Items.First().UniqueId + "main",
                         feedGroup.Items.First().Title, null,
-                        feedGroup.Items.First()._imagePath,
+                        feedGroup.Items.First().ImagePath,
                         "",
                         feedGroup.Items.First().Content,
                         group1);

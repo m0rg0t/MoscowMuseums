@@ -13,13 +13,13 @@ namespace M0rg0tRss
 {
     public partial class App : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
-        private global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        private global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlTypeInfoProvider _provider;
 
         public global::Windows.UI.Xaml.Markup.IXamlType GetXamlType(global::System.Type type)
         {
             if(_provider == null)
             {
-                _provider = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlTypeInfoProvider();
+                _provider = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlTypeInfoProvider();
             }
             return _provider.GetXamlTypeByType(type);
         }
@@ -28,7 +28,7 @@ namespace M0rg0tRss
         {
             if(_provider == null)
             {
-                _provider = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlTypeInfoProvider();
+                _provider = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlTypeInfoProvider();
             }
             return _provider.GetXamlTypeByName(fullName);
         }
@@ -40,7 +40,7 @@ namespace M0rg0tRss
     }
 }
 
-namespace M0rg0tRss.RybinskNews_XamlTypeInfo
+namespace M0rg0tRss.MoscowMuseums_XamlTypeInfo
 {
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks", "4.0.0.0")]    
@@ -236,125 +236,125 @@ namespace M0rg0tRss.RybinskNews_XamlTypeInfo
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(string typeName)
         {
-            global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlSystemBaseType xamlType = null;
-            global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType userType;
+            global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlSystemBaseType xamlType = null;
+            global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType userType;
 
             switch (typeName)
             {
             case "Object":
-                xamlType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::System.Object));
+                xamlType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::System.Object));
                 break;
 
             case "Windows.UI.Xaml.Controls.Page":
-                xamlType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::Windows.UI.Xaml.Controls.Page));
+                xamlType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::Windows.UI.Xaml.Controls.Page));
                 break;
 
             case "Windows.UI.Xaml.Controls.UserControl":
-                xamlType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::Windows.UI.Xaml.Controls.UserControl));
+                xamlType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::Windows.UI.Xaml.Controls.UserControl));
                 break;
 
             case "Windows.UI.Xaml.Controls.Control":
-                xamlType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::Windows.UI.Xaml.Controls.Control));
+                xamlType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::Windows.UI.Xaml.Controls.Control));
                 break;
 
             case "Windows.UI.Xaml.UIElement":
-                xamlType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::Windows.UI.Xaml.UIElement));
+                xamlType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::Windows.UI.Xaml.UIElement));
                 break;
 
             case "String":
-                xamlType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::System.String));
+                xamlType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::System.String));
                 break;
 
             case "Double":
-                xamlType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::System.Double));
+                xamlType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::System.Double));
                 break;
 
             case "Windows.UI.Xaml.DependencyObject":
-                xamlType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::Windows.UI.Xaml.DependencyObject));
+                xamlType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::Windows.UI.Xaml.DependencyObject));
                 break;
 
             case "Boolean":
-                xamlType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::System.Boolean));
+                xamlType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::System.Boolean));
                 break;
 
             case "Int32":
-                xamlType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::System.Int32));
+                xamlType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::System.Int32));
                 break;
 
             case "Windows.UI.Xaml.Controls.DataTemplateSelector":
-                xamlType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::Windows.UI.Xaml.Controls.DataTemplateSelector));
+                xamlType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::Windows.UI.Xaml.Controls.DataTemplateSelector));
                 break;
 
             case "Windows.UI.Xaml.DataTemplate":
-                xamlType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::Windows.UI.Xaml.DataTemplate));
+                xamlType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::Windows.UI.Xaml.DataTemplate));
                 break;
 
             case "Windows.UI.Xaml.Controls.GridView":
-                xamlType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::Windows.UI.Xaml.Controls.GridView));
+                xamlType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::Windows.UI.Xaml.Controls.GridView));
                 break;
 
             case "Windows.UI.Xaml.Controls.ItemsControl":
-                xamlType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::Windows.UI.Xaml.Controls.ItemsControl));
+                xamlType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::Windows.UI.Xaml.Controls.ItemsControl));
                 break;
 
             case "Windows.UI.Xaml.Controls.Panel":
-                xamlType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::Windows.UI.Xaml.Controls.Panel));
+                xamlType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::Windows.UI.Xaml.Controls.Panel));
                 break;
 
             case "Windows.UI.Xaml.Controls.RichTextBlock":
-                xamlType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::Windows.UI.Xaml.Controls.RichTextBlock));
+                xamlType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::Windows.UI.Xaml.Controls.RichTextBlock));
                 break;
 
             case "M0rg0tRss.ViewModel.ViewModelLocator":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::M0rg0tRss.ViewModel.ViewModelLocator), GetXamlTypeByName("Object"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::M0rg0tRss.ViewModel.ViewModelLocator), GetXamlTypeByName("Object"));
                 userType.Activator = Activate_0_ViewModelLocator;
                 userType.AddMemberName("Main");
                 xamlType = userType;
                 break;
 
             case "M0rg0tRss.ViewModel.RssViewModel":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::M0rg0tRss.ViewModel.RssViewModel), GetXamlTypeByName("GalaSoft.MvvmLight.ViewModelBase"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::M0rg0tRss.ViewModel.RssViewModel), GetXamlTypeByName("GalaSoft.MvvmLight.ViewModelBase"));
                 userType.Activator = Activate_1_RssViewModel;
                 xamlType = userType;
                 break;
 
             case "GalaSoft.MvvmLight.ViewModelBase":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::GalaSoft.MvvmLight.ViewModelBase), GetXamlTypeByName("GalaSoft.MvvmLight.ObservableObject"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::GalaSoft.MvvmLight.ViewModelBase), GetXamlTypeByName("GalaSoft.MvvmLight.ObservableObject"));
                 xamlType = userType;
                 break;
 
             case "GalaSoft.MvvmLight.ObservableObject":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::GalaSoft.MvvmLight.ObservableObject), GetXamlTypeByName("Object"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::GalaSoft.MvvmLight.ObservableObject), GetXamlTypeByName("Object"));
                 userType.Activator = Activate_3_ObservableObject;
                 xamlType = userType;
                 break;
 
             case "M0rg0tRss.Common.LayoutAwarePage":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::M0rg0tRss.Common.LayoutAwarePage), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::M0rg0tRss.Common.LayoutAwarePage), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_4_LayoutAwarePage;
                 xamlType = userType;
                 break;
 
             case "M0rg0tRss.Common.BooleanToVisibilityConverter":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::M0rg0tRss.Common.BooleanToVisibilityConverter), GetXamlTypeByName("Object"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::M0rg0tRss.Common.BooleanToVisibilityConverter), GetXamlTypeByName("Object"));
                 userType.Activator = Activate_5_BooleanToVisibilityConverter;
                 xamlType = userType;
                 break;
 
             case "M0rg0tRss.SearchResultsPage":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::M0rg0tRss.SearchResultsPage), GetXamlTypeByName("M0rg0tRss.Common.LayoutAwarePage"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::M0rg0tRss.SearchResultsPage), GetXamlTypeByName("M0rg0tRss.Common.LayoutAwarePage"));
                 userType.Activator = Activate_6_SearchResultsPage;
                 xamlType = userType;
                 break;
 
             case "M0rg0tRss.Controls.AnonimusWriteControl":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::M0rg0tRss.Controls.AnonimusWriteControl), GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::M0rg0tRss.Controls.AnonimusWriteControl), GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
                 userType.Activator = Activate_7_AnonimusWriteControl;
                 xamlType = userType;
                 break;
 
             case "Bing.Maps.Map":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.Map), GetXamlTypeByName("Windows.UI.Xaml.Controls.Control"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.Map), GetXamlTypeByName("Windows.UI.Xaml.Controls.Control"));
                 userType.Activator = Activate_8_Map;
                 userType.SetContentPropertyName("Bing.Maps.Map.Children");
                 userType.AddMemberName("Children");
@@ -427,14 +427,14 @@ namespace M0rg0tRss.RybinskNews_XamlTypeInfo
                 break;
 
             case "Bing.Maps.MapUIElementCollection":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapUIElementCollection), GetXamlTypeByName("Object"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapUIElementCollection), GetXamlTypeByName("Object"));
                 userType.Activator = Activate_9_MapUIElementCollection;
                 userType.CollectionAdd = VectorAdd_9_MapUIElementCollection;
                 xamlType = userType;
                 break;
 
             case "Bing.Maps.Location":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.Location), GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.Location), GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
                 userType.Activator = Activate_10_Location;
                 userType.AddMemberName("Longitude");
                 AddToMapOfTypeToStandardName(typeof(global::System.Double),
@@ -446,12 +446,12 @@ namespace M0rg0tRss.RybinskNews_XamlTypeInfo
                 break;
 
             case "Bing.Maps.VenueMaps.VenueManager":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.VenueMaps.VenueManager), GetXamlTypeByName("Object"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.VenueMaps.VenueManager), GetXamlTypeByName("Object"));
                 xamlType = userType;
                 break;
 
             case "Bing.Maps.MapForegroundPosition":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapForegroundPosition), GetXamlTypeByName("System.Enum"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapForegroundPosition), GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("TopRight", global::Bing.Maps.MapForegroundPosition.TopRight);
                 userType.AddEnumValue("TopLeft", global::Bing.Maps.MapForegroundPosition.TopLeft);
                 userType.AddEnumValue("BottomRight", global::Bing.Maps.MapForegroundPosition.BottomRight);
@@ -460,24 +460,24 @@ namespace M0rg0tRss.RybinskNews_XamlTypeInfo
                 break;
 
             case "System.Enum":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::System.Enum), GetXamlTypeByName("System.ValueType"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::System.Enum), GetXamlTypeByName("System.ValueType"));
                 xamlType = userType;
                 break;
 
             case "System.ValueType":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::System.ValueType), GetXamlTypeByName("Object"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::System.ValueType), GetXamlTypeByName("Object"));
                 xamlType = userType;
                 break;
 
             case "Bing.Maps.MapTileLayerCollection":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapTileLayerCollection), GetXamlTypeByName("Object"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapTileLayerCollection), GetXamlTypeByName("Object"));
                 userType.Activator = Activate_15_MapTileLayerCollection;
                 userType.CollectionAdd = VectorAdd_15_MapTileLayerCollection;
                 xamlType = userType;
                 break;
 
             case "Bing.Maps.MapTileLayer":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapTileLayer), GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapTileLayer), GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
                 userType.Activator = Activate_16_MapTileLayer;
                 userType.AddMemberName("Bounds");
                 userType.AddMemberName("FillMissingTiles");
@@ -505,14 +505,14 @@ namespace M0rg0tRss.RybinskNews_XamlTypeInfo
                 break;
 
             case "Bing.Maps.LocationRectCollection":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.LocationRectCollection), GetXamlTypeByName("Object"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.LocationRectCollection), GetXamlTypeByName("Object"));
                 userType.Activator = Activate_17_LocationRectCollection;
                 userType.CollectionAdd = VectorAdd_17_LocationRectCollection;
                 xamlType = userType;
                 break;
 
             case "Bing.Maps.LocationRect":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.LocationRect), GetXamlTypeByName("Object"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.LocationRect), GetXamlTypeByName("Object"));
                 userType.Activator = Activate_18_LocationRect;
                 userType.AddMemberName("West");
                 AddToMapOfTypeToStandardName(typeof(global::System.Double),
@@ -539,14 +539,14 @@ namespace M0rg0tRss.RybinskNews_XamlTypeInfo
                 break;
 
             case "Bing.Maps.MapShapeLayerCollection":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapShapeLayerCollection), GetXamlTypeByName("Object"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapShapeLayerCollection), GetXamlTypeByName("Object"));
                 userType.Activator = Activate_19_MapShapeLayerCollection;
                 userType.CollectionAdd = VectorAdd_19_MapShapeLayerCollection;
                 xamlType = userType;
                 break;
 
             case "Bing.Maps.MapShapeLayer":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapShapeLayer), GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapShapeLayer), GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
                 userType.Activator = Activate_20_MapShapeLayer;
                 userType.AddMemberName("Visible");
                 AddToMapOfTypeToStandardName(typeof(global::System.Boolean),
@@ -559,14 +559,14 @@ namespace M0rg0tRss.RybinskNews_XamlTypeInfo
                 break;
 
             case "Bing.Maps.MapShapeCollection":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapShapeCollection), GetXamlTypeByName("Object"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapShapeCollection), GetXamlTypeByName("Object"));
                 userType.Activator = Activate_21_MapShapeCollection;
                 userType.CollectionAdd = VectorAdd_21_MapShapeCollection;
                 xamlType = userType;
                 break;
 
             case "Bing.Maps.MapShape":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapShape), GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapShape), GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
                 userType.AddMemberName("Visible");
                 AddToMapOfTypeToStandardName(typeof(global::System.Boolean),
                                                    "Boolean");
@@ -574,7 +574,7 @@ namespace M0rg0tRss.RybinskNews_XamlTypeInfo
                 break;
 
             case "Bing.Maps.PreloadArea":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.PreloadArea), GetXamlTypeByName("System.Enum"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.PreloadArea), GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("None", global::Bing.Maps.PreloadArea.None);
                 userType.AddEnumValue("Small", global::Bing.Maps.PreloadArea.Small);
                 userType.AddEnumValue("Medium", global::Bing.Maps.PreloadArea.Medium);
@@ -583,7 +583,7 @@ namespace M0rg0tRss.RybinskNews_XamlTypeInfo
                 break;
 
             case "Bing.Maps.MapViewRestriction":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapViewRestriction), GetXamlTypeByName("System.Enum"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapViewRestriction), GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("None", global::Bing.Maps.MapViewRestriction.None);
                 userType.AddEnumValue("ZoomOutToWholeWorld", global::Bing.Maps.MapViewRestriction.ZoomOutToWholeWorld);
                 userType.AddEnumValue("MapOnly", global::Bing.Maps.MapViewRestriction.MapOnly);
@@ -592,7 +592,7 @@ namespace M0rg0tRss.RybinskNews_XamlTypeInfo
                 break;
 
             case "Bing.Maps.MapType":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapType), GetXamlTypeByName("System.Enum"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapType), GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Road", global::Bing.Maps.MapType.Road);
                 userType.AddEnumValue("Aerial", global::Bing.Maps.MapType.Aerial);
                 userType.AddEnumValue("Birdseye", global::Bing.Maps.MapType.Birdseye);
@@ -601,37 +601,37 @@ namespace M0rg0tRss.RybinskNews_XamlTypeInfo
                 break;
 
             case "M0rg0tRss.MapPage":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::M0rg0tRss.MapPage), GetXamlTypeByName("M0rg0tRss.Common.LayoutAwarePage"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::M0rg0tRss.MapPage), GetXamlTypeByName("M0rg0tRss.Common.LayoutAwarePage"));
                 userType.Activator = Activate_26_MapPage;
                 xamlType = userType;
                 break;
 
             case "M0rg0tRss.Controls.TouristControl":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::M0rg0tRss.Controls.TouristControl), GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::M0rg0tRss.Controls.TouristControl), GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
                 userType.Activator = Activate_27_TouristControl;
                 xamlType = userType;
                 break;
 
             case "WhereIsPolicemanWin8.Controls.About":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::WhereIsPolicemanWin8.Controls.About), GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::WhereIsPolicemanWin8.Controls.About), GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
                 userType.Activator = Activate_28_About;
                 xamlType = userType;
                 break;
 
             case "WhereIsPolicemanWin8.Controls.Privacy":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::WhereIsPolicemanWin8.Controls.Privacy), GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::WhereIsPolicemanWin8.Controls.Privacy), GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
                 userType.Activator = Activate_29_Privacy;
                 xamlType = userType;
                 break;
 
             case "M0rg0tRss.MapItemsPage":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::M0rg0tRss.MapItemsPage), GetXamlTypeByName("M0rg0tRss.Common.LayoutAwarePage"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::M0rg0tRss.MapItemsPage), GetXamlTypeByName("M0rg0tRss.Common.LayoutAwarePage"));
                 userType.Activator = Activate_30_MapItemsPage;
                 xamlType = userType;
                 break;
 
             case "M0rg0tRss.MyDataTemplateSelector":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::M0rg0tRss.MyDataTemplateSelector), GetXamlTypeByName("Windows.UI.Xaml.Controls.DataTemplateSelector"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::M0rg0tRss.MyDataTemplateSelector), GetXamlTypeByName("Windows.UI.Xaml.Controls.DataTemplateSelector"));
                 userType.Activator = Activate_31_MyDataTemplateSelector;
                 userType.AddMemberName("Template1");
                 userType.AddMemberName("Template2");
@@ -639,25 +639,25 @@ namespace M0rg0tRss.RybinskNews_XamlTypeInfo
                 break;
 
             case "M0rg0tRss.VariableSizeGridView":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::M0rg0tRss.VariableSizeGridView), GetXamlTypeByName("Windows.UI.Xaml.Controls.GridView"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::M0rg0tRss.VariableSizeGridView), GetXamlTypeByName("Windows.UI.Xaml.Controls.GridView"));
                 userType.Activator = Activate_32_VariableSizeGridView;
                 xamlType = userType;
                 break;
 
             case "M0rg0tRss.GroupedItemsPage":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::M0rg0tRss.GroupedItemsPage), GetXamlTypeByName("M0rg0tRss.Common.LayoutAwarePage"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::M0rg0tRss.GroupedItemsPage), GetXamlTypeByName("M0rg0tRss.Common.LayoutAwarePage"));
                 userType.Activator = Activate_33_GroupedItemsPage;
                 xamlType = userType;
                 break;
 
             case "M0rg0tRss.GroupDetailPage":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::M0rg0tRss.GroupDetailPage), GetXamlTypeByName("M0rg0tRss.Common.LayoutAwarePage"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::M0rg0tRss.GroupDetailPage), GetXamlTypeByName("M0rg0tRss.Common.LayoutAwarePage"));
                 userType.Activator = Activate_34_GroupDetailPage;
                 xamlType = userType;
                 break;
 
             case "M0rg0tRss.Common.RichTextColumns":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::M0rg0tRss.Common.RichTextColumns), GetXamlTypeByName("Windows.UI.Xaml.Controls.Panel"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::M0rg0tRss.Common.RichTextColumns), GetXamlTypeByName("Windows.UI.Xaml.Controls.Panel"));
                 userType.Activator = Activate_35_RichTextColumns;
                 userType.SetContentPropertyName("M0rg0tRss.Common.RichTextColumns.RichTextContent");
                 userType.AddMemberName("RichTextContent");
@@ -666,13 +666,13 @@ namespace M0rg0tRss.RybinskNews_XamlTypeInfo
                 break;
 
             case "M0rg0tRss.ItemDetailPage":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::M0rg0tRss.ItemDetailPage), GetXamlTypeByName("M0rg0tRss.Common.LayoutAwarePage"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::M0rg0tRss.ItemDetailPage), GetXamlTypeByName("M0rg0tRss.Common.LayoutAwarePage"));
                 userType.Activator = Activate_36_ItemDetailPage;
                 xamlType = userType;
                 break;
 
             case "Bing.Maps.Pushpin":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.Pushpin), GetXamlTypeByName("Windows.UI.Xaml.Controls.Control"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.Pushpin), GetXamlTypeByName("Windows.UI.Xaml.Controls.Control"));
                 userType.Activator = Activate_37_Pushpin;
                 userType.AddMemberName("Text");
                 AddToMapOfTypeToStandardName(typeof(global::System.String),
@@ -682,14 +682,14 @@ namespace M0rg0tRss.RybinskNews_XamlTypeInfo
                 break;
 
             case "Bing.Maps.MapItemsControl":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapItemsControl), GetXamlTypeByName("Windows.UI.Xaml.Controls.ItemsControl"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapItemsControl), GetXamlTypeByName("Windows.UI.Xaml.Controls.ItemsControl"));
                 userType.Activator = Activate_38_MapItemsControl;
                 userType.SetIsBindable();
                 xamlType = userType;
                 break;
 
             case "Bing.Maps.VenueMaps.VenueFloorDataSource":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.VenueMaps.VenueFloorDataSource), GetXamlTypeByName("Object"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.VenueMaps.VenueFloorDataSource), GetXamlTypeByName("Object"));
                 userType.Activator = Activate_39_VenueFloorDataSource;
                 userType.AddMemberName("Items");
                 AddToMapOfTypeToStandardName(typeof(global::Windows.Foundation.Collections.IObservableVector<global::System.Object>),
@@ -702,7 +702,7 @@ namespace M0rg0tRss.RybinskNews_XamlTypeInfo
                 break;
 
             case "Windows.Foundation.Collections.IObservableVector<Object>":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Windows.Foundation.Collections.IObservableVector<global::System.Object>), null);
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Windows.Foundation.Collections.IObservableVector<global::System.Object>), null);
                 AddToMapOfTypeToStandardName(typeof(global::Windows.Foundation.Collections.IObservableVector<global::System.Object>),
                                                    "Windows.Foundation.Collections.IObservableVector<Object>");
                 userType.CollectionAdd = VectorAdd_40_IObservableVector;
@@ -710,7 +710,7 @@ namespace M0rg0tRss.RybinskNews_XamlTypeInfo
                 break;
 
             case "Bing.Maps.VenueMaps.VenueEntity":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.VenueMaps.VenueEntity), GetXamlTypeByName("Object"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.VenueMaps.VenueEntity), GetXamlTypeByName("Object"));
                 userType.AddMemberName("Highlighted");
                 AddToMapOfTypeToStandardName(typeof(global::System.Boolean),
                                                    "Boolean");
@@ -754,12 +754,12 @@ namespace M0rg0tRss.RybinskNews_XamlTypeInfo
                 break;
 
             case "Windows.UI.Color":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Windows.UI.Color), GetXamlTypeByName("System.ValueType"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Windows.UI.Color), GetXamlTypeByName("System.ValueType"));
                 xamlType = userType;
                 break;
 
             case "Bing.Maps.VenueMaps.VenueEntityType":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.VenueMaps.VenueEntityType), GetXamlTypeByName("System.Enum"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.VenueMaps.VenueEntityType), GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Unknown", global::Bing.Maps.VenueMaps.VenueEntityType.Unknown);
                 userType.AddEnumValue("AccessibleEntrance", global::Bing.Maps.VenueMaps.VenueEntityType.AccessibleEntrance);
                 userType.AddEnumValue("AirportGroundTransportation", global::Bing.Maps.VenueMaps.VenueEntityType.AirportGroundTransportation);
@@ -795,24 +795,24 @@ namespace M0rg0tRss.RybinskNews_XamlTypeInfo
                 break;
 
             case "Bing.Maps.LocationCollection":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.LocationCollection), GetXamlTypeByName("Object"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.LocationCollection), GetXamlTypeByName("Object"));
                 userType.Activator = Activate_44_LocationCollection;
                 userType.CollectionAdd = VectorAdd_44_LocationCollection;
                 xamlType = userType;
                 break;
 
             case "Bing.Maps.VenueMaps.Floor":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.VenueMaps.Floor), GetXamlTypeByName("Object"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.VenueMaps.Floor), GetXamlTypeByName("Object"));
                 xamlType = userType;
                 break;
 
             case "Bing.Maps.VenueMaps.VenueAddress":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.VenueMaps.VenueAddress), GetXamlTypeByName("Bing.Maps.MapAddress"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.VenueMaps.VenueAddress), GetXamlTypeByName("Bing.Maps.MapAddress"));
                 xamlType = userType;
                 break;
 
             case "Bing.Maps.MapAddress":
-                userType = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapAddress), GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapAddress), GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
                 xamlType = userType;
                 break;
 
@@ -1494,490 +1494,490 @@ namespace M0rg0tRss.RybinskNews_XamlTypeInfo
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
-            global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember xamlMember = null;
-            global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType userType;
+            global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember xamlMember = null;
+            global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType userType;
 
             switch (longMemberName)
             {
             case "M0rg0tRss.ViewModel.ViewModelLocator.Main":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("M0rg0tRss.ViewModel.ViewModelLocator");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "Main", "M0rg0tRss.ViewModel.RssViewModel");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("M0rg0tRss.ViewModel.ViewModelLocator");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Main", "M0rg0tRss.ViewModel.RssViewModel");
                 xamlMember.Getter = get_0_ViewModelLocator_Main;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.Children":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "Children", "Bing.Maps.MapUIElementCollection");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Children", "Bing.Maps.MapUIElementCollection");
                 xamlMember.Getter = get_1_Map_Children;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.Credentials":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "Credentials", "String");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Credentials", "String");
                 xamlMember.Getter = get_2_Map_Credentials;
                 xamlMember.Setter = set_2_Map_Credentials;
                 break;
             case "Bing.Maps.Map.ZoomLevel":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "ZoomLevel", "Double");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "ZoomLevel", "Double");
                 xamlMember.Getter = get_3_Map_ZoomLevel;
                 xamlMember.Setter = set_3_Map_ZoomLevel;
                 break;
             case "Bing.Maps.Map.Heading":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "Heading", "Double");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Heading", "Double");
                 xamlMember.Getter = get_4_Map_Heading;
                 xamlMember.Setter = set_4_Map_Heading;
                 break;
             case "Bing.Maps.Map.Center":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "Center", "Bing.Maps.Location");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Center", "Bing.Maps.Location");
                 xamlMember.Getter = get_5_Map_Center;
                 xamlMember.Setter = set_5_Map_Center;
                 break;
             case "Bing.Maps.Map.VenueManager":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "VenueManager", "Bing.Maps.VenueMaps.VenueManager");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "VenueManager", "Bing.Maps.VenueMaps.VenueManager");
                 xamlMember.Getter = get_6_Map_VenueManager;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.LogoPosition":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "LogoPosition", "Bing.Maps.MapForegroundPosition");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "LogoPosition", "Bing.Maps.MapForegroundPosition");
                 xamlMember.Getter = get_7_Map_LogoPosition;
                 xamlMember.Setter = set_7_Map_LogoPosition;
                 break;
             case "Bing.Maps.Map.CopyrightPosition":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "CopyrightPosition", "Bing.Maps.MapForegroundPosition");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "CopyrightPosition", "Bing.Maps.MapForegroundPosition");
                 xamlMember.Getter = get_8_Map_CopyrightPosition;
                 xamlMember.Setter = set_8_Map_CopyrightPosition;
                 break;
             case "Bing.Maps.Map.ScaleBarPosition":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "ScaleBarPosition", "Bing.Maps.MapForegroundPosition");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "ScaleBarPosition", "Bing.Maps.MapForegroundPosition");
                 xamlMember.Getter = get_9_Map_ScaleBarPosition;
                 xamlMember.Setter = set_9_Map_ScaleBarPosition;
                 break;
             case "Bing.Maps.Map.ShowNavigationBar":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "ShowNavigationBar", "Boolean");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "ShowNavigationBar", "Boolean");
                 xamlMember.Getter = get_10_Map_ShowNavigationBar;
                 xamlMember.Setter = set_10_Map_ShowNavigationBar;
                 break;
             case "Bing.Maps.Map.SuppressNetworkRequests":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "SuppressNetworkRequests", "Boolean");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "SuppressNetworkRequests", "Boolean");
                 xamlMember.Getter = get_11_Map_SuppressNetworkRequests;
                 xamlMember.Setter = set_11_Map_SuppressNetworkRequests;
                 break;
             case "Bing.Maps.Map.ShowScaleBar":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "ShowScaleBar", "Boolean");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "ShowScaleBar", "Boolean");
                 xamlMember.Getter = get_12_Map_ShowScaleBar;
                 xamlMember.Setter = set_12_Map_ShowScaleBar;
                 break;
             case "Bing.Maps.Map.TileLayers":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "TileLayers", "Bing.Maps.MapTileLayerCollection");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "TileLayers", "Bing.Maps.MapTileLayerCollection");
                 xamlMember.Getter = get_13_Map_TileLayers;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.MapTileLayer.Bounds":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapTileLayer");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "Bounds", "Bing.Maps.LocationRectCollection");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapTileLayer");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Bounds", "Bing.Maps.LocationRectCollection");
                 xamlMember.Getter = get_14_MapTileLayer_Bounds;
                 xamlMember.Setter = set_14_MapTileLayer_Bounds;
                 break;
             case "Bing.Maps.LocationRect.West":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "West", "Double");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "West", "Double");
                 xamlMember.Getter = get_15_LocationRect_West;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.LocationRect.Southeast":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "Southeast", "Bing.Maps.Location");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Southeast", "Bing.Maps.Location");
                 xamlMember.Getter = get_16_LocationRect_Southeast;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.LocationRect.South":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "South", "Double");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "South", "Double");
                 xamlMember.Getter = get_17_LocationRect_South;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.LocationRect.Northwest":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "Northwest", "Bing.Maps.Location");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Northwest", "Bing.Maps.Location");
                 xamlMember.Getter = get_18_LocationRect_Northwest;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.LocationRect.North":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "North", "Double");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "North", "Double");
                 xamlMember.Getter = get_19_LocationRect_North;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.LocationRect.East":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "East", "Double");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "East", "Double");
                 xamlMember.Getter = get_20_LocationRect_East;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.LocationRect.Height":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "Height", "Double");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Height", "Double");
                 xamlMember.Getter = get_21_LocationRect_Height;
                 xamlMember.Setter = set_21_LocationRect_Height;
                 break;
             case "Bing.Maps.LocationRect.Width":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "Width", "Double");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Width", "Double");
                 xamlMember.Getter = get_22_LocationRect_Width;
                 xamlMember.Setter = set_22_LocationRect_Width;
                 break;
             case "Bing.Maps.LocationRect.Center":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "Center", "Bing.Maps.Location");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Center", "Bing.Maps.Location");
                 xamlMember.Getter = get_23_LocationRect_Center;
                 xamlMember.Setter = set_23_LocationRect_Center;
                 break;
             case "Bing.Maps.MapTileLayer.FillMissingTiles":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapTileLayer");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "FillMissingTiles", "Boolean");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapTileLayer");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "FillMissingTiles", "Boolean");
                 xamlMember.Getter = get_24_MapTileLayer_FillMissingTiles;
                 xamlMember.Setter = set_24_MapTileLayer_FillMissingTiles;
                 break;
             case "Bing.Maps.MapTileLayer.MaxZoomLevel":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapTileLayer");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "MaxZoomLevel", "Double");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapTileLayer");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "MaxZoomLevel", "Double");
                 xamlMember.Getter = get_25_MapTileLayer_MaxZoomLevel;
                 xamlMember.Setter = set_25_MapTileLayer_MaxZoomLevel;
                 break;
             case "Bing.Maps.MapTileLayer.MinZoomLevel":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapTileLayer");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "MinZoomLevel", "Double");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapTileLayer");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "MinZoomLevel", "Double");
                 xamlMember.Getter = get_26_MapTileLayer_MinZoomLevel;
                 xamlMember.Setter = set_26_MapTileLayer_MinZoomLevel;
                 break;
             case "Bing.Maps.MapTileLayer.Visible":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapTileLayer");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "Visible", "Boolean");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapTileLayer");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Visible", "Boolean");
                 xamlMember.Getter = get_27_MapTileLayer_Visible;
                 xamlMember.Setter = set_27_MapTileLayer_Visible;
                 break;
             case "Bing.Maps.MapTileLayer.ZIndex":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapTileLayer");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "ZIndex", "Int32");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapTileLayer");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "ZIndex", "Int32");
                 xamlMember.Getter = get_28_MapTileLayer_ZIndex;
                 xamlMember.Setter = set_28_MapTileLayer_ZIndex;
                 break;
             case "Bing.Maps.MapTileLayer.TileSource":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapTileLayer");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "TileSource", "String");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapTileLayer");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "TileSource", "String");
                 xamlMember.Getter = get_29_MapTileLayer_TileSource;
                 xamlMember.Setter = set_29_MapTileLayer_TileSource;
                 break;
             case "Bing.Maps.MapTileLayer.Opacity":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapTileLayer");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "Opacity", "Double");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapTileLayer");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Opacity", "Double");
                 xamlMember.Getter = get_30_MapTileLayer_Opacity;
                 xamlMember.Setter = set_30_MapTileLayer_Opacity;
                 break;
             case "Bing.Maps.Map.ShapeLayers":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "ShapeLayers", "Bing.Maps.MapShapeLayerCollection");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "ShapeLayers", "Bing.Maps.MapShapeLayerCollection");
                 xamlMember.Getter = get_31_Map_ShapeLayers;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.MapShapeLayer.Visible":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapShapeLayer");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "Visible", "Boolean");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapShapeLayer");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Visible", "Boolean");
                 xamlMember.Getter = get_32_MapShapeLayer_Visible;
                 xamlMember.Setter = set_32_MapShapeLayer_Visible;
                 break;
             case "Bing.Maps.MapShapeLayer.ZIndex":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapShapeLayer");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "ZIndex", "Int32");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapShapeLayer");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "ZIndex", "Int32");
                 xamlMember.Getter = get_33_MapShapeLayer_ZIndex;
                 xamlMember.Setter = set_33_MapShapeLayer_ZIndex;
                 break;
             case "Bing.Maps.MapShapeLayer.Shapes":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapShapeLayer");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "Shapes", "Bing.Maps.MapShapeCollection");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapShapeLayer");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Shapes", "Bing.Maps.MapShapeCollection");
                 xamlMember.Getter = get_34_MapShapeLayer_Shapes;
                 xamlMember.Setter = set_34_MapShapeLayer_Shapes;
                 break;
             case "Bing.Maps.MapShape.Visible":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapShape");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "Visible", "Boolean");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapShape");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Visible", "Boolean");
                 xamlMember.Getter = get_35_MapShape_Visible;
                 xamlMember.Setter = set_35_MapShape_Visible;
                 break;
             case "Bing.Maps.Map.RotationEnabled":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "RotationEnabled", "Boolean");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "RotationEnabled", "Boolean");
                 xamlMember.Getter = get_36_Map_RotationEnabled;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.MaxZoomLevel":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "MaxZoomLevel", "Double");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "MaxZoomLevel", "Double");
                 xamlMember.Getter = get_37_Map_MaxZoomLevel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.MinZoomLevel":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "MinZoomLevel", "Double");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "MinZoomLevel", "Double");
                 xamlMember.Getter = get_38_Map_MinZoomLevel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.Culture":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "Culture", "String");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Culture", "String");
                 xamlMember.Getter = get_39_Map_Culture;
                 xamlMember.Setter = set_39_Map_Culture;
                 break;
             case "Bing.Maps.Map.HomeRegion":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "HomeRegion", "String");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "HomeRegion", "String");
                 xamlMember.Getter = get_40_Map_HomeRegion;
                 xamlMember.Setter = set_40_Map_HomeRegion;
                 break;
             case "Bing.Maps.Map.TargetBounds":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "TargetBounds", "Bing.Maps.LocationRect");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "TargetBounds", "Bing.Maps.LocationRect");
                 xamlMember.Getter = get_41_Map_TargetBounds;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.Bounds":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "Bounds", "Bing.Maps.LocationRect");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Bounds", "Bing.Maps.LocationRect");
                 xamlMember.Getter = get_42_Map_Bounds;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.ShowBreadcrumb":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "ShowBreadcrumb", "Boolean");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "ShowBreadcrumb", "Boolean");
                 xamlMember.Getter = get_43_Map_ShowBreadcrumb;
                 xamlMember.Setter = set_43_Map_ShowBreadcrumb;
                 break;
             case "Bing.Maps.Map.ShowBuildings":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "ShowBuildings", "Boolean");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "ShowBuildings", "Boolean");
                 xamlMember.Getter = get_44_Map_ShowBuildings;
                 xamlMember.Setter = set_44_Map_ShowBuildings;
                 break;
             case "Bing.Maps.Map.ShowTraffic":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "ShowTraffic", "Boolean");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "ShowTraffic", "Boolean");
                 xamlMember.Getter = get_45_Map_ShowTraffic;
                 xamlMember.Setter = set_45_Map_ShowTraffic;
                 break;
             case "Bing.Maps.Map.PreloadArea":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "PreloadArea", "Bing.Maps.PreloadArea");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "PreloadArea", "Bing.Maps.PreloadArea");
                 xamlMember.Getter = get_46_Map_PreloadArea;
                 xamlMember.Setter = set_46_Map_PreloadArea;
                 break;
             case "Bing.Maps.Map.ViewRestriction":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "ViewRestriction", "Bing.Maps.MapViewRestriction");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "ViewRestriction", "Bing.Maps.MapViewRestriction");
                 xamlMember.Getter = get_47_Map_ViewRestriction;
                 xamlMember.Setter = set_47_Map_ViewRestriction;
                 break;
             case "Bing.Maps.Map.MapType":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "MapType", "Bing.Maps.MapType");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "MapType", "Bing.Maps.MapType");
                 xamlMember.Getter = get_48_Map_MapType;
                 xamlMember.Setter = set_48_Map_MapType;
                 break;
             case "Bing.Maps.Map.TargetHeading":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "TargetHeading", "Double");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "TargetHeading", "Double");
                 xamlMember.Getter = get_49_Map_TargetHeading;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.TargetZoomLevel":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "TargetZoomLevel", "Double");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "TargetZoomLevel", "Double");
                 xamlMember.Getter = get_50_Map_TargetZoomLevel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.TargetCenter":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "TargetCenter", "Bing.Maps.Location");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "TargetCenter", "Bing.Maps.Location");
                 xamlMember.Getter = get_51_Map_TargetCenter;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.MetersPerPixel":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "MetersPerPixel", "Double");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "MetersPerPixel", "Double");
                 xamlMember.Getter = get_52_Map_MetersPerPixel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Location.Longitude":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Location");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "Longitude", "Double");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Location");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Longitude", "Double");
                 xamlMember.Getter = get_53_Location_Longitude;
                 xamlMember.Setter = set_53_Location_Longitude;
                 break;
             case "Bing.Maps.Location.Latitude":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Location");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "Latitude", "Double");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Location");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Latitude", "Double");
                 xamlMember.Getter = get_54_Location_Latitude;
                 xamlMember.Setter = set_54_Location_Latitude;
                 break;
             case "M0rg0tRss.MyDataTemplateSelector.Template1":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("M0rg0tRss.MyDataTemplateSelector");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "Template1", "Windows.UI.Xaml.DataTemplate");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("M0rg0tRss.MyDataTemplateSelector");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Template1", "Windows.UI.Xaml.DataTemplate");
                 xamlMember.Getter = get_55_MyDataTemplateSelector_Template1;
                 xamlMember.Setter = set_55_MyDataTemplateSelector_Template1;
                 break;
             case "M0rg0tRss.MyDataTemplateSelector.Template2":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("M0rg0tRss.MyDataTemplateSelector");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "Template2", "Windows.UI.Xaml.DataTemplate");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("M0rg0tRss.MyDataTemplateSelector");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Template2", "Windows.UI.Xaml.DataTemplate");
                 xamlMember.Getter = get_56_MyDataTemplateSelector_Template2;
                 xamlMember.Setter = set_56_MyDataTemplateSelector_Template2;
                 break;
             case "M0rg0tRss.Common.RichTextColumns.RichTextContent":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("M0rg0tRss.Common.RichTextColumns");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "RichTextContent", "Windows.UI.Xaml.Controls.RichTextBlock");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("M0rg0tRss.Common.RichTextColumns");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "RichTextContent", "Windows.UI.Xaml.Controls.RichTextBlock");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_57_RichTextColumns_RichTextContent;
                 xamlMember.Setter = set_57_RichTextColumns_RichTextContent;
                 break;
             case "M0rg0tRss.Common.RichTextColumns.ColumnTemplate":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("M0rg0tRss.Common.RichTextColumns");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "ColumnTemplate", "Windows.UI.Xaml.DataTemplate");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("M0rg0tRss.Common.RichTextColumns");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "ColumnTemplate", "Windows.UI.Xaml.DataTemplate");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_58_RichTextColumns_ColumnTemplate;
                 xamlMember.Setter = set_58_RichTextColumns_ColumnTemplate;
                 break;
             case "Bing.Maps.Pushpin.Text":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Pushpin");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "Text", "String");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Pushpin");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Text", "String");
                 xamlMember.Getter = get_59_Pushpin_Text;
                 xamlMember.Setter = set_59_Pushpin_Text;
                 break;
             case "Bing.Maps.VenueMaps.VenueFloorDataSource.Items":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueFloorDataSource");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "Items", "Windows.Foundation.Collections.IObservableVector<Object>");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueFloorDataSource");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Items", "Windows.Foundation.Collections.IObservableVector<Object>");
                 xamlMember.Getter = get_60_VenueFloorDataSource_Items;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueFloorDataSource.Name":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueFloorDataSource");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "Name", "String");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueFloorDataSource");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Name", "String");
                 xamlMember.Getter = get_61_VenueFloorDataSource_Name;
                 xamlMember.Setter = set_61_VenueFloorDataSource_Name;
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.Highlighted":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "Highlighted", "Boolean");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Highlighted", "Boolean");
                 xamlMember.Getter = get_62_VenueEntity_Highlighted;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.LineWidth":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "LineWidth", "Double");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "LineWidth", "Double");
                 xamlMember.Getter = get_63_VenueEntity_LineWidth;
                 xamlMember.Setter = set_63_VenueEntity_LineWidth;
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.HighlightColor":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "HighlightColor", "Windows.UI.Color");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "HighlightColor", "Windows.UI.Color");
                 xamlMember.Getter = get_64_VenueEntity_HighlightColor;
                 xamlMember.Setter = set_64_VenueEntity_HighlightColor;
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.FillColor":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "FillColor", "Windows.UI.Color");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "FillColor", "Windows.UI.Color");
                 xamlMember.Getter = get_65_VenueEntity_FillColor;
                 xamlMember.Setter = set_65_VenueEntity_FillColor;
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.LineColor":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "LineColor", "Windows.UI.Color");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "LineColor", "Windows.UI.Color");
                 xamlMember.Getter = get_66_VenueEntity_LineColor;
                 xamlMember.Setter = set_66_VenueEntity_LineColor;
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.Type":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "Type", "Bing.Maps.VenueMaps.VenueEntityType");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Type", "Bing.Maps.VenueMaps.VenueEntityType");
                 xamlMember.Getter = get_67_VenueEntity_Type;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.PhoneNumber":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "PhoneNumber", "String");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "PhoneNumber", "String");
                 xamlMember.Getter = get_68_VenueEntity_PhoneNumber;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.Name":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "Name", "String");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Name", "String");
                 xamlMember.Getter = get_69_VenueEntity_Name;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.Outline":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "Outline", "Bing.Maps.LocationCollection");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Outline", "Bing.Maps.LocationCollection");
                 xamlMember.Getter = get_70_VenueEntity_Outline;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.Id":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "Id", "Int32");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Id", "Int32");
                 xamlMember.Getter = get_71_VenueEntity_Id;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.FloorName":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "FloorName", "String");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "FloorName", "String");
                 xamlMember.Getter = get_72_VenueEntity_FloorName;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.Floor":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "Floor", "Bing.Maps.VenueMaps.Floor");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Floor", "Bing.Maps.VenueMaps.Floor");
                 xamlMember.Getter = get_73_VenueEntity_Floor;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.Location":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "Location", "Bing.Maps.Location");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Location", "Bing.Maps.Location");
                 xamlMember.Getter = get_74_VenueEntity_Location;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.Description":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "Description", "String");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Description", "String");
                 xamlMember.Getter = get_75_VenueEntity_Description;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.CategoryName":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "CategoryName", "String");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "CategoryName", "String");
                 xamlMember.Getter = get_76_VenueEntity_CategoryName;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.CategoryId":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "CategoryId", "String");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "CategoryId", "String");
                 xamlMember.Getter = get_77_VenueEntity_CategoryId;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.BusinessId":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "BusinessId", "String");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "BusinessId", "String");
                 xamlMember.Getter = get_78_VenueEntity_BusinessId;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.Address":
-                userType = (global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
-                xamlMember = new global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlMember(this, "Address", "Bing.Maps.VenueMaps.VenueAddress");
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Address", "Bing.Maps.VenueMaps.VenueAddress");
                 xamlMember.Getter = get_79_VenueEntity_Address;
                 xamlMember.SetIsReadOnly();
                 break;
@@ -2036,9 +2036,9 @@ namespace M0rg0tRss.RybinskNews_XamlTypeInfo
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks", "4.0.0.0")]    
     [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-    internal class XamlUserType : global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlSystemBaseType
+    internal class XamlUserType : global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlSystemBaseType
     {
-        global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlTypeInfoProvider _provider;
         global::Windows.UI.Xaml.Markup.IXamlType _baseType;
         bool _isArray;
         bool _isMarkupExtension;
@@ -2050,7 +2050,7 @@ namespace M0rg0tRss.RybinskNews_XamlTypeInfo
         global::System.Collections.Generic.Dictionary<string, string> _memberNames;
         global::System.Collections.Generic.Dictionary<string, object> _enumValues;
 
-        public XamlUserType(global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlTypeInfoProvider provider, string fullName, global::System.Type fullType, global::Windows.UI.Xaml.Markup.IXamlType baseType)
+        public XamlUserType(global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlTypeInfoProvider provider, string fullName, global::System.Type fullType, global::Windows.UI.Xaml.Markup.IXamlType baseType)
             :base(fullName, fullType)
         {
             _provider = provider;
@@ -2231,7 +2231,7 @@ namespace M0rg0tRss.RybinskNews_XamlTypeInfo
     [System.Diagnostics.DebuggerNonUserCodeAttribute()]
     internal class XamlMember : global::Windows.UI.Xaml.Markup.IXamlMember
     {
-        global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlTypeInfoProvider _provider;
         string _name;
         bool _isAttachable;
         bool _isDependencyProperty;
@@ -2240,7 +2240,7 @@ namespace M0rg0tRss.RybinskNews_XamlTypeInfo
         string _typeName;
         string _targetTypeName;
 
-        public XamlMember(global::M0rg0tRss.RybinskNews_XamlTypeInfo.XamlTypeInfoProvider provider, string name, string typeName)
+        public XamlMember(global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlTypeInfoProvider provider, string name, string typeName)
         {
             _name = name;
             _typeName = typeName;

@@ -20,6 +20,7 @@ MapItemsPage.xaml
 MapPage.xaml
 SearchResultsPage.xaml
 Data\config.xml
+Data\places.db
 metadata.xml
 MVVMLight.Nuget.Readme.txt
 ReadMe.Coding4Fun.Toolkit.txt
