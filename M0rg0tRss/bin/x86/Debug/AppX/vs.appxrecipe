@@ -5,28 +5,28 @@
     <WindowsUser>m0rg0_000</WindowsUser>
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
-    <RegisteredManifestChecksum>5C3D895E948C2045F8424E51615E3B400DBC738CEF59F0357F914CED1480A4A0</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>43337m0rg0t.4221071A35AC9_1.1.0.5_x86__an4n55wjnzdp8</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>FBFC3B345D709D5A0C93472713E26A8D0C3E605273ED30F0496762BAE2F4D16B</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>43337m0rg0t.4221071A35AC9_1.1.0.6_x86__an4n55wjnzdp8</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>43337m0rg0t.4221071A35AC9_an4n55wjnzdp8!App</RegisteredUserModeAppID>
     <RegisteredPackageID>43337m0rg0t.4221071A35AC9</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=F7642D27-CCE9-4988-9BED-35B1F14EED65</RegisteredPackagePublisher>
-    <RegisteredVersion>1.1.0.5</RegisteredVersion>
+    <RegisteredVersion>1.1.0.6</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-05-20T21:28:20.801</Modified>
+      <Modified>2013-05-20T22:01:46.482</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\bin\x86\Debug\M0rg0tRss.exe">
       <PackagePath>M0rg0tRss.exe</PackagePath>
-      <Modified>2013-05-20T21:36:58.907</Modified>
+      <Modified>2013-05-20T22:01:43.274</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\bin\x86\Debug\M0rg0tRss.pdb">
       <PackagePath>M0rg0tRss.pdb</PackagePath>
-      <Modified>2013-05-20T21:36:58.851</Modified>
+      <Modified>2013-05-20T22:01:43.215</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.0\References\commonconfiguration\neutral\Bing.Maps.winmd">
       <PackagePath>Bing.Maps.winmd</PackagePath>
@@ -527,7 +527,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-05-20T21:28:17.932</Modified>
+      <Modified>2013-05-20T22:00:04.573</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

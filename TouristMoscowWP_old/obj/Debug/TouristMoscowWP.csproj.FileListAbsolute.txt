@@ -1,0 +1,4 @@
+C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\TouristMoscowWP\obj\Debug\TouristMoscowWP.csproj.App.config
+C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\TouristMoscowWP\obj\Debug\App.g.cs
+C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\TouristMoscowWP\obj\Debug\MainPage.g.cs
+C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\TouristMoscowWP\obj\Debug\TouristMoscowWP.g.resources

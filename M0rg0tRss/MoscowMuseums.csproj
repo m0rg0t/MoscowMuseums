@@ -209,7 +209,9 @@
     </Page>
     <Content Include="metadata.xml" />
     <Content Include="MVVMLight.Nuget.Readme.txt" />
-    <None Include="Package.StoreAssociation.xml" />
+    <None Include="Package.StoreAssociation.xml">
+      <SubType>Designer</SubType>
+    </None>
     <Content Include="ReadMe.Coding4Fun.Toolkit.txt" />
   </ItemGroup>
   <ItemGroup>

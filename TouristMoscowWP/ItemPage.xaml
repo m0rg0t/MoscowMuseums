@@ -1,0 +1,59 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="TouristMoscowWP.ItemPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    xmlns:telerikPrimitives="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Controls.Primitives"
+    xmlns:telerikCore="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Core"
+    xmlns:telerikData="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Controls.Data"
+    DataContext="{Binding Main.CurrentItem, Source={StaticResource Locator}}"
+    shell:SystemTray.IsVisible="{Binding Loading}"
+    shell:SystemTray.Opacity="0">
+
+    <!--LayoutRoot contains the root grid where all other page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <controls:Panorama>
+            <controls:Panorama.Title>
+                <TextBlock FontSize="80" Margin="0,80,0,0" Text="{Binding Title}"/>
+            </controls:Panorama.Title>
+            <!--Panorama item one-->
+            <controls:PanoramaItem Header="Описание">                
+                <Grid>
+                    <ScrollViewer>
+                        <StackPanel>                        
+                            <Image Source="{Binding ImagePath}" VerticalAlignment="Top" />
+                            
+                            <TextBlock Text="{Binding Subtitle}" TextWrapping="Wrap" Margin="0,4,0,10" />
+                            <TextBlock Text="{Binding Description}" TextWrapping="Wrap" Margin="0,4,0,0" />
+                        </StackPanel>
+                    </ScrollViewer>
+                </Grid>
+            </controls:PanoramaItem>
+
+            <controls:PanoramaItem Header="История">
+                <Grid>
+                    <ScrollViewer>
+                        <StackPanel>
+                            <TextBlock Text="{Binding Content}" TextWrapping="Wrap" Margin="0,4,0,0" />
+                        </StackPanel>
+                    </ScrollViewer>
+                </Grid>
+            </controls:PanoramaItem>
+
+            <!--Panorama item two-->
+            <!--<controls:PanoramaItem Header="item2">
+                <Grid/>
+            </controls:PanoramaItem>-->
+        </controls:Panorama>
+    </Grid>
+
+</phone:PhoneApplicationPage>

@@ -1,0 +1,5 @@
+C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\TouristMoscowWP\obj\Release\TouristMoscowWP.csproj.App.config
+C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\TouristMoscowWP\obj\Release\TouristMoscowWP.csprojResolveAssemblyReference.cache
+C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\TouristMoscowWP\obj\Release\App.g.cs
+C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\TouristMoscowWP\obj\Release\MainPage.g.cs
+C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\TouristMoscowWP\obj\Release\TouristMoscowWP.g.resources
