@@ -7,7 +7,7 @@
 
  Дополнительные сведения о файлах манифестов приложений см. по адресу http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="43337m0rg0t.4221071A35AC9" Publisher="CN=F7642D27-CCE9-4988-9BED-35B1F14EED65" Version="1.1.0.6" ProcessorArchitecture="x86" />
+  <Identity Name="43337m0rg0t.4221071A35AC9" Publisher="CN=F7642D27-CCE9-4988-9BED-35B1F14EED65" Version="1.1.0.7" ProcessorArchitecture="x86" />
   <Properties>
     <DisplayName>Туристическая Москва</DisplayName>
     <PublisherDisplayName>m0rg0t</PublisherDisplayName>

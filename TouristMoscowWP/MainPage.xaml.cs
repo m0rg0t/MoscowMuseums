@@ -12,6 +12,7 @@ using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
 using TouristMoscowWP.ViewModel;
 using Coding4Fun.Toolkit.Controls;
+using Microsoft.Phone.Net.NetworkInformation;
 
 namespace TouristMoscowWP
 {
@@ -24,7 +25,15 @@ namespace TouristMoscowWP
 
             // Set the data context of the listbox control to the sample data
             DataContext = ViewModelLocator.MainStatic;
+
             this.Loaded += new RoutedEventHandler(MainPage_Loaded);
+
+            string isNetworkAvail =
+NetworkInterface.GetIsNetworkAvailable() ? "on" : "off";
+            if (isNetworkAvail == "off")
+            {
+                MessageBox.Show("Для работы приложения требуется интернет-подключение.");
+            };
         }
 
         // Load data for the ViewModel Items

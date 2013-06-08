@@ -115,62 +115,74 @@ namespace TouristMoscowWP.ViewModel
 
         public async Task<string> MakeWebRequest(string url = "")
         {
-            HttpClient http = new System.Net.Http.HttpClient();
-            HttpResponseMessage response = await http.GetAsync(url);
-            return await response.Content.ReadAsStringAsync();
+            try
+            {
+                HttpClient http = new System.Net.Http.HttpClient();
+                HttpResponseMessage response = await http.GetAsync(url);
+                return await response.Content.ReadAsStringAsync();
+            }
+            catch {
+                return "";
+            };
         }
 
         public async void LoadSearchQuery(string query="") {
-            if (query!="") {
+            try
+            {
+                if (query != "")
+                {
 
-                ObservableCollection<MapItem> tempitems = new ObservableCollection<MapItem>();
-                Items = new ObservableCollection<MapItem>();
+                    ObservableCollection<MapItem> tempitems = new ObservableCollection<MapItem>();
+                    Items = new ObservableCollection<MapItem>();
 
-                            string response = await MakeWebRequest("http://api.pub.emp.msk.ru:8081/json/v10.0/tourstore/objects/search?token=" + App.TOKEN + "&query="+query);
-                            JObject o = JObject.Parse(response.ToString());
-                            /*
-                            var tourist = new RssDataGroup(category,
-                                "Достопримечательности", "Достопримечательности", "", "");
-                            tourist.Order = 7;
-                            this._allGroups.Add(tourist);
-                            RaisePropertyChanged("AllGroups");*/
-                            Loading = true;
-                            var i = 0;
-                            try
+                    string response = await MakeWebRequest("http://api.pub.emp.msk.ru:8081/json/v10.0/tourstore/objects/search?token=" + App.TOKEN + "&query=" + query);
+                    JObject o = JObject.Parse(response.ToString());
+                    /*
+                    var tourist = new RssDataGroup(category,
+                        "Достопримечательности", "Достопримечательности", "", "");
+                    tourist.Order = 7;
+                    this._allGroups.Add(tourist);
+                    RaisePropertyChanged("AllGroups");*/
+                    Loading = true;
+                    var i = 0;
+                    try
+                    {
+                        foreach (var item in o["result"]["objects"])
+                        {
+                            if (i < 20)
                             {
-                                foreach (var item in o["result"]["objects"])
+                                try
                                 {
-                                    if (i < 20)
-                                    {
-                                        try
-                                        {
-                                            string obj_response = await MakeWebRequest("http://api.pub.emp.msk.ru:8081/json/v10.0/tourstore/objects/get?token=" + App.TOKEN + "&object_id=" + item["id"].ToString());
-                                            JObject obj = JObject.Parse(obj_response.ToString());
+                                    string obj_response = await MakeWebRequest("http://api.pub.emp.msk.ru:8081/json/v10.0/tourstore/objects/get?token=" + App.TOKEN + "&object_id=" + item["id"].ToString());
+                                    JObject obj = JObject.Parse(obj_response.ToString());
 
-                                            MapItem currentMapItem = new MapItem();
-                                            currentMapItem.UniqueId = obj["result"]["object_id"].ToString();
-                                            currentMapItem.Title = obj["result"]["object_name"].ToString();
-                                            currentMapItem.Subtitle = obj["result"]["object_address"].ToString();
-                                            currentMapItem.SetImage(obj["result"]["object_photo"].ToString());
-                                            currentMapItem.ImagePath = obj["result"]["object_photo"].ToString();
-                                            currentMapItem.Description = obj["result"]["object_description"].ToString();
-                                            currentMapItem.Content = obj["result"]["object_story"].ToString();
-                                            currentMapItem.Lat = item["object_geo"]["latitude"].Value<Double>();
-                                            currentMapItem.Lon = item["object_geo"]["longitude"].Value<Double>();
-                                            currentMapItem.Object_rate = item["object_rate"].Value<Double>();
-                                            //await conn.QueryAsync<MapItem>("DELETE FROM MapItem WHERE UniqueId='" + currentMapItem.UniqueId + "'");
-                                            //await conn.InsertAsync(currentMapItem);
-                                            tempitems.Add(currentMapItem);
-                                            i++;
-                                        }
-                                        catch { };
-                                    };
-                                };
-                            } catch {};
-                            Items = tempitems;
-                            RaisePropertyChanged("Items");
-                            Loading = false;
-                        }
+                                    MapItem currentMapItem = new MapItem();
+                                    currentMapItem.UniqueId = obj["result"]["object_id"].ToString();
+                                    currentMapItem.Title = obj["result"]["object_name"].ToString();
+                                    currentMapItem.Subtitle = obj["result"]["object_address"].ToString();
+                                    currentMapItem.SetImage(obj["result"]["object_photo"].ToString());
+                                    currentMapItem.ImagePath = obj["result"]["object_photo"].ToString();
+                                    currentMapItem.Description = obj["result"]["object_description"].ToString();
+                                    currentMapItem.Content = obj["result"]["object_story"].ToString();
+                                    currentMapItem.Lat = item["object_geo"]["latitude"].Value<Double>();
+                                    currentMapItem.Lon = item["object_geo"]["longitude"].Value<Double>();
+                                    currentMapItem.Object_rate = item["object_rate"].Value<Double>();
+                                    //await conn.QueryAsync<MapItem>("DELETE FROM MapItem WHERE UniqueId='" + currentMapItem.UniqueId + "'");
+                                    //await conn.InsertAsync(currentMapItem);
+                                    tempitems.Add(currentMapItem);
+                                    i++;
+                                }
+                                catch { };
+                            };
+                        };
+                    }
+                    catch { };
+                    Items = tempitems;
+                    RaisePropertyChanged("Items");
+                    Loading = false;
+                }
+            }
+            catch { };
             }
 
         private bool _loading = false;

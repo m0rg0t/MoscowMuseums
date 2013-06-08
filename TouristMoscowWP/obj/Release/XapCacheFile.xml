@@ -1,8 +1,8 @@
-﻿<xapCache source="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\TouristMoscowWP\Bin\Release\TouristMoscowWP.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="24.05.2013 2:43:42">
+﻿<xapCache source="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\TouristMoscowWP\Bin\Release\TouristMoscowWP.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="28.05.2013 12:34:13">
   <file source="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\TouristMoscowWP\Bin\Release\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="24.05.2013 2:41:58" />
   <file source="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\TouristMoscowWP\Background.png" archivePath="Background.png" lastWriteTime="24.05.2013 2:10:06" />
   <file source="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\TouristMoscowWP\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="24.05.2013 2:10:15" />
-  <file source="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\TouristMoscowWP\obj\Release\TouristMoscowWP.dll" archivePath="TouristMoscowWP.dll" lastWriteTime="24.05.2013 2:43:40" />
+  <file source="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\TouristMoscowWP\obj\Release\TouristMoscowWP.dll" archivePath="TouristMoscowWP.dll" lastWriteTime="28.05.2013 12:34:11" />
   <file source="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\packages\Coding4Fun.Toolkit.Controls.2.0.5\lib\wp71\Coding4Fun.Toolkit.Controls.dll" archivePath="Coding4Fun.Toolkit.Controls.dll" lastWriteTime="01.05.2013 16:05:29" />
   <file source="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\packages\MvvmLightLibs.4.1.27.0\lib\sl4-wp71\GalaSoft.MvvmLight.Extras.WP71.dll" archivePath="GalaSoft.MvvmLight.Extras.WP71.dll" lastWriteTime="02.05.2013 10:47:50" />
   <file source="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\packages\MvvmLightLibs.4.1.27.0\lib\sl4-wp71\GalaSoft.MvvmLight.WP71.dll" archivePath="GalaSoft.MvvmLight.WP71.dll" lastWriteTime="02.05.2013 10:47:50" />
@@ -31,7 +31,7 @@
   <file source="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\TouristMoscowWP\Toolkit.Content\ApplicationBar.Check.png" archivePath="Toolkit.Content\ApplicationBar.Check.png" lastWriteTime="24.05.2013 2:17:44" />
   <file source="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\TouristMoscowWP\MVVMLight.Nuget.Readme.txt" archivePath="MVVMLight.Nuget.Readme.txt" lastWriteTime="24.05.2013 0:57:19" />
   <file source="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\TouristMoscowWP\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="24.05.2013 2:09:13" />
-  <file source="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\TouristMoscowWP\Bin\Release\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="24.05.2013 2:43:35" />
+  <file source="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\TouristMoscowWP\Bin\Release\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="28.05.2013 12:34:12" />
   <file source="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\TouristMoscowWP\Bin\Release\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="24.05.2013 2:10:15" />
   <file source="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\TouristMoscowWP\Bin\Release\Assets\AppBar\appbar.feature.email.rest.png" archivePath="Assets\AppBar\appbar.feature.email.rest.png" lastWriteTime="06.07.2012 1:38:22" />
   <file source="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\TouristMoscowWP\Bin\Release\Assets\AppBar\appbar.feature.search.rest.png" archivePath="Assets\AppBar\appbar.feature.search.rest.png" lastWriteTime="06.07.2012 1:38:22" />
