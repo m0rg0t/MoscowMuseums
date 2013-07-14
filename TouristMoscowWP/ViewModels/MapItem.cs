@@ -1,6 +1,8 @@
 ﻿using GalaSoft.MvvmLight;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Windows.Media;
@@ -189,5 +191,41 @@ namespace TouristMoscowWP.ViewModel
             }
         }
 
+        private string _object_audio_urls = "";
+        public string Object_audio_urls
+        {
+            get
+            {
+                return _object_audio_urls;
+            }
+            set
+            {
+                _object_audio_urls = value;
+                try
+                {
+                    JObject o = JObject.Parse(_object_audio_urls);
+                    ObservableCollection<string> items = new ObservableCollection<string>();
+                    foreach (var item in o)
+                    {
+                        items.Add(item.ToString());
+                    };
+                    Audio_urls = items;
+                }
+                catch { };
+            }
+        }
+
+        private ObservableCollection<string> _audio_urls = new ObservableCollection<string>();
+        public ObservableCollection<string> Audio_urls
+        {
+            get
+            {
+                return _audio_urls;
+            }
+            set
+            {
+                _audio_urls = value;
+            }
+        }
     }
 }

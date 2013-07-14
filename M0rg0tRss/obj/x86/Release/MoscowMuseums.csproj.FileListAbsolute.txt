@@ -87,3 +87,4 @@ C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\obj\x86\Release\Gala
 C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\obj\x86\Release\GalaSoft.MvvmLight.Win8.pri.xml
 C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\obj\x86\Release\Microsoft.Practices.ServiceLocation.pri.xml
 C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\obj\x86\Release\ProjectArchitectures.txt
+C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\obj\x86\Release\MoscowMuseums.csprojResolveAssemblyReference.cache

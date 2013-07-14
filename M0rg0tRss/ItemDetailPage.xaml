@@ -20,6 +20,26 @@
             d:Source="{Binding AllGroups[0].Items, Source={d:DesignInstance Type=data:RssDataSource, IsDesignTimeCreatable=True}}"/>
     </Page.Resources>
 
+    <common:LayoutAwarePage.BottomAppBar>
+        <AppBar>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                    <Button x:Name="PlayAppBarButton" Style="{StaticResource PlayAppBarButtonStyle}" Click="PlayAppBarButton_Click"/>
+                    <Button x:Name="PauseAppBarButton" HorizontalAlignment="Stretch" Style="{StaticResource PauseAppBarButtonStyle}" Click="PauseAppBarButton_Click"/>
+                    <!--<Button x:Name="SaveMusicAppBarButton" Style="{StaticResource SaveAppBarButtonStyle}" Click="SaveMusicAppBarButton_Click"/>
+                    <Button x:Name="OpenWebBrowser" Style="{StaticResource GoAppBarButtonStyle}" Click="OpenWebBrowser_Click"/>-->
+                </StackPanel>
+                <StackPanel Grid.Column="1" HorizontalAlignment="Right" Orientation="Horizontal"/>
+            </Grid>
+        </AppBar>
+    </common:LayoutAwarePage.BottomAppBar>
+
+
+
     <!--
         Эта сетка выступает в роли корневой области страницы и определяет две строки:
         * Строка 0 содержит кнопку "Назад" и заголовок страницы
@@ -35,6 +55,9 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
+        <MediaElement Name="Player">
+        </MediaElement>
+        
         <!--
             Оставшаяся часть страницы представляет собой один большой объект FlipView, на котором в каждый момент времени отображаются
             сведения об одном элементе, что позволяет пользователю перемещаться между всеми элементами в выбранной

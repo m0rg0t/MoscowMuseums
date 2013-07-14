@@ -1,8 +1,10 @@
 ﻿using Bing.Maps;
 using GalaSoft.MvvmLight;
 using M0rg0tRss.Data;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
@@ -58,6 +60,44 @@ namespace M0rg0tRss.DataModel
                 {
                     _object_rate = value;
                 };
+            }
+        }
+
+        private string _object_audio_urls = "";
+        public string Object_audio_urls
+        {
+            get
+            {
+                return _object_audio_urls;
+            }
+            set
+            {
+                _object_audio_urls = value;
+                try
+                {
+                    JObject o = JObject.Parse(_object_audio_urls);
+                    ObservableCollection<string> items = new ObservableCollection<string>();
+                    foreach (var item in o)
+                    {
+                        items.Add(item.ToString());
+                    };
+                    Audio_urls = items;
+                }
+                catch { };
+            }
+        }
+
+        private ObservableCollection<string> _audio_urls = new ObservableCollection<string>();
+        [SQLite.Ignore]
+        public ObservableCollection<string> Audio_urls
+        {
+            get
+            {
+                return _audio_urls;
+            }
+            set
+            {
+                _audio_urls = value;
             }
         }
 

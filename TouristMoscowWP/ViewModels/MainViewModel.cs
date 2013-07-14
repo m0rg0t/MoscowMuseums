@@ -158,6 +158,8 @@ namespace TouristMoscowWP.ViewModel
                                             currentMapItem.Lat = item["object_geo"]["latitude"].Value<Double>();
                                             currentMapItem.Lon = item["object_geo"]["longitude"].Value<Double>();
                                             currentMapItem.Object_rate = item["object_rate"].Value<Double>();
+
+                                            currentMapItem.Object_audio_urls = item["object_audio_urls"].ToString();
                                             //await conn.QueryAsync<MapItem>("DELETE FROM MapItem WHERE UniqueId='" + currentMapItem.UniqueId + "'");
                                             //await conn.InsertAsync(currentMapItem);
                                             tempitems.Add(currentMapItem);

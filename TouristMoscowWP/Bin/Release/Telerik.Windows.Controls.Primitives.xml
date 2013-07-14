@@ -1154,7 +1154,7 @@
             Encapsulates the data associated with an item click action within a <see cref="T:Telerik.Windows.Controls.RadSelector"/> control.
             </summary>
         </member>
-        <member name="M:Telerik.Windows.Controls.Primitives.SelectorItemClickEventArgs.#ctor(Telerik.Windows.Controls.SelectorItem)">
+        <member name="M:Telerik.Windows.Controls.Primitives.SelectorItemClickEventArgs.#ctor(System.Windows.Controls.ContentControl)">
             <summary>
             Initializes a new instance of the <see cref="T:Telerik.Windows.Controls.Primitives.SelectorItemClickEventArgs"/> class.
             </summary>
@@ -1212,6 +1212,12 @@
             Handles a click from a child visual item.
             </summary>
             <param name="item"></param>
+        </member>
+        <member name="M:Telerik.Windows.Controls.RadSelector.OnContainerItemClick(System.Windows.Controls.ContentControl)">
+            <summary>
+            Fires the <see cref="E:Telerik.Windows.Controls.RadSelector.ItemClick"/> event.
+            </summary>
+            <param name="item">The container that has been tapped.</param>
         </member>
         <member name="M:Telerik.Windows.Controls.RadSelector.GetItemIndex(Telerik.Windows.Controls.SelectorItem)">
             <summary>
@@ -1413,12 +1419,17 @@
         </member>
         <member name="F:Telerik.Windows.Controls.RadContextMenuItem.CommandProperty">
             <summary>
-            Identifies the Command DependencyProperty.
+            Identifies the Command dependency property.
             </summary>
         </member>
         <member name="F:Telerik.Windows.Controls.RadContextMenuItem.CommandParameterProperty">
             <summary>
-            Identifies the CommandParameter DependencyProperty.
+            Identifies the CommandParameter dependency property.
+            </summary>
+        </member>
+        <member name="F:Telerik.Windows.Controls.RadContextMenuItem.CanExecuteCommandProperty">
+            <summary>
+            Identifies the CanExecuteCommand dependency property.
             </summary>
         </member>
         <member name="M:Telerik.Windows.Controls.RadContextMenuItem.#cctor">
@@ -1477,6 +1488,11 @@
         <member name="E:Telerik.Windows.Controls.RadContextMenuItem.Tapped">
             <summary>
             This event fires when this item is tapped.
+            </summary>
+        </member>
+        <member name="P:Telerik.Windows.Controls.RadContextMenuItem.CanExecuteCommand">
+            <summary>
+            Gets a value that determines whether the current command can be executed. Returns false if no command is set.
             </summary>
         </member>
         <member name="P:Telerik.Windows.Controls.RadContextMenuItem.Command">
@@ -4335,6 +4351,16 @@
             Clear. With this button type an opacity mask with an X will be used.
             </summary>
         </member>
+        <member name="F:Telerik.Windows.Controls.ImageButtonType.Arrow">
+            <summary>
+            Arrow. With this button type an opacity mask with an arrow will be used.
+            </summary>
+        </member>
+        <member name="F:Telerik.Windows.Controls.ImageButtonType.Peek">
+            <summary>
+            Peek. With this button type an opacity mask with an eye will be used.
+            </summary>
+        </member>
         <member name="T:Telerik.Windows.Controls.RadImageButton">
             <summary>
             Represents a control that is a Button which has an image as its content.
@@ -4531,13 +4557,74 @@
         </member>
         <member name="P:Telerik.Windows.Controls.InputPromptClosedEventArgs.Text">
             <summary>
-            Gets the text that was entered in the input field.
+            Gets the text that was entered in the first input field.
+            </summary>
+        </member>
+        <member name="P:Telerik.Windows.Controls.InputPromptClosedEventArgs.Text2">
+            <summary>
+            Gets the text that was entered in the second input field.
+            </summary>
+        </member>
+        <member name="P:Telerik.Windows.Controls.InputPromptClosedEventArgs.Text3">
+            <summary>
+            Gets the text that was entered in the third input field.
+            </summary>
+        </member>
+        <member name="T:Telerik.Windows.Controls.InputPromptSettings">
+            <summary>
+            A class containing settings that can be passed to a <see cref="T:Telerik.Windows.Controls.RadInputPrompt"/> in order to display more than one input field.
+            </summary>
+        </member>
+        <member name="P:Telerik.Windows.Controls.InputPromptSettings.Field1Mode">
+            <summary>
+            Gets or sets the input mode for the first field.
+            </summary>
+        </member>
+        <member name="P:Telerik.Windows.Controls.InputPromptSettings.Field2Mode">
+            <summary>
+            Gets or sets the input mode for the second field.
+            </summary>
+        </member>
+        <member name="P:Telerik.Windows.Controls.InputPromptSettings.Field3Mode">
+            <summary>
+            Gets or sets the input mode for the third field.
+            </summary>
+        </member>
+        <member name="P:Telerik.Windows.Controls.InputPromptSettings.Field1Style">
+            <summary>
+            Gets or sets the style for the first field.
+            </summary>
+        </member>
+        <member name="P:Telerik.Windows.Controls.InputPromptSettings.Field2Style">
+            <summary>
+            Gets or sets the style for the second field.
+            </summary>
+        </member>
+        <member name="P:Telerik.Windows.Controls.InputPromptSettings.Field3Style">
+            <summary>
+            Gets or sets the style for the third field.
             </summary>
         </member>
         <member name="T:Telerik.Windows.Controls.RadInputPrompt">
             <summary>
             This class defines a type of a MessageBox that contains an input field for a password or for a plain text.
             </summary>
+        </member>
+        <member name="M:Telerik.Windows.Controls.RadInputPrompt.Show(Telerik.Windows.Controls.InputPromptSettings,System.Object,Telerik.Windows.Controls.MessageBoxButtons,System.Object,System.Object,System.Boolean,System.Boolean,System.Windows.HorizontalAlignment,System.Windows.VerticalAlignment,System.Action{Telerik.Windows.Controls.InputPromptClosedEventArgs},System.Action{System.Windows.Input.KeyEventArgs})">
+            <summary>
+            Shows RadInputPrompt.
+            </summary>
+            <param name="settings">An instance of type <see cref="T:Telerik.Windows.Controls.InputPromptSettings"/> that specifies the fields that are used by this input prompt.</param>
+            <param name="title">The title of the input prompt.</param>
+            <param name="buttons">The button configuration of RadInputPrompt.</param>
+            <param name="message">The message of the input prompt.</param>
+            <param name="checkBoxContent">Determines the content of the checkbox. A null value hides the check box and a non-null value shows it.</param>
+            <param name="isCheckBoxChecked">Determines whether the checkbox will checked initially.</param>
+            <param name="vibrate">Determines if the device will vibrate when the input prompt is shown.</param>
+            <param name="horizontalAlignment">The horizontal alignment of the input promt on the device page.</param>
+            <param name="verticalAlignment">The vertical alignment of the input promt on the device page.</param>
+            <param name="closedHandler">A callback that will be invoked when the input prompt closes.</param>
+            <param name="keyDownHandler">A callback that will be invoked when a key is pressed.</param>
         </member>
         <member name="M:Telerik.Windows.Controls.RadInputPrompt.Show(System.Object,Telerik.Windows.Controls.MessageBoxButtons,System.Object,Telerik.Windows.Controls.InputMode,System.Windows.Style,System.Object,System.Boolean,System.Boolean,System.Windows.HorizontalAlignment,System.Windows.VerticalAlignment,System.Action{Telerik.Windows.Controls.InputPromptClosedEventArgs},System.Action{System.Windows.Input.KeyEventArgs})">
             <summary>
@@ -4650,16 +4737,6 @@
             The base implementation calls the message box closed callback.
             </summary>
             <param name="args">An object that contain information about the closed event.</param>
-        </member>
-        <member name="F:Telerik.Windows.Controls.InputPrompt.RadInputPromptControl.InputModeProperty">
-            <summary>
-            Identifies the <see cref="P:Telerik.Windows.Controls.InputPrompt.RadInputPromptControl.InputMode"/> dependency property.
-            </summary>
-        </member>
-        <member name="F:Telerik.Windows.Controls.InputPrompt.RadInputPromptControl.InputStyleProperty">
-            <summary>
-            Identifies the <see cref="P:Telerik.Windows.Controls.InputPrompt.RadInputPromptControl.InputStyle"/> dependency property.
-            </summary>
         </member>
         <member name="M:Telerik.Windows.Controls.InputPrompt.RadInputPromptControl.OnApplyTemplate">
             <summary>
@@ -6415,6 +6492,11 @@
             Gets the initial (starting) distance between the two touch points.
             </summary>
         </member>
+        <member name="P:Telerik.Windows.Controls.Gestures.TwoTouchPointGesture.PreviousDistance">
+            <summary>
+            Gets the previous distance between the two touch points.
+            </summary>
+        </member>
         <member name="P:Telerik.Windows.Controls.Gestures.TwoTouchPointGesture.Distance">
             <summary>
             Gets the current distance between the two touch points.
@@ -6434,6 +6516,11 @@
         <member name="P:Telerik.Windows.Controls.Gestures.PinchGesture.Scale">
             <summary>
             Gets a value representing the scale ration between the current and the start distance of the two touch points.
+            </summary>
+        </member>
+        <member name="P:Telerik.Windows.Controls.Gestures.PinchGesture.RelativeScale">
+            <summary>
+            Gets a value representing the scale ration between the current and previous distances of the two touch points.
             </summary>
         </member>
         <member name="T:Telerik.Windows.Controls.Gestures.TapGesture">
@@ -6527,15 +6614,6 @@
             When overridden in a derived class, is invoked whenever application code or internal processes (such as a rebuilding layout pass) call <see cref="M:System.Windows.Controls.Control.ApplyTemplate"/>. In simplest terms, this means the method is called just before a UI element displays in an application. For more information, see Remarks.
             </summary>
         </member>
-        <member name="M:Telerik.Windows.Controls.SlideView.PanAndZoomImage.ArrangeOverride(System.Windows.Size)">
-            <summary>
-            Provides the behavior for the Arrange pass of Silverlight layout. Classes can override this method to define their own Arrange pass behavior.
-            </summary>
-            <param name="finalSize">The final area within the parent that this object should use to arrange itself and its children.</param>
-            <returns>
-            The actual size that is used after the element is arranged in layout.
-            </returns>
-        </member>
         <member name="M:Telerik.Windows.Controls.SlideView.PanAndZoomImage.OnTap(System.Windows.Input.GestureEventArgs)">
             <summary>
             Called before the <see cref="E:System.Windows.UIElement.Tap"/> event occurs.
@@ -6566,7 +6644,7 @@
             </summary>
             <param name="e">Event data for the event.</param>
         </member>
-        <member name="M:Telerik.Windows.Controls.SlideView.PanAndZoomImage.OnZoomChanged(System.Windows.Size,System.Windows.Size)">
+        <member name="M:Telerik.Windows.Controls.SlideView.PanAndZoomImage.OnZoomChanged(System.Double,System.Double)">
             <summary>
             A virtual method that is called when the <see cref="P:Telerik.Windows.Controls.SlideView.PanAndZoomImage.Zoom"/> dependency property changes.
             </summary>

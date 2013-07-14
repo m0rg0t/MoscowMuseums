@@ -20,6 +20,26 @@
             d:Source="{Binding AllGroups[0].Items, Source={d:DesignInstance Type=data:RssDataSource, IsDesignTimeCreatable=True}}"/>
     </Page.Resources>
 
+    <common:LayoutAwarePage.BottomAppBar>
+        <AppBar>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                    <Button x:ConnectionId='1' x:Name="PlayAppBarButton" Style="{StaticResource PlayAppBarButtonStyle}"                               />
+                    <Button x:ConnectionId='2' x:Name="PauseAppBarButton" HorizontalAlignment="Stretch" Style="{StaticResource PauseAppBarButtonStyle}"                                />
+                    <!--<Button x:Name="SaveMusicAppBarButton" Style="{StaticResource SaveAppBarButtonStyle}" Click="SaveMusicAppBarButton_Click"/>
+                    <Button x:Name="OpenWebBrowser" Style="{StaticResource GoAppBarButtonStyle}" Click="OpenWebBrowser_Click"/>-->
+                </StackPanel>
+                <StackPanel Grid.Column="1" HorizontalAlignment="Right" Orientation="Horizontal"/>
+            </Grid>
+        </AppBar>
+    </common:LayoutAwarePage.BottomAppBar>
+
+
+
     <!--
         Эта сетка выступает в роли корневой области страницы и определяет две строки:
         * Строка 0 содержит кнопку "Назад" и заголовок страницы
@@ -35,6 +55,9 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
+        <MediaElement Name="Player">
+        </MediaElement>
+        
         <!--
             Оставшаяся часть страницы представляет собой один большой объект FlipView, на котором в каждый момент времени отображаются
             сведения об одном элементе, что позволяет пользователю перемещаться между всеми элементами в выбранной
@@ -61,7 +84,7 @@
                         Элемент UserControl выбран в качестве элемента с шаблоном, поскольку он поддерживает управление состоянием отображения
                         События Loaded/unloaded явным образом подписываются на обновления состояний представления страницы
                     -->
-                    <UserControl x:ConnectionId='2'                                                         >
+                    <UserControl x:ConnectionId='4'                                                         >
                         <ScrollViewer x:Name="scrollViewer" Style="{StaticResource HorizontalScrollViewerStyle}" Grid.Row="1">
                             <StackPanel Orientation="Horizontal" Margin="0,10,0,0" Name="ManStackPanel">
                             <common:RichTextColumns x:Name="richTextColumns1" Margin="117,0,20,47" VerticalAlignment="Top" HorizontalAlignment="Stretch">
@@ -192,7 +215,7 @@
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <Button x:ConnectionId='1' x:Name="backButton"                IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
+            <Button x:ConnectionId='3' x:Name="backButton"                IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
             <TextBlock x:Name="pageTitle" Text="{Binding Title}" Style="{StaticResource PageHeaderTextStyle}" Grid.Column="1" IsHitTestVisible="false"/>
         </Grid>
 

@@ -1,5 +1,6 @@
 ﻿using Callisto.Controls;
 using M0rg0tRss.Data;
+using M0rg0tRss.DataModel;
 using M0rg0tRss.ViewModel;
 using System;
 using System.Collections.Generic;
@@ -120,6 +121,30 @@ namespace M0rg0tRss
         {
             var selectedItem = (RssDataItem)this.flipView.SelectedItem;
             pageState["SelectedItem"] = selectedItem.UniqueId;
+        }
+
+        private void PlayAppBarButton_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                MapItem item = (MapItem)this.flipView.SelectedItem;
+                if (item.Audio_urls.FirstOrDefault()!=null) {
+                    Player.Stop();
+                    
+                    Player.Source = new Uri(item.Audio_urls.First());
+                    Player.Play();
+                };
+            }
+            catch { };
+        }
+
+        private void PauseAppBarButton_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                Player.Pause();
+            }
+            catch { };
         }
     }
 }

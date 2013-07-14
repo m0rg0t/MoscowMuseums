@@ -28,6 +28,22 @@
             Gets the UIElement instance, which is the actual target of the animation.
             </summary>
         </member>
+        <member name="T:Telerik.Windows.Controls.AnimationEndedEventArgs">
+            <summary>
+            Contains information about the <see cref="E:Telerik.Windows.Controls.RadAnimation.Ended"/> event.
+            </summary>
+        </member>
+        <member name="M:Telerik.Windows.Controls.AnimationEndedEventArgs.#ctor(Telerik.Windows.Controls.Animation.PlayAnimationInfo)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Telerik.Windows.Controls.AnimationEndedEventArgs"/> class.
+            </summary>
+        </member>
+        <member name="P:Telerik.Windows.Controls.AnimationEndedEventArgs.AnimationInfo">
+            <summary>
+            Gets the <see cref="T:System.Windows.UIElement"/> that was animated by the animation
+            for which the <see cref="E:Telerik.Windows.Controls.RadAnimation.Ended"/> event fires.
+            </summary>
+        </member>
         <member name="T:Telerik.Windows.Controls.RadContinuumAnimation">
             <summary>
             Provides an animation exact copy of the Windows Phone list based transition.
@@ -140,6 +156,12 @@
             Core update routine.
             </summary>
             <param name="context">The context that holds information about the animation.</param>
+        </member>
+        <member name="M:Telerik.Windows.Controls.RadAnimation.OnEnded(Telerik.Windows.Controls.Animation.PlayAnimationInfo)">
+            <summary>
+            Fires the <see cref="E:Telerik.Windows.Controls.RadAnimation.Ended"/> event for the specific target provided
+            in the <see cref="T:Telerik.Windows.Controls.Animation.PlayAnimationInfo"/> object.
+            </summary>
         </member>
         <member name="M:Telerik.Windows.Controls.RadAnimation.OnEnded">
             <summary>
@@ -891,10 +913,12 @@
             </summary>
             <param name="context">The context that holds information about the animation.</param>
         </member>
-        <member name="M:Telerik.Windows.Controls.RadTileAnimation.OnEnded">
+        <member name="M:Telerik.Windows.Controls.RadTileAnimation.OnEnded(Telerik.Windows.Controls.Animation.PlayAnimationInfo)">
             <summary>
-            Raises the <see cref="E:Telerik.Windows.Controls.RadAnimation.Ended"/> event.
+            Fires the <see cref="E:Telerik.Windows.Controls.RadAnimation.Ended"/> event for the specific target provided
+            in the <see cref="T:Telerik.Windows.Controls.Animation.PlayAnimationInfo"/> object.
             </summary>
+            <param name="info"></param>
         </member>
         <member name="P:Telerik.Windows.Controls.RadTileAnimation.InOutAnimationMode">
             <summary>
@@ -4338,6 +4362,12 @@
             Gets and sets the back-side background image for the wide Tile size.
             </summary>
         </member>
+        <member name="P:Telerik.Windows.Controls.FlipTileData.WideBackContent">
+            <summary>
+            Gets and sets the text that displays above the title,
+            on the back-side of the wide Tile size.
+            </summary>
+        </member>
         <member name="T:Telerik.Windows.Controls.IconicTileData">
             <summary>
             A class created to mimic the iconic tile data from WP8.
@@ -4409,6 +4439,28 @@
         <member name="M:Telerik.Windows.Controls.ITileData.RegisterTile(System.Uri)">
             <summary>
             Saves information about the actual location of the images used by LiveTileHelper.
+            </summary>
+        </member>
+        <member name="P:Telerik.Windows.Controls.ITileData.MeasureMode">
+            <summary>
+            Provides options for the display of UIElement in tiles. 
+            If the mode is Tile, the tile will be created with its default size and the provided element will be placed in the dimensions provided by the tile itself.
+            If the mode is Element, the element will be taken with its own size and stretched/schrinked to fit the tile.
+            </summary>
+        </member>
+        <member name="T:Telerik.Windows.Controls.MeasureMode">
+            <summary>
+            Defines the possible modes for measuring the elements passed to <see cref="T:Telerik.Windows.Controls.LiveTileHelper"/>.
+            </summary>
+        </member>
+        <member name="F:Telerik.Windows.Controls.MeasureMode.Tile">
+            <summary>
+            In this mode when <see cref="T:Telerik.Windows.Controls.LiveTileHelper"/> creates tiles it takes their size as a base and places the passed element relatively to the tile.
+            </summary>
+        </member>
+        <member name="F:Telerik.Windows.Controls.MeasureMode.Element">
+            <summary>
+            In this mode when <see cref="T:Telerik.Windows.Controls.LiveTileHelper"/> creates tiles it takes the size of the UIElement and stretches it to fit the tile if necessary.
             </summary>
         </member>
         <member name="T:Telerik.Windows.Controls.LiveTileHelper">
@@ -4547,6 +4599,13 @@
             Gets or sets a value indicating whether this tile will support transparent elements.
             </summary>
         </member>
+        <member name="P:Telerik.Windows.Controls.RadCycleTileData.MeasureMode">
+            <summary>
+            Provides options for the display of UIElement in tiles. 
+            If the mode is Tile, the tile will be created with its default size and the provided element will be placed in the dimensions provided by the tile itself.
+            If the mode is Element, the element will be taken with its own size and stretched/schrinked to fit the tile.
+            </summary>
+        </member>
         <member name="T:Telerik.Windows.Controls.RadExtendedTileData">
             <summary>
             Represents the class used for generating the live tiles.
@@ -4571,6 +4630,13 @@
         <member name="P:Telerik.Windows.Controls.RadExtendedTileData.IsTransparencySupported">
             <summary>
             Gets or sets a value indicating whether this tile will support transparent elements.
+            </summary>
+        </member>
+        <member name="P:Telerik.Windows.Controls.RadExtendedTileData.MeasureMode">
+            <summary>
+            Provides options for the display of UIElement in tiles. 
+            If the mode is Tile, the tile will be created with its default size and the provided element will be placed in the dimensions provided by the tile itself.
+            If the mode is Element, the element will be taken with its own size and stretched/schrinked to fit the tile.
             </summary>
         </member>
         <member name="T:Telerik.Windows.Controls.RadFlipTileData">
@@ -4623,6 +4689,13 @@
             Gets or sets a value indicating whether this tile will support transparent elements.
             </summary>
         </member>
+        <member name="P:Telerik.Windows.Controls.RadFlipTileData.MeasureMode">
+            <summary>
+            Provides options for the display of UIElement in tiles. 
+            If the mode is Tile, the tile will be created with its default size and the provided element will be placed in the dimensions provided by the tile itself.
+            If the mode is Element, the element will be taken with its own size and stretched/schrinked to fit the tile.
+            </summary>
+        </member>
         <member name="T:Telerik.Windows.Controls.RadIconicTileData">
             <summary>
             Represents a class used for generating iconic tiles from visual elements.
@@ -4643,6 +4716,13 @@
             <remarks>
             Setting this will override the SmallIconImage property.
             </remarks>
+        </member>
+        <member name="P:Telerik.Windows.Controls.RadIconicTileData.MeasureMode">
+            <summary>
+            Provides options for the display of UIElement in tiles. 
+            If the mode is Tile, the tile will be created with its default size and the provided element will be placed in the dimensions provided by the tile itself.
+            If the mode is Element, the element will be taken with its own size and stretched/schrinked to fit the tile.
+            </summary>
         </member>
         <member name="T:Telerik.Windows.Controls.LiveTileHelperData.SavedCycleTileData">
             <summary>
