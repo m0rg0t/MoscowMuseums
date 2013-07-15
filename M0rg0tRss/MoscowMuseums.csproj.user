@@ -7,8 +7,8 @@
     <UseSimulator>False</UseSimulator>
   </PropertyGroup>
   <PropertyGroup>
-    <AppxPackageIsForStore>False</AppxPackageIsForStore>
+    <AppxPackageIsForStore>True</AppxPackageIsForStore>
     <AppxShowAllApps>True</AppxShowAllApps>
-    <AppxBuildConfigurationSelection>x86|x64|arm</AppxBuildConfigurationSelection>
+    <AppxBuildConfigurationSelection>x86|x64</AppxBuildConfigurationSelection>
   </PropertyGroup>
 </Project>

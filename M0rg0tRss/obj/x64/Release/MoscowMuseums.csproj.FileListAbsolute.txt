@@ -87,3 +87,6 @@ C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\obj\x64\Release\Gala
 C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\obj\x64\Release\GalaSoft.MvvmLight.Win8.pri.xml
 C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\obj\x64\Release\Microsoft.Practices.ServiceLocation.pri.xml
 C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\obj\x64\Release\ProjectArchitectures.txt
+C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\bin\x64\Release\Coding4Fun.Toolkit.Controls.dll
+C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\bin\x64\Release\Coding4Fun.Toolkit.Controls.pri
+C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\obj\x64\Release\Coding4Fun.Toolkit.Controls.pri.xml

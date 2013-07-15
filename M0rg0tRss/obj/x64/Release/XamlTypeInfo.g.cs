@@ -140,49 +140,67 @@ namespace M0rg0tRss.MoscowMuseums_XamlTypeInfo
 
         private object Activate_10_Location() { return new global::Bing.Maps.Location(); }
 
-        private object Activate_15_MapTileLayerCollection() { return new global::Bing.Maps.MapTileLayerCollection(); }
+        private object Activate_18_MapTileLayerCollection() { return new global::Bing.Maps.MapTileLayerCollection(); }
 
-        private object Activate_16_MapTileLayer() { return new global::Bing.Maps.MapTileLayer(); }
+        private object Activate_19_MapTileLayer() { return new global::Bing.Maps.MapTileLayer(); }
 
-        private object Activate_17_LocationRectCollection() { return new global::Bing.Maps.LocationRectCollection(); }
+        private object Activate_20_LocationRectCollection() { return new global::Bing.Maps.LocationRectCollection(); }
 
-        private object Activate_18_LocationRect() { return new global::Bing.Maps.LocationRect(); }
+        private object Activate_21_LocationRect() { return new global::Bing.Maps.LocationRect(); }
 
-        private object Activate_19_MapShapeLayerCollection() { return new global::Bing.Maps.MapShapeLayerCollection(); }
+        private object Activate_22_MapShapeLayerCollection() { return new global::Bing.Maps.MapShapeLayerCollection(); }
 
-        private object Activate_20_MapShapeLayer() { return new global::Bing.Maps.MapShapeLayer(); }
+        private object Activate_23_MapShapeLayer() { return new global::Bing.Maps.MapShapeLayer(); }
 
-        private object Activate_21_MapShapeCollection() { return new global::Bing.Maps.MapShapeCollection(); }
+        private object Activate_24_MapShapeCollection() { return new global::Bing.Maps.MapShapeCollection(); }
 
-        private object Activate_26_MapPage() { return new global::M0rg0tRss.MapPage(); }
+        private object Activate_26_TrafficIncidentPushpinOptions() { return new global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions(); }
 
-        private object Activate_27_TouristControl() { return new global::M0rg0tRss.Controls.TouristControl(); }
+        private object Activate_27_DirectionsUIEventManager() { return new global::Bing.Maps.Directions.DirectionsUIEventManager(); }
 
-        private object Activate_28_About() { return new global::WhereIsPolicemanWin8.Controls.About(); }
+        private object Activate_28_DirectionsRenderOptions() { return new global::Bing.Maps.Directions.DirectionsRenderOptions(); }
 
-        private object Activate_29_Privacy() { return new global::WhereIsPolicemanWin8.Controls.Privacy(); }
+        private object Activate_32_MapPage() { return new global::M0rg0tRss.MapPage(); }
 
-        private object Activate_30_MapItemsPage() { return new global::M0rg0tRss.MapItemsPage(); }
+        private object Activate_33_TouristControl() { return new global::M0rg0tRss.Controls.TouristControl(); }
 
-        private object Activate_31_MyDataTemplateSelector() { return new global::M0rg0tRss.MyDataTemplateSelector(); }
+        private object Activate_34_About() { return new global::WhereIsPolicemanWin8.Controls.About(); }
 
-        private object Activate_32_VariableSizeGridView() { return new global::M0rg0tRss.VariableSizeGridView(); }
+        private object Activate_35_Privacy() { return new global::WhereIsPolicemanWin8.Controls.Privacy(); }
 
-        private object Activate_33_GroupedItemsPage() { return new global::M0rg0tRss.GroupedItemsPage(); }
+        private object Activate_36_MapItemsPage() { return new global::M0rg0tRss.MapItemsPage(); }
 
-        private object Activate_34_GroupDetailPage() { return new global::M0rg0tRss.GroupDetailPage(); }
+        private object Activate_37_MyDataTemplateSelector() { return new global::M0rg0tRss.MyDataTemplateSelector(); }
 
-        private object Activate_35_RichTextColumns() { return new global::M0rg0tRss.Common.RichTextColumns(); }
+        private object Activate_38_VariableSizeGridView() { return new global::M0rg0tRss.VariableSizeGridView(); }
 
-        private object Activate_36_ItemDetailPage() { return new global::M0rg0tRss.ItemDetailPage(); }
+        private object Activate_39_GroupedItemsPage() { return new global::M0rg0tRss.GroupedItemsPage(); }
 
-        private object Activate_37_Pushpin() { return new global::Bing.Maps.Pushpin(); }
+        private object Activate_40_GroupDetailPage() { return new global::M0rg0tRss.GroupDetailPage(); }
 
-        private object Activate_38_MapItemsControl() { return new global::Bing.Maps.MapItemsControl(); }
+        private object Activate_41_RichTextColumns() { return new global::M0rg0tRss.Common.RichTextColumns(); }
 
-        private object Activate_39_VenueFloorDataSource() { return new global::Bing.Maps.VenueMaps.VenueFloorDataSource(); }
+        private object Activate_42_ItemDetailPage() { return new global::M0rg0tRss.ItemDetailPage(); }
 
-        private object Activate_44_LocationCollection() { return new global::Bing.Maps.LocationCollection(); }
+        private object Activate_43_DirectionsPolylineRenderOptions() { return new global::Bing.Maps.Directions.DirectionsPolylineRenderOptions(); }
+
+        private object Activate_44_DirectionsPushpinRenderOptions() { return new global::Bing.Maps.Directions.DirectionsPushpinRenderOptions(); }
+
+        private object Activate_45_Pushpin() { return new global::Bing.Maps.Pushpin(); }
+
+        private object Activate_46_MapItemsControl() { return new global::Bing.Maps.MapItemsControl(); }
+
+        private object Activate_47_VenueFloorDataSource() { return new global::Bing.Maps.VenueMaps.VenueFloorDataSource(); }
+
+        private object Activate_52_LocationCollection() { return new global::Bing.Maps.LocationCollection(); }
+
+        private object Activate_58_RouteLegDataSource() { return new global::Bing.Maps.Directions.RouteLegDataSource(); }
+
+        private object Activate_59_TransitRouteDataSource() { return new global::Bing.Maps.Directions.TransitRouteDataSource(); }
+
+        private object Activate_60_RouteLegDataTemplateSelector() { return new global::Bing.Maps.Directions.RouteLegDataTemplateSelector(); }
+
+        private object Activate_61_DirectionsContainerSelector() { return new global::Bing.Maps.Directions.DirectionsContainerSelector(); }
 
         private void VectorAdd_9_MapUIElementCollection(object instance, object item)
         {
@@ -191,42 +209,42 @@ namespace M0rg0tRss.MoscowMuseums_XamlTypeInfo
             collection.Add(newItem);
         }
 
-        private void VectorAdd_15_MapTileLayerCollection(object instance, object item)
+        private void VectorAdd_18_MapTileLayerCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Bing.Maps.MapTileLayer>)instance;
             var newItem = (global::Bing.Maps.MapTileLayer)item;
             collection.Add(newItem);
         }
 
-        private void VectorAdd_17_LocationRectCollection(object instance, object item)
+        private void VectorAdd_20_LocationRectCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Bing.Maps.LocationRect>)instance;
             var newItem = (global::Bing.Maps.LocationRect)item;
             collection.Add(newItem);
         }
 
-        private void VectorAdd_19_MapShapeLayerCollection(object instance, object item)
+        private void VectorAdd_22_MapShapeLayerCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Bing.Maps.MapShapeLayer>)instance;
             var newItem = (global::Bing.Maps.MapShapeLayer)item;
             collection.Add(newItem);
         }
 
-        private void VectorAdd_21_MapShapeCollection(object instance, object item)
+        private void VectorAdd_24_MapShapeCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Bing.Maps.MapShape>)instance;
             var newItem = (global::Bing.Maps.MapShape)item;
             collection.Add(newItem);
         }
 
-        private void VectorAdd_40_IObservableVector(object instance, object item)
+        private void VectorAdd_48_IObservableVector(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::System.Object>)instance;
             var newItem = (global::System.Object)item;
             collection.Add(newItem);
         }
 
-        private void VectorAdd_44_LocationCollection(object instance, object item)
+        private void VectorAdd_52_LocationCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Bing.Maps.Location>)instance;
             var newItem = (global::Bing.Maps.Location)item;
@@ -305,6 +323,26 @@ namespace M0rg0tRss.MoscowMuseums_XamlTypeInfo
                 xamlType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::Windows.UI.Xaml.Controls.RichTextBlock));
                 break;
 
+            case "Windows.UI.Xaml.Media.Brush":
+                xamlType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::Windows.UI.Xaml.Media.Brush));
+                break;
+
+            case "Windows.UI.Xaml.Controls.ControlTemplate":
+                xamlType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::Windows.UI.Xaml.Controls.ControlTemplate));
+                break;
+
+            case "UInt32":
+                xamlType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::System.UInt32));
+                break;
+
+            case "Windows.UI.Xaml.Controls.StyleSelector":
+                xamlType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::Windows.UI.Xaml.Controls.StyleSelector));
+                break;
+
+            case "Windows.UI.Xaml.Style":
+                xamlType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::Windows.UI.Xaml.Style));
+                break;
+
             case "M0rg0tRss.ViewModel.ViewModelLocator":
                 userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::M0rg0tRss.ViewModel.ViewModelLocator), GetXamlTypeByName("Object"));
                 userType.Activator = Activate_0_ViewModelLocator;
@@ -368,6 +406,9 @@ namespace M0rg0tRss.MoscowMuseums_XamlTypeInfo
                 AddToMapOfTypeToStandardName(typeof(global::System.Double),
                                                    "Double");
                 userType.AddMemberName("Center");
+                userType.AddMemberName("SearchManager");
+                userType.AddMemberName("TrafficManager");
+                userType.AddMemberName("DirectionsManager");
                 userType.AddMemberName("VenueManager");
                 userType.AddMemberName("LogoPosition");
                 userType.AddMemberName("CopyrightPosition");
@@ -384,6 +425,12 @@ namespace M0rg0tRss.MoscowMuseums_XamlTypeInfo
                 userType.AddMemberName("TileLayers");
                 userType.AddMemberName("ShapeLayers");
                 userType.AddMemberName("RotationEnabled");
+                AddToMapOfTypeToStandardName(typeof(global::System.Boolean),
+                                                   "Boolean");
+                userType.AddMemberName("TrafficIncidentPushpinOptions");
+                userType.AddMemberName("DirectionsUIEventManager");
+                userType.AddMemberName("DirectionsRenderOptions");
+                userType.AddMemberName("IsTransitDirectionsEnable");
                 AddToMapOfTypeToStandardName(typeof(global::System.Boolean),
                                                    "Boolean");
                 userType.AddMemberName("MaxZoomLevel");
@@ -445,6 +492,21 @@ namespace M0rg0tRss.MoscowMuseums_XamlTypeInfo
                 xamlType = userType;
                 break;
 
+            case "Bing.Maps.Search.SearchManager":
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.Search.SearchManager), GetXamlTypeByName("Object"));
+                xamlType = userType;
+                break;
+
+            case "Bing.Maps.Traffic.TrafficManager":
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.Traffic.TrafficManager), GetXamlTypeByName("Object"));
+                xamlType = userType;
+                break;
+
+            case "Bing.Maps.Directions.DirectionsManager":
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.Directions.DirectionsManager), GetXamlTypeByName("Object"));
+                xamlType = userType;
+                break;
+
             case "Bing.Maps.VenueMaps.VenueManager":
                 userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.VenueMaps.VenueManager), GetXamlTypeByName("Object"));
                 xamlType = userType;
@@ -471,14 +533,14 @@ namespace M0rg0tRss.MoscowMuseums_XamlTypeInfo
 
             case "Bing.Maps.MapTileLayerCollection":
                 userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapTileLayerCollection), GetXamlTypeByName("Object"));
-                userType.Activator = Activate_15_MapTileLayerCollection;
-                userType.CollectionAdd = VectorAdd_15_MapTileLayerCollection;
+                userType.Activator = Activate_18_MapTileLayerCollection;
+                userType.CollectionAdd = VectorAdd_18_MapTileLayerCollection;
                 xamlType = userType;
                 break;
 
             case "Bing.Maps.MapTileLayer":
                 userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapTileLayer), GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_16_MapTileLayer;
+                userType.Activator = Activate_19_MapTileLayer;
                 userType.AddMemberName("Bounds");
                 userType.AddMemberName("FillMissingTiles");
                 AddToMapOfTypeToStandardName(typeof(global::System.Boolean),
@@ -506,14 +568,14 @@ namespace M0rg0tRss.MoscowMuseums_XamlTypeInfo
 
             case "Bing.Maps.LocationRectCollection":
                 userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.LocationRectCollection), GetXamlTypeByName("Object"));
-                userType.Activator = Activate_17_LocationRectCollection;
-                userType.CollectionAdd = VectorAdd_17_LocationRectCollection;
+                userType.Activator = Activate_20_LocationRectCollection;
+                userType.CollectionAdd = VectorAdd_20_LocationRectCollection;
                 xamlType = userType;
                 break;
 
             case "Bing.Maps.LocationRect":
                 userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.LocationRect), GetXamlTypeByName("Object"));
-                userType.Activator = Activate_18_LocationRect;
+                userType.Activator = Activate_21_LocationRect;
                 userType.AddMemberName("West");
                 AddToMapOfTypeToStandardName(typeof(global::System.Double),
                                                    "Double");
@@ -540,14 +602,14 @@ namespace M0rg0tRss.MoscowMuseums_XamlTypeInfo
 
             case "Bing.Maps.MapShapeLayerCollection":
                 userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapShapeLayerCollection), GetXamlTypeByName("Object"));
-                userType.Activator = Activate_19_MapShapeLayerCollection;
-                userType.CollectionAdd = VectorAdd_19_MapShapeLayerCollection;
+                userType.Activator = Activate_22_MapShapeLayerCollection;
+                userType.CollectionAdd = VectorAdd_22_MapShapeLayerCollection;
                 xamlType = userType;
                 break;
 
             case "Bing.Maps.MapShapeLayer":
                 userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapShapeLayer), GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_20_MapShapeLayer;
+                userType.Activator = Activate_23_MapShapeLayer;
                 userType.AddMemberName("Visible");
                 AddToMapOfTypeToStandardName(typeof(global::System.Boolean),
                                                    "Boolean");
@@ -560,8 +622,8 @@ namespace M0rg0tRss.MoscowMuseums_XamlTypeInfo
 
             case "Bing.Maps.MapShapeCollection":
                 userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapShapeCollection), GetXamlTypeByName("Object"));
-                userType.Activator = Activate_21_MapShapeCollection;
-                userType.CollectionAdd = VectorAdd_21_MapShapeCollection;
+                userType.Activator = Activate_24_MapShapeCollection;
+                userType.CollectionAdd = VectorAdd_24_MapShapeCollection;
                 xamlType = userType;
                 break;
 
@@ -570,6 +632,75 @@ namespace M0rg0tRss.MoscowMuseums_XamlTypeInfo
                 userType.AddMemberName("Visible");
                 AddToMapOfTypeToStandardName(typeof(global::System.Boolean),
                                                    "Boolean");
+                xamlType = userType;
+                break;
+
+            case "Bing.Maps.Traffic.TrafficIncidentPushpinOptions":
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions), GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType.Activator = Activate_26_TrafficIncidentPushpinOptions;
+                userType.AddMemberName("WeatherPushpinTemplate");
+                userType.AddMemberName("AlertPushpinTemplate");
+                userType.AddMemberName("ConstructionPushpinTemplate");
+                userType.AddMemberName("RoadHazardPushpinTemplate");
+                userType.AddMemberName("PlannedEventPushpinTemplate");
+                userType.AddMemberName("OtherNewsPushpinTemplate");
+                userType.AddMemberName("MiscellaneousPushpinTemplate");
+                userType.AddMemberName("MassTransitPushpinTemplate");
+                userType.AddMemberName("DisabledVehiclePushpinTemplate");
+                userType.AddMemberName("CongestionPushpinTemplate");
+                userType.AddMemberName("AccidentPushpinTemplate");
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
+
+            case "Bing.Maps.Directions.DirectionsUIEventManager":
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.Directions.DirectionsUIEventManager), GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType.Activator = Activate_27_DirectionsUIEventManager;
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
+
+            case "Bing.Maps.Directions.DirectionsRenderOptions":
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.Directions.DirectionsRenderOptions), GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType.Activator = Activate_28_DirectionsRenderOptions;
+                userType.AddMemberName("WalkingPolylineOptions");
+                userType.AddMemberName("TransitPolylineOptions");
+                userType.AddMemberName("DrivingPolylineOptions");
+                userType.AddMemberName("ActiveRoutePolylineOptions");
+                userType.AddMemberName("StepPushpinOptions");
+                userType.AddMemberName("DisambiguationPushpinOptions");
+                userType.AddMemberName("EndWaypointColorBrush");
+                userType.AddMemberName("MiddleWaypointColorBrush");
+                userType.AddMemberName("StartWaypointColorBrush");
+                userType.AddMemberName("WaypointPushpinOptions");
+                userType.AddMemberName("DisplayStepWarnings");
+                AddToMapOfTypeToStandardName(typeof(global::System.Boolean),
+                                                   "Boolean");
+                userType.AddMemberName("DisplayItineraryItemHints");
+                AddToMapOfTypeToStandardName(typeof(global::System.Boolean),
+                                                   "Boolean");
+                userType.AddMemberName("DisplayTransitIcons");
+                AddToMapOfTypeToStandardName(typeof(global::System.Boolean),
+                                                   "Boolean");
+                userType.AddMemberName("DisplayManeuverIcons");
+                AddToMapOfTypeToStandardName(typeof(global::System.Boolean),
+                                                   "Boolean");
+                userType.AddMemberName("DisplayDisclaimer");
+                AddToMapOfTypeToStandardName(typeof(global::System.Boolean),
+                                                   "Boolean");
+                userType.AddMemberName("AutoUpdateMapView");
+                AddToMapOfTypeToStandardName(typeof(global::System.Boolean),
+                                                   "Boolean");
+                userType.AddMemberName("AutoDisplayDisambiguation");
+                AddToMapOfTypeToStandardName(typeof(global::System.Boolean),
+                                                   "Boolean");
+                userType.AddMemberName("AutoSetActiveRoute");
+                AddToMapOfTypeToStandardName(typeof(global::System.Boolean),
+                                                   "Boolean");
+                userType.AddMemberName("UseDefaultPushpins");
+                AddToMapOfTypeToStandardName(typeof(global::System.Boolean),
+                                                   "Boolean");
+                userType.SetIsBindable();
                 xamlType = userType;
                 break;
 
@@ -596,43 +727,44 @@ namespace M0rg0tRss.MoscowMuseums_XamlTypeInfo
                 userType.AddEnumValue("Road", global::Bing.Maps.MapType.Road);
                 userType.AddEnumValue("Aerial", global::Bing.Maps.MapType.Aerial);
                 userType.AddEnumValue("Birdseye", global::Bing.Maps.MapType.Birdseye);
+                userType.AddEnumValue("HighContrast", global::Bing.Maps.MapType.HighContrast);
                 userType.AddEnumValue("Empty", global::Bing.Maps.MapType.Empty);
                 xamlType = userType;
                 break;
 
             case "M0rg0tRss.MapPage":
                 userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::M0rg0tRss.MapPage), GetXamlTypeByName("M0rg0tRss.Common.LayoutAwarePage"));
-                userType.Activator = Activate_26_MapPage;
+                userType.Activator = Activate_32_MapPage;
                 xamlType = userType;
                 break;
 
             case "M0rg0tRss.Controls.TouristControl":
                 userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::M0rg0tRss.Controls.TouristControl), GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_27_TouristControl;
+                userType.Activator = Activate_33_TouristControl;
                 xamlType = userType;
                 break;
 
             case "WhereIsPolicemanWin8.Controls.About":
                 userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::WhereIsPolicemanWin8.Controls.About), GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_28_About;
+                userType.Activator = Activate_34_About;
                 xamlType = userType;
                 break;
 
             case "WhereIsPolicemanWin8.Controls.Privacy":
                 userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::WhereIsPolicemanWin8.Controls.Privacy), GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_29_Privacy;
+                userType.Activator = Activate_35_Privacy;
                 xamlType = userType;
                 break;
 
             case "M0rg0tRss.MapItemsPage":
                 userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::M0rg0tRss.MapItemsPage), GetXamlTypeByName("M0rg0tRss.Common.LayoutAwarePage"));
-                userType.Activator = Activate_30_MapItemsPage;
+                userType.Activator = Activate_36_MapItemsPage;
                 xamlType = userType;
                 break;
 
             case "M0rg0tRss.MyDataTemplateSelector":
                 userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::M0rg0tRss.MyDataTemplateSelector), GetXamlTypeByName("Windows.UI.Xaml.Controls.DataTemplateSelector"));
-                userType.Activator = Activate_31_MyDataTemplateSelector;
+                userType.Activator = Activate_37_MyDataTemplateSelector;
                 userType.AddMemberName("Template1");
                 userType.AddMemberName("Template2");
                 xamlType = userType;
@@ -640,25 +772,25 @@ namespace M0rg0tRss.MoscowMuseums_XamlTypeInfo
 
             case "M0rg0tRss.VariableSizeGridView":
                 userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::M0rg0tRss.VariableSizeGridView), GetXamlTypeByName("Windows.UI.Xaml.Controls.GridView"));
-                userType.Activator = Activate_32_VariableSizeGridView;
+                userType.Activator = Activate_38_VariableSizeGridView;
                 xamlType = userType;
                 break;
 
             case "M0rg0tRss.GroupedItemsPage":
                 userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::M0rg0tRss.GroupedItemsPage), GetXamlTypeByName("M0rg0tRss.Common.LayoutAwarePage"));
-                userType.Activator = Activate_33_GroupedItemsPage;
+                userType.Activator = Activate_39_GroupedItemsPage;
                 xamlType = userType;
                 break;
 
             case "M0rg0tRss.GroupDetailPage":
                 userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::M0rg0tRss.GroupDetailPage), GetXamlTypeByName("M0rg0tRss.Common.LayoutAwarePage"));
-                userType.Activator = Activate_34_GroupDetailPage;
+                userType.Activator = Activate_40_GroupDetailPage;
                 xamlType = userType;
                 break;
 
             case "M0rg0tRss.Common.RichTextColumns":
                 userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::M0rg0tRss.Common.RichTextColumns), GetXamlTypeByName("Windows.UI.Xaml.Controls.Panel"));
-                userType.Activator = Activate_35_RichTextColumns;
+                userType.Activator = Activate_41_RichTextColumns;
                 userType.SetContentPropertyName("M0rg0tRss.Common.RichTextColumns.RichTextContent");
                 userType.AddMemberName("RichTextContent");
                 userType.AddMemberName("ColumnTemplate");
@@ -667,13 +799,45 @@ namespace M0rg0tRss.MoscowMuseums_XamlTypeInfo
 
             case "M0rg0tRss.ItemDetailPage":
                 userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::M0rg0tRss.ItemDetailPage), GetXamlTypeByName("M0rg0tRss.Common.LayoutAwarePage"));
-                userType.Activator = Activate_36_ItemDetailPage;
+                userType.Activator = Activate_42_ItemDetailPage;
+                xamlType = userType;
+                break;
+
+            case "Bing.Maps.Directions.DirectionsPolylineRenderOptions":
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.Directions.DirectionsPolylineRenderOptions), GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType.Activator = Activate_43_DirectionsPolylineRenderOptions;
+                userType.AddMemberName("Visible");
+                AddToMapOfTypeToStandardName(typeof(global::System.Boolean),
+                                                   "Boolean");
+                userType.AddMemberName("LineWidth");
+                AddToMapOfTypeToStandardName(typeof(global::System.Double),
+                                                   "Double");
+                userType.AddMemberName("LineColor");
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
+
+            case "Bing.Maps.Directions.DirectionsPushpinRenderOptions":
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.Directions.DirectionsPushpinRenderOptions), GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType.Activator = Activate_44_DirectionsPushpinRenderOptions;
+                userType.AddMemberName("Visible");
+                AddToMapOfTypeToStandardName(typeof(global::System.Boolean),
+                                                   "Boolean");
+                userType.AddMemberName("Offset");
+                userType.AddMemberName("PushpinTemplate");
+                userType.SetIsBindable();
                 xamlType = userType;
                 break;
 
             case "Bing.Maps.Pushpin":
                 userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.Pushpin), GetXamlTypeByName("Windows.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_37_Pushpin;
+                userType.Activator = Activate_45_Pushpin;
+                userType.AddMemberName("AssociateObject");
+                AddToMapOfTypeToStandardName(typeof(global::System.Object),
+                                                   "Object");
+                userType.AddMemberName("Selected");
+                AddToMapOfTypeToStandardName(typeof(global::System.Boolean),
+                                                   "Boolean");
                 userType.AddMemberName("Text");
                 AddToMapOfTypeToStandardName(typeof(global::System.String),
                                                    "String");
@@ -683,14 +847,14 @@ namespace M0rg0tRss.MoscowMuseums_XamlTypeInfo
 
             case "Bing.Maps.MapItemsControl":
                 userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapItemsControl), GetXamlTypeByName("Windows.UI.Xaml.Controls.ItemsControl"));
-                userType.Activator = Activate_38_MapItemsControl;
+                userType.Activator = Activate_46_MapItemsControl;
                 userType.SetIsBindable();
                 xamlType = userType;
                 break;
 
             case "Bing.Maps.VenueMaps.VenueFloorDataSource":
                 userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.VenueMaps.VenueFloorDataSource), GetXamlTypeByName("Object"));
-                userType.Activator = Activate_39_VenueFloorDataSource;
+                userType.Activator = Activate_47_VenueFloorDataSource;
                 userType.AddMemberName("Items");
                 AddToMapOfTypeToStandardName(typeof(global::Windows.Foundation.Collections.IObservableVector<global::System.Object>),
                                                    "Windows.Foundation.Collections.IObservableVector<Object>");
@@ -705,7 +869,7 @@ namespace M0rg0tRss.MoscowMuseums_XamlTypeInfo
                 userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Windows.Foundation.Collections.IObservableVector<global::System.Object>), null);
                 AddToMapOfTypeToStandardName(typeof(global::Windows.Foundation.Collections.IObservableVector<global::System.Object>),
                                                    "Windows.Foundation.Collections.IObservableVector<Object>");
-                userType.CollectionAdd = VectorAdd_40_IObservableVector;
+                userType.CollectionAdd = VectorAdd_48_IObservableVector;
                 xamlType = userType;
                 break;
 
@@ -796,8 +960,8 @@ namespace M0rg0tRss.MoscowMuseums_XamlTypeInfo
 
             case "Bing.Maps.LocationCollection":
                 userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.LocationCollection), GetXamlTypeByName("Object"));
-                userType.Activator = Activate_44_LocationCollection;
-                userType.CollectionAdd = VectorAdd_44_LocationCollection;
+                userType.Activator = Activate_52_LocationCollection;
+                userType.CollectionAdd = VectorAdd_52_LocationCollection;
                 xamlType = userType;
                 break;
 
@@ -813,6 +977,186 @@ namespace M0rg0tRss.MoscowMuseums_XamlTypeInfo
 
             case "Bing.Maps.MapAddress":
                 userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.MapAddress), GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                xamlType = userType;
+                break;
+
+            case "Bing.Maps.PushpinOffset":
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.PushpinOffset), GetXamlTypeByName("System.Enum"));
+                userType.AddEnumValue("TopLeft", global::Bing.Maps.PushpinOffset.TopLeft);
+                userType.AddEnumValue("TopCenter", global::Bing.Maps.PushpinOffset.TopCenter);
+                userType.AddEnumValue("TopRight", global::Bing.Maps.PushpinOffset.TopRight);
+                userType.AddEnumValue("CenterLeft", global::Bing.Maps.PushpinOffset.CenterLeft);
+                userType.AddEnumValue("Center", global::Bing.Maps.PushpinOffset.Center);
+                userType.AddEnumValue("CenterRight", global::Bing.Maps.PushpinOffset.CenterRight);
+                userType.AddEnumValue("BottomLeft", global::Bing.Maps.PushpinOffset.BottomLeft);
+                userType.AddEnumValue("BottomCenter", global::Bing.Maps.PushpinOffset.BottomCenter);
+                userType.AddEnumValue("BottomRight", global::Bing.Maps.PushpinOffset.BottomRight);
+                xamlType = userType;
+                break;
+
+            case "Bing.Maps.Directions.ItineraryItemDataSource":
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.Directions.ItineraryItemDataSource), GetXamlTypeByName("Object"));
+                userType.AddMemberName("Warnings");
+                AddToMapOfTypeToStandardName(typeof(global::Windows.Foundation.Collections.IObservableVector<global::System.Object>),
+                                                   "Windows.Foundation.Collections.IObservableVector<Object>");
+                userType.AddMemberName("IconColor");
+                userType.AddMemberName("AutomationName");
+                AddToMapOfTypeToStandardName(typeof(global::System.String),
+                                                   "String");
+                userType.AddMemberName("Hint");
+                AddToMapOfTypeToStandardName(typeof(global::System.String),
+                                                   "String");
+                userType.AddMemberName("Icon");
+                AddToMapOfTypeToStandardName(typeof(global::System.String),
+                                                   "String");
+                userType.AddMemberName("Index");
+                AddToMapOfTypeToStandardName(typeof(global::System.UInt32),
+                                                   "UInt32");
+                userType.AddMemberName("RouteLegIndex");
+                AddToMapOfTypeToStandardName(typeof(global::System.UInt32),
+                                                   "UInt32");
+                userType.AddMemberName("TransitStop");
+                AddToMapOfTypeToStandardName(typeof(global::System.String),
+                                                   "String");
+                userType.AddMemberName("TransitDepartureTime");
+                AddToMapOfTypeToStandardName(typeof(global::System.String),
+                                                   "String");
+                userType.AddMemberName("TransitArrivalTime");
+                AddToMapOfTypeToStandardName(typeof(global::System.String),
+                                                   "String");
+                userType.AddMemberName("TransitArrivalInstructionHeader");
+                AddToMapOfTypeToStandardName(typeof(global::System.String),
+                                                   "String");
+                userType.AddMemberName("TransitArrivalInstruction");
+                AddToMapOfTypeToStandardName(typeof(global::System.String),
+                                                   "String");
+                userType.AddMemberName("TransitInstructionHeader");
+                AddToMapOfTypeToStandardName(typeof(global::System.String),
+                                                   "String");
+                userType.AddMemberName("DisplayIndex");
+                AddToMapOfTypeToStandardName(typeof(global::System.String),
+                                                   "String");
+                userType.AddMemberName("Instruction");
+                AddToMapOfTypeToStandardName(typeof(global::System.String),
+                                                   "String");
+                userType.AddMemberName("Distance");
+                AddToMapOfTypeToStandardName(typeof(global::System.String),
+                                                   "String");
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
+
+            case "Bing.Maps.Directions.RouteLegDataSource":
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.Directions.RouteLegDataSource), GetXamlTypeByName("Object"));
+                userType.Activator = Activate_58_RouteLegDataSource;
+                userType.AddMemberName("Items");
+                AddToMapOfTypeToStandardName(typeof(global::Windows.Foundation.Collections.IObservableVector<global::System.Object>),
+                                                   "Windows.Foundation.Collections.IObservableVector<Object>");
+                userType.AddMemberName("AutomationName");
+                AddToMapOfTypeToStandardName(typeof(global::System.String),
+                                                   "String");
+                userType.AddMemberName("Header");
+                AddToMapOfTypeToStandardName(typeof(global::System.String),
+                                                   "String");
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
+
+            case "Bing.Maps.Directions.TransitRouteDataSource":
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.Directions.TransitRouteDataSource), GetXamlTypeByName("Object"));
+                userType.Activator = Activate_59_TransitRouteDataSource;
+                userType.AddMemberName("AutomationName");
+                AddToMapOfTypeToStandardName(typeof(global::System.String),
+                                                   "String");
+                userType.AddMemberName("Icon");
+                AddToMapOfTypeToStandardName(typeof(global::System.String),
+                                                   "String");
+                userType.AddMemberName("Summary");
+                AddToMapOfTypeToStandardName(typeof(global::System.String),
+                                                   "String");
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
+
+            case "Bing.Maps.Directions.RouteLegDataTemplateSelector":
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.Directions.RouteLegDataTemplateSelector), GetXamlTypeByName("Windows.UI.Xaml.Controls.DataTemplateSelector"));
+                userType.Activator = Activate_60_RouteLegDataTemplateSelector;
+                userType.AddMemberName("RouteLegHeaderItemTemplate");
+                userType.AddMemberName("GroupRouteLegHeaderItemTemplate");
+                userType.AddMemberName("WalkItineraryItemTemplate");
+                userType.AddMemberName("TransitWaypointTemplate");
+                userType.AddMemberName("TransitItineraryItemTemplate");
+                userType.AddMemberName("ItineraryItemTemplate");
+                userType.AddMemberName("WaypointTemplate");
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
+
+            case "Bing.Maps.Directions.DirectionsContainerSelector":
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.Directions.DirectionsContainerSelector), GetXamlTypeByName("Windows.UI.Xaml.Controls.StyleSelector"));
+                userType.Activator = Activate_61_DirectionsContainerSelector;
+                userType.AddMemberName("UnSelectableStyle");
+                userType.AddMemberName("SelectableStyle");
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
+
+            case "Bing.Maps.Directions.Warning":
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.Directions.Warning), GetXamlTypeByName("Object"));
+                userType.AddMemberName("Type");
+                userType.AddMemberName("Severity");
+                userType.AddMemberName("Message");
+                AddToMapOfTypeToStandardName(typeof(global::System.String),
+                                                   "String");
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
+
+            case "Bing.Maps.Directions.WarningType":
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.Directions.WarningType), GetXamlTypeByName("System.Enum"));
+                userType.AddEnumValue("None", global::Bing.Maps.Directions.WarningType.None);
+                userType.AddEnumValue("Accident", global::Bing.Maps.Directions.WarningType.Accident);
+                userType.AddEnumValue("AdminDivisionChange", global::Bing.Maps.Directions.WarningType.AdminDivisionChange);
+                userType.AddEnumValue("BlockedRoad", global::Bing.Maps.Directions.WarningType.BlockedRoad);
+                userType.AddEnumValue("CheckTimetable", global::Bing.Maps.Directions.WarningType.CheckTimetable);
+                userType.AddEnumValue("Congestion", global::Bing.Maps.Directions.WarningType.Congestion);
+                userType.AddEnumValue("CountryChange", global::Bing.Maps.Directions.WarningType.CountryChange);
+                userType.AddEnumValue("DisabledVehicle", global::Bing.Maps.Directions.WarningType.DisabledVehicle);
+                userType.AddEnumValue("GateAccess", global::Bing.Maps.Directions.WarningType.GateAccess);
+                userType.AddEnumValue("GetOffTransit", global::Bing.Maps.Directions.WarningType.GetOffTransit);
+                userType.AddEnumValue("GetOnTransit", global::Bing.Maps.Directions.WarningType.GetOnTransit);
+                userType.AddEnumValue("IllegalUTurn", global::Bing.Maps.Directions.WarningType.IllegalUTurn);
+                userType.AddEnumValue("MassTransit", global::Bing.Maps.Directions.WarningType.MassTransit);
+                userType.AddEnumValue("Miscellaneous", global::Bing.Maps.Directions.WarningType.Miscellaneous);
+                userType.AddEnumValue("NoIncident", global::Bing.Maps.Directions.WarningType.NoIncident);
+                userType.AddEnumValue("Other", global::Bing.Maps.Directions.WarningType.Other);
+                userType.AddEnumValue("OtherNews", global::Bing.Maps.Directions.WarningType.OtherNews);
+                userType.AddEnumValue("OtherTrafficIncidents", global::Bing.Maps.Directions.WarningType.OtherTrafficIncidents);
+                userType.AddEnumValue("PlannedEvents", global::Bing.Maps.Directions.WarningType.PlannedEvents);
+                userType.AddEnumValue("PrivateRoad", global::Bing.Maps.Directions.WarningType.PrivateRoad);
+                userType.AddEnumValue("RestrictedTurn", global::Bing.Maps.Directions.WarningType.RestrictedTurn);
+                userType.AddEnumValue("RoadClosures", global::Bing.Maps.Directions.WarningType.RoadClosures);
+                userType.AddEnumValue("RoadHazard", global::Bing.Maps.Directions.WarningType.RoadHazard);
+                userType.AddEnumValue("ScheduledConstruction", global::Bing.Maps.Directions.WarningType.ScheduledConstruction);
+                userType.AddEnumValue("SeasonalClosures", global::Bing.Maps.Directions.WarningType.SeasonalClosures);
+                userType.AddEnumValue("Tollbooth", global::Bing.Maps.Directions.WarningType.Tollbooth);
+                userType.AddEnumValue("WarningTypeTollRoad", global::Bing.Maps.Directions.WarningType.WarningTypeTollRoad);
+                userType.AddEnumValue("TollZoneEnter", global::Bing.Maps.Directions.WarningType.TollZoneEnter);
+                userType.AddEnumValue("TollZoneExit", global::Bing.Maps.Directions.WarningType.TollZoneExit);
+                userType.AddEnumValue("TrafficFlow", global::Bing.Maps.Directions.WarningType.TrafficFlow);
+                userType.AddEnumValue("TransitLineChange", global::Bing.Maps.Directions.WarningType.TransitLineChange);
+                userType.AddEnumValue("UnpavedRoad", global::Bing.Maps.Directions.WarningType.UnpavedRoad);
+                userType.AddEnumValue("Weather", global::Bing.Maps.Directions.WarningType.Weather);
+                xamlType = userType;
+                break;
+
+            case "Bing.Maps.Directions.WarningSeverity":
+                userType = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Bing.Maps.Directions.WarningSeverity), GetXamlTypeByName("System.Enum"));
+                userType.AddEnumValue("None", global::Bing.Maps.Directions.WarningSeverity.None);
+                userType.AddEnumValue("LowImpact", global::Bing.Maps.Directions.WarningSeverity.LowImpact);
+                userType.AddEnumValue("Minor", global::Bing.Maps.Directions.WarningSeverity.Minor);
+                userType.AddEnumValue("Moderate", global::Bing.Maps.Directions.WarningSeverity.Moderate);
+                userType.AddEnumValue("Serious", global::Bing.Maps.Directions.WarningSeverity.Serious);
                 xamlType = userType;
                 break;
 
@@ -832,6 +1176,8 @@ namespace M0rg0tRss.MoscowMuseums_XamlTypeInfo
                     provider = new global::Bing.Maps.Bing_Maps_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
                     _otherProviders.Add(provider); 
                     provider = new global::Callisto.Callisto_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    _otherProviders.Add(provider); 
+                    provider = new global::Coding4Fun.Toolkit.Controls.Coding4Fun_Toolkit_Controls_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
                     _otherProviders.Add(provider); 
                 }
                 return _otherProviders;
@@ -916,580 +1262,1320 @@ namespace M0rg0tRss.MoscowMuseums_XamlTypeInfo
             var that = (global::Bing.Maps.Map)instance;
             that.Center = (global::Bing.Maps.Location)Value;
         }
-        private object get_6_Map_VenueManager(object instance)
+        private object get_6_Map_SearchManager(object instance)
+        {
+            var that = (global::Bing.Maps.Map)instance;
+            return that.SearchManager;
+        }
+        private object get_7_Map_TrafficManager(object instance)
+        {
+            var that = (global::Bing.Maps.Map)instance;
+            return that.TrafficManager;
+        }
+        private object get_8_Map_DirectionsManager(object instance)
+        {
+            var that = (global::Bing.Maps.Map)instance;
+            return that.DirectionsManager;
+        }
+        private object get_9_Map_VenueManager(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.VenueManager;
         }
-        private object get_7_Map_LogoPosition(object instance)
+        private object get_10_Map_LogoPosition(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.LogoPosition;
         }
-        private void set_7_Map_LogoPosition(object instance, object Value)
+        private void set_10_Map_LogoPosition(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.LogoPosition = (global::Bing.Maps.MapForegroundPosition)Value;
         }
-        private object get_8_Map_CopyrightPosition(object instance)
+        private object get_11_Map_CopyrightPosition(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.CopyrightPosition;
         }
-        private void set_8_Map_CopyrightPosition(object instance, object Value)
+        private void set_11_Map_CopyrightPosition(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.CopyrightPosition = (global::Bing.Maps.MapForegroundPosition)Value;
         }
-        private object get_9_Map_ScaleBarPosition(object instance)
+        private object get_12_Map_ScaleBarPosition(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.ScaleBarPosition;
         }
-        private void set_9_Map_ScaleBarPosition(object instance, object Value)
+        private void set_12_Map_ScaleBarPosition(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.ScaleBarPosition = (global::Bing.Maps.MapForegroundPosition)Value;
         }
-        private object get_10_Map_ShowNavigationBar(object instance)
+        private object get_13_Map_ShowNavigationBar(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.ShowNavigationBar;
         }
-        private void set_10_Map_ShowNavigationBar(object instance, object Value)
+        private void set_13_Map_ShowNavigationBar(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.ShowNavigationBar = (global::System.Boolean)Value;
         }
-        private object get_11_Map_SuppressNetworkRequests(object instance)
+        private object get_14_Map_SuppressNetworkRequests(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.SuppressNetworkRequests;
         }
-        private void set_11_Map_SuppressNetworkRequests(object instance, object Value)
+        private void set_14_Map_SuppressNetworkRequests(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.SuppressNetworkRequests = (global::System.Boolean)Value;
         }
-        private object get_12_Map_ShowScaleBar(object instance)
+        private object get_15_Map_ShowScaleBar(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.ShowScaleBar;
         }
-        private void set_12_Map_ShowScaleBar(object instance, object Value)
+        private void set_15_Map_ShowScaleBar(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.ShowScaleBar = (global::System.Boolean)Value;
         }
-        private object get_13_Map_TileLayers(object instance)
+        private object get_16_Map_TileLayers(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.TileLayers;
         }
-        private object get_14_MapTileLayer_Bounds(object instance)
+        private object get_17_MapTileLayer_Bounds(object instance)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             return that.Bounds;
         }
-        private void set_14_MapTileLayer_Bounds(object instance, object Value)
+        private void set_17_MapTileLayer_Bounds(object instance, object Value)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             that.Bounds = (global::Bing.Maps.LocationRectCollection)Value;
         }
-        private object get_15_LocationRect_West(object instance)
+        private object get_18_LocationRect_West(object instance)
         {
             var that = (global::Bing.Maps.LocationRect)instance;
             return that.West;
         }
-        private object get_16_LocationRect_Southeast(object instance)
+        private object get_19_LocationRect_Southeast(object instance)
         {
             var that = (global::Bing.Maps.LocationRect)instance;
             return that.Southeast;
         }
-        private object get_17_LocationRect_South(object instance)
+        private object get_20_LocationRect_South(object instance)
         {
             var that = (global::Bing.Maps.LocationRect)instance;
             return that.South;
         }
-        private object get_18_LocationRect_Northwest(object instance)
+        private object get_21_LocationRect_Northwest(object instance)
         {
             var that = (global::Bing.Maps.LocationRect)instance;
             return that.Northwest;
         }
-        private object get_19_LocationRect_North(object instance)
+        private object get_22_LocationRect_North(object instance)
         {
             var that = (global::Bing.Maps.LocationRect)instance;
             return that.North;
         }
-        private object get_20_LocationRect_East(object instance)
+        private object get_23_LocationRect_East(object instance)
         {
             var that = (global::Bing.Maps.LocationRect)instance;
             return that.East;
         }
-        private object get_21_LocationRect_Height(object instance)
+        private object get_24_LocationRect_Height(object instance)
         {
             var that = (global::Bing.Maps.LocationRect)instance;
             return that.Height;
         }
-        private void set_21_LocationRect_Height(object instance, object Value)
+        private void set_24_LocationRect_Height(object instance, object Value)
         {
             var that = (global::Bing.Maps.LocationRect)instance;
             that.Height = (global::System.Double)Value;
         }
-        private object get_22_LocationRect_Width(object instance)
+        private object get_25_LocationRect_Width(object instance)
         {
             var that = (global::Bing.Maps.LocationRect)instance;
             return that.Width;
         }
-        private void set_22_LocationRect_Width(object instance, object Value)
+        private void set_25_LocationRect_Width(object instance, object Value)
         {
             var that = (global::Bing.Maps.LocationRect)instance;
             that.Width = (global::System.Double)Value;
         }
-        private object get_23_LocationRect_Center(object instance)
+        private object get_26_LocationRect_Center(object instance)
         {
             var that = (global::Bing.Maps.LocationRect)instance;
             return that.Center;
         }
-        private void set_23_LocationRect_Center(object instance, object Value)
+        private void set_26_LocationRect_Center(object instance, object Value)
         {
             var that = (global::Bing.Maps.LocationRect)instance;
             that.Center = (global::Bing.Maps.Location)Value;
         }
-        private object get_24_MapTileLayer_FillMissingTiles(object instance)
+        private object get_27_MapTileLayer_FillMissingTiles(object instance)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             return that.FillMissingTiles;
         }
-        private void set_24_MapTileLayer_FillMissingTiles(object instance, object Value)
+        private void set_27_MapTileLayer_FillMissingTiles(object instance, object Value)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             that.FillMissingTiles = (global::System.Boolean)Value;
         }
-        private object get_25_MapTileLayer_MaxZoomLevel(object instance)
+        private object get_28_MapTileLayer_MaxZoomLevel(object instance)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             return that.MaxZoomLevel;
         }
-        private void set_25_MapTileLayer_MaxZoomLevel(object instance, object Value)
+        private void set_28_MapTileLayer_MaxZoomLevel(object instance, object Value)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             that.MaxZoomLevel = (global::System.Double)Value;
         }
-        private object get_26_MapTileLayer_MinZoomLevel(object instance)
+        private object get_29_MapTileLayer_MinZoomLevel(object instance)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             return that.MinZoomLevel;
         }
-        private void set_26_MapTileLayer_MinZoomLevel(object instance, object Value)
+        private void set_29_MapTileLayer_MinZoomLevel(object instance, object Value)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             that.MinZoomLevel = (global::System.Double)Value;
         }
-        private object get_27_MapTileLayer_Visible(object instance)
+        private object get_30_MapTileLayer_Visible(object instance)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             return that.Visible;
         }
-        private void set_27_MapTileLayer_Visible(object instance, object Value)
+        private void set_30_MapTileLayer_Visible(object instance, object Value)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             that.Visible = (global::System.Boolean)Value;
         }
-        private object get_28_MapTileLayer_ZIndex(object instance)
+        private object get_31_MapTileLayer_ZIndex(object instance)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             return that.ZIndex;
         }
-        private void set_28_MapTileLayer_ZIndex(object instance, object Value)
+        private void set_31_MapTileLayer_ZIndex(object instance, object Value)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             that.ZIndex = (global::System.Int32)Value;
         }
-        private object get_29_MapTileLayer_TileSource(object instance)
+        private object get_32_MapTileLayer_TileSource(object instance)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             return that.TileSource;
         }
-        private void set_29_MapTileLayer_TileSource(object instance, object Value)
+        private void set_32_MapTileLayer_TileSource(object instance, object Value)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             that.TileSource = (global::System.String)Value;
         }
-        private object get_30_MapTileLayer_Opacity(object instance)
+        private object get_33_MapTileLayer_Opacity(object instance)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             return that.Opacity;
         }
-        private void set_30_MapTileLayer_Opacity(object instance, object Value)
+        private void set_33_MapTileLayer_Opacity(object instance, object Value)
         {
             var that = (global::Bing.Maps.MapTileLayer)instance;
             that.Opacity = (global::System.Double)Value;
         }
-        private object get_31_Map_ShapeLayers(object instance)
+        private object get_34_Map_ShapeLayers(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.ShapeLayers;
         }
-        private object get_32_MapShapeLayer_Visible(object instance)
+        private object get_35_MapShapeLayer_Visible(object instance)
         {
             var that = (global::Bing.Maps.MapShapeLayer)instance;
             return that.Visible;
         }
-        private void set_32_MapShapeLayer_Visible(object instance, object Value)
+        private void set_35_MapShapeLayer_Visible(object instance, object Value)
         {
             var that = (global::Bing.Maps.MapShapeLayer)instance;
             that.Visible = (global::System.Boolean)Value;
         }
-        private object get_33_MapShapeLayer_ZIndex(object instance)
+        private object get_36_MapShapeLayer_ZIndex(object instance)
         {
             var that = (global::Bing.Maps.MapShapeLayer)instance;
             return that.ZIndex;
         }
-        private void set_33_MapShapeLayer_ZIndex(object instance, object Value)
+        private void set_36_MapShapeLayer_ZIndex(object instance, object Value)
         {
             var that = (global::Bing.Maps.MapShapeLayer)instance;
             that.ZIndex = (global::System.Int32)Value;
         }
-        private object get_34_MapShapeLayer_Shapes(object instance)
+        private object get_37_MapShapeLayer_Shapes(object instance)
         {
             var that = (global::Bing.Maps.MapShapeLayer)instance;
             return that.Shapes;
         }
-        private void set_34_MapShapeLayer_Shapes(object instance, object Value)
+        private void set_37_MapShapeLayer_Shapes(object instance, object Value)
         {
             var that = (global::Bing.Maps.MapShapeLayer)instance;
             that.Shapes = (global::Bing.Maps.MapShapeCollection)Value;
         }
-        private object get_35_MapShape_Visible(object instance)
+        private object get_38_MapShape_Visible(object instance)
         {
             var that = (global::Bing.Maps.MapShape)instance;
             return that.Visible;
         }
-        private void set_35_MapShape_Visible(object instance, object Value)
+        private void set_38_MapShape_Visible(object instance, object Value)
         {
             var that = (global::Bing.Maps.MapShape)instance;
             that.Visible = (global::System.Boolean)Value;
         }
-        private object get_36_Map_RotationEnabled(object instance)
+        private object get_39_Map_RotationEnabled(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.RotationEnabled;
         }
-        private object get_37_Map_MaxZoomLevel(object instance)
+        private object get_40_Map_TrafficIncidentPushpinOptions(object instance)
+        {
+            var that = (global::Bing.Maps.Map)instance;
+            return that.TrafficIncidentPushpinOptions;
+        }
+        private void set_40_Map_TrafficIncidentPushpinOptions(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Map)instance;
+            that.TrafficIncidentPushpinOptions = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)Value;
+        }
+        private object get_41_Map_DirectionsUIEventManager(object instance)
+        {
+            var that = (global::Bing.Maps.Map)instance;
+            return that.DirectionsUIEventManager;
+        }
+        private void set_41_Map_DirectionsUIEventManager(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Map)instance;
+            that.DirectionsUIEventManager = (global::Bing.Maps.Directions.DirectionsUIEventManager)Value;
+        }
+        private object get_42_Map_DirectionsRenderOptions(object instance)
+        {
+            var that = (global::Bing.Maps.Map)instance;
+            return that.DirectionsRenderOptions;
+        }
+        private void set_42_Map_DirectionsRenderOptions(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Map)instance;
+            that.DirectionsRenderOptions = (global::Bing.Maps.Directions.DirectionsRenderOptions)Value;
+        }
+        private object get_43_Map_IsTransitDirectionsEnable(object instance)
+        {
+            var that = (global::Bing.Maps.Map)instance;
+            return that.IsTransitDirectionsEnable;
+        }
+        private object get_44_Map_MaxZoomLevel(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.MaxZoomLevel;
         }
-        private object get_38_Map_MinZoomLevel(object instance)
+        private object get_45_Map_MinZoomLevel(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.MinZoomLevel;
         }
-        private object get_39_Map_Culture(object instance)
+        private object get_46_Map_Culture(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.Culture;
         }
-        private void set_39_Map_Culture(object instance, object Value)
+        private void set_46_Map_Culture(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.Culture = (global::System.String)Value;
         }
-        private object get_40_Map_HomeRegion(object instance)
+        private object get_47_Map_HomeRegion(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.HomeRegion;
         }
-        private void set_40_Map_HomeRegion(object instance, object Value)
+        private void set_47_Map_HomeRegion(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.HomeRegion = (global::System.String)Value;
         }
-        private object get_41_Map_TargetBounds(object instance)
+        private object get_48_Map_TargetBounds(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.TargetBounds;
         }
-        private object get_42_Map_Bounds(object instance)
+        private object get_49_Map_Bounds(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.Bounds;
         }
-        private object get_43_Map_ShowBreadcrumb(object instance)
+        private object get_50_Map_ShowBreadcrumb(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.ShowBreadcrumb;
         }
-        private void set_43_Map_ShowBreadcrumb(object instance, object Value)
+        private void set_50_Map_ShowBreadcrumb(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.ShowBreadcrumb = (global::System.Boolean)Value;
         }
-        private object get_44_Map_ShowBuildings(object instance)
+        private object get_51_Map_ShowBuildings(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.ShowBuildings;
         }
-        private void set_44_Map_ShowBuildings(object instance, object Value)
+        private void set_51_Map_ShowBuildings(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.ShowBuildings = (global::System.Boolean)Value;
         }
-        private object get_45_Map_ShowTraffic(object instance)
+        private object get_52_Map_ShowTraffic(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.ShowTraffic;
         }
-        private void set_45_Map_ShowTraffic(object instance, object Value)
+        private void set_52_Map_ShowTraffic(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.ShowTraffic = (global::System.Boolean)Value;
         }
-        private object get_46_Map_PreloadArea(object instance)
+        private object get_53_Map_PreloadArea(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.PreloadArea;
         }
-        private void set_46_Map_PreloadArea(object instance, object Value)
+        private void set_53_Map_PreloadArea(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.PreloadArea = (global::Bing.Maps.PreloadArea)Value;
         }
-        private object get_47_Map_ViewRestriction(object instance)
+        private object get_54_Map_ViewRestriction(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.ViewRestriction;
         }
-        private void set_47_Map_ViewRestriction(object instance, object Value)
+        private void set_54_Map_ViewRestriction(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.ViewRestriction = (global::Bing.Maps.MapViewRestriction)Value;
         }
-        private object get_48_Map_MapType(object instance)
+        private object get_55_Map_MapType(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.MapType;
         }
-        private void set_48_Map_MapType(object instance, object Value)
+        private void set_55_Map_MapType(object instance, object Value)
         {
             var that = (global::Bing.Maps.Map)instance;
             that.MapType = (global::Bing.Maps.MapType)Value;
         }
-        private object get_49_Map_TargetHeading(object instance)
+        private object get_56_Map_TargetHeading(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.TargetHeading;
         }
-        private object get_50_Map_TargetZoomLevel(object instance)
+        private object get_57_Map_TargetZoomLevel(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.TargetZoomLevel;
         }
-        private object get_51_Map_TargetCenter(object instance)
+        private object get_58_Map_TargetCenter(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.TargetCenter;
         }
-        private object get_52_Map_MetersPerPixel(object instance)
+        private object get_59_Map_MetersPerPixel(object instance)
         {
             var that = (global::Bing.Maps.Map)instance;
             return that.MetersPerPixel;
         }
-        private object get_53_Location_Longitude(object instance)
+        private object get_60_Location_Longitude(object instance)
         {
             var that = (global::Bing.Maps.Location)instance;
             return that.Longitude;
         }
-        private void set_53_Location_Longitude(object instance, object Value)
+        private void set_60_Location_Longitude(object instance, object Value)
         {
             var that = (global::Bing.Maps.Location)instance;
             that.Longitude = (global::System.Double)Value;
         }
-        private object get_54_Location_Latitude(object instance)
+        private object get_61_Location_Latitude(object instance)
         {
             var that = (global::Bing.Maps.Location)instance;
             return that.Latitude;
         }
-        private void set_54_Location_Latitude(object instance, object Value)
+        private void set_61_Location_Latitude(object instance, object Value)
         {
             var that = (global::Bing.Maps.Location)instance;
             that.Latitude = (global::System.Double)Value;
         }
-        private object get_55_MyDataTemplateSelector_Template1(object instance)
+        private object get_62_MyDataTemplateSelector_Template1(object instance)
         {
             var that = (global::M0rg0tRss.MyDataTemplateSelector)instance;
             return that.Template1;
         }
-        private void set_55_MyDataTemplateSelector_Template1(object instance, object Value)
+        private void set_62_MyDataTemplateSelector_Template1(object instance, object Value)
         {
             var that = (global::M0rg0tRss.MyDataTemplateSelector)instance;
             that.Template1 = (global::Windows.UI.Xaml.DataTemplate)Value;
         }
-        private object get_56_MyDataTemplateSelector_Template2(object instance)
+        private object get_63_MyDataTemplateSelector_Template2(object instance)
         {
             var that = (global::M0rg0tRss.MyDataTemplateSelector)instance;
             return that.Template2;
         }
-        private void set_56_MyDataTemplateSelector_Template2(object instance, object Value)
+        private void set_63_MyDataTemplateSelector_Template2(object instance, object Value)
         {
             var that = (global::M0rg0tRss.MyDataTemplateSelector)instance;
             that.Template2 = (global::Windows.UI.Xaml.DataTemplate)Value;
         }
-        private object get_57_RichTextColumns_RichTextContent(object instance)
+        private object get_64_RichTextColumns_RichTextContent(object instance)
         {
             var that = (global::M0rg0tRss.Common.RichTextColumns)instance;
             return that.RichTextContent;
         }
-        private void set_57_RichTextColumns_RichTextContent(object instance, object Value)
+        private void set_64_RichTextColumns_RichTextContent(object instance, object Value)
         {
             var that = (global::M0rg0tRss.Common.RichTextColumns)instance;
             that.RichTextContent = (global::Windows.UI.Xaml.Controls.RichTextBlock)Value;
         }
-        private object get_58_RichTextColumns_ColumnTemplate(object instance)
+        private object get_65_RichTextColumns_ColumnTemplate(object instance)
         {
             var that = (global::M0rg0tRss.Common.RichTextColumns)instance;
             return that.ColumnTemplate;
         }
-        private void set_58_RichTextColumns_ColumnTemplate(object instance, object Value)
+        private void set_65_RichTextColumns_ColumnTemplate(object instance, object Value)
         {
             var that = (global::M0rg0tRss.Common.RichTextColumns)instance;
             that.ColumnTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
         }
-        private object get_59_Pushpin_Text(object instance)
+        private object get_66_DirectionsRenderOptions_WalkingPolylineOptions(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
+            return that.WalkingPolylineOptions;
+        }
+        private void set_66_DirectionsRenderOptions_WalkingPolylineOptions(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
+            that.WalkingPolylineOptions = (global::Bing.Maps.Directions.DirectionsPolylineRenderOptions)Value;
+        }
+        private object get_67_DirectionsRenderOptions_TransitPolylineOptions(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
+            return that.TransitPolylineOptions;
+        }
+        private void set_67_DirectionsRenderOptions_TransitPolylineOptions(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
+            that.TransitPolylineOptions = (global::Bing.Maps.Directions.DirectionsPolylineRenderOptions)Value;
+        }
+        private object get_68_DirectionsRenderOptions_DrivingPolylineOptions(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
+            return that.DrivingPolylineOptions;
+        }
+        private void set_68_DirectionsRenderOptions_DrivingPolylineOptions(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
+            that.DrivingPolylineOptions = (global::Bing.Maps.Directions.DirectionsPolylineRenderOptions)Value;
+        }
+        private object get_69_DirectionsRenderOptions_ActiveRoutePolylineOptions(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
+            return that.ActiveRoutePolylineOptions;
+        }
+        private void set_69_DirectionsRenderOptions_ActiveRoutePolylineOptions(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
+            that.ActiveRoutePolylineOptions = (global::Bing.Maps.Directions.DirectionsPolylineRenderOptions)Value;
+        }
+        private object get_70_DirectionsRenderOptions_StepPushpinOptions(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
+            return that.StepPushpinOptions;
+        }
+        private void set_70_DirectionsRenderOptions_StepPushpinOptions(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
+            that.StepPushpinOptions = (global::Bing.Maps.Directions.DirectionsPushpinRenderOptions)Value;
+        }
+        private object get_71_DirectionsRenderOptions_DisambiguationPushpinOptions(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
+            return that.DisambiguationPushpinOptions;
+        }
+        private void set_71_DirectionsRenderOptions_DisambiguationPushpinOptions(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
+            that.DisambiguationPushpinOptions = (global::Bing.Maps.Directions.DirectionsPushpinRenderOptions)Value;
+        }
+        private object get_72_DirectionsRenderOptions_EndWaypointColorBrush(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
+            return that.EndWaypointColorBrush;
+        }
+        private void set_72_DirectionsRenderOptions_EndWaypointColorBrush(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
+            that.EndWaypointColorBrush = (global::Windows.UI.Xaml.Media.Brush)Value;
+        }
+        private object get_73_DirectionsRenderOptions_MiddleWaypointColorBrush(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
+            return that.MiddleWaypointColorBrush;
+        }
+        private void set_73_DirectionsRenderOptions_MiddleWaypointColorBrush(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
+            that.MiddleWaypointColorBrush = (global::Windows.UI.Xaml.Media.Brush)Value;
+        }
+        private object get_74_DirectionsRenderOptions_StartWaypointColorBrush(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
+            return that.StartWaypointColorBrush;
+        }
+        private void set_74_DirectionsRenderOptions_StartWaypointColorBrush(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
+            that.StartWaypointColorBrush = (global::Windows.UI.Xaml.Media.Brush)Value;
+        }
+        private object get_75_DirectionsRenderOptions_WaypointPushpinOptions(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
+            return that.WaypointPushpinOptions;
+        }
+        private void set_75_DirectionsRenderOptions_WaypointPushpinOptions(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
+            that.WaypointPushpinOptions = (global::Bing.Maps.Directions.DirectionsPushpinRenderOptions)Value;
+        }
+        private object get_76_DirectionsRenderOptions_DisplayStepWarnings(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
+            return that.DisplayStepWarnings;
+        }
+        private void set_76_DirectionsRenderOptions_DisplayStepWarnings(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
+            that.DisplayStepWarnings = (global::System.Boolean)Value;
+        }
+        private object get_77_DirectionsRenderOptions_DisplayItineraryItemHints(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
+            return that.DisplayItineraryItemHints;
+        }
+        private void set_77_DirectionsRenderOptions_DisplayItineraryItemHints(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
+            that.DisplayItineraryItemHints = (global::System.Boolean)Value;
+        }
+        private object get_78_DirectionsRenderOptions_DisplayTransitIcons(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
+            return that.DisplayTransitIcons;
+        }
+        private void set_78_DirectionsRenderOptions_DisplayTransitIcons(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
+            that.DisplayTransitIcons = (global::System.Boolean)Value;
+        }
+        private object get_79_DirectionsRenderOptions_DisplayManeuverIcons(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
+            return that.DisplayManeuverIcons;
+        }
+        private void set_79_DirectionsRenderOptions_DisplayManeuverIcons(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
+            that.DisplayManeuverIcons = (global::System.Boolean)Value;
+        }
+        private object get_80_DirectionsRenderOptions_DisplayDisclaimer(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
+            return that.DisplayDisclaimer;
+        }
+        private void set_80_DirectionsRenderOptions_DisplayDisclaimer(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
+            that.DisplayDisclaimer = (global::System.Boolean)Value;
+        }
+        private object get_81_DirectionsRenderOptions_AutoUpdateMapView(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
+            return that.AutoUpdateMapView;
+        }
+        private void set_81_DirectionsRenderOptions_AutoUpdateMapView(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
+            that.AutoUpdateMapView = (global::System.Boolean)Value;
+        }
+        private object get_82_DirectionsRenderOptions_AutoDisplayDisambiguation(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
+            return that.AutoDisplayDisambiguation;
+        }
+        private void set_82_DirectionsRenderOptions_AutoDisplayDisambiguation(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
+            that.AutoDisplayDisambiguation = (global::System.Boolean)Value;
+        }
+        private object get_83_DirectionsRenderOptions_AutoSetActiveRoute(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
+            return that.AutoSetActiveRoute;
+        }
+        private void set_83_DirectionsRenderOptions_AutoSetActiveRoute(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
+            that.AutoSetActiveRoute = (global::System.Boolean)Value;
+        }
+        private object get_84_DirectionsRenderOptions_UseDefaultPushpins(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
+            return that.UseDefaultPushpins;
+        }
+        private void set_84_DirectionsRenderOptions_UseDefaultPushpins(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsRenderOptions)instance;
+            that.UseDefaultPushpins = (global::System.Boolean)Value;
+        }
+        private object get_85_TrafficIncidentPushpinOptions_WeatherPushpinTemplate(object instance)
+        {
+            var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
+            return that.WeatherPushpinTemplate;
+        }
+        private void set_85_TrafficIncidentPushpinOptions_WeatherPushpinTemplate(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
+            that.WeatherPushpinTemplate = (global::Windows.UI.Xaml.Controls.ControlTemplate)Value;
+        }
+        private object get_86_TrafficIncidentPushpinOptions_AlertPushpinTemplate(object instance)
+        {
+            var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
+            return that.AlertPushpinTemplate;
+        }
+        private void set_86_TrafficIncidentPushpinOptions_AlertPushpinTemplate(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
+            that.AlertPushpinTemplate = (global::Windows.UI.Xaml.Controls.ControlTemplate)Value;
+        }
+        private object get_87_TrafficIncidentPushpinOptions_ConstructionPushpinTemplate(object instance)
+        {
+            var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
+            return that.ConstructionPushpinTemplate;
+        }
+        private void set_87_TrafficIncidentPushpinOptions_ConstructionPushpinTemplate(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
+            that.ConstructionPushpinTemplate = (global::Windows.UI.Xaml.Controls.ControlTemplate)Value;
+        }
+        private object get_88_TrafficIncidentPushpinOptions_RoadHazardPushpinTemplate(object instance)
+        {
+            var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
+            return that.RoadHazardPushpinTemplate;
+        }
+        private void set_88_TrafficIncidentPushpinOptions_RoadHazardPushpinTemplate(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
+            that.RoadHazardPushpinTemplate = (global::Windows.UI.Xaml.Controls.ControlTemplate)Value;
+        }
+        private object get_89_TrafficIncidentPushpinOptions_PlannedEventPushpinTemplate(object instance)
+        {
+            var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
+            return that.PlannedEventPushpinTemplate;
+        }
+        private void set_89_TrafficIncidentPushpinOptions_PlannedEventPushpinTemplate(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
+            that.PlannedEventPushpinTemplate = (global::Windows.UI.Xaml.Controls.ControlTemplate)Value;
+        }
+        private object get_90_TrafficIncidentPushpinOptions_OtherNewsPushpinTemplate(object instance)
+        {
+            var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
+            return that.OtherNewsPushpinTemplate;
+        }
+        private void set_90_TrafficIncidentPushpinOptions_OtherNewsPushpinTemplate(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
+            that.OtherNewsPushpinTemplate = (global::Windows.UI.Xaml.Controls.ControlTemplate)Value;
+        }
+        private object get_91_TrafficIncidentPushpinOptions_MiscellaneousPushpinTemplate(object instance)
+        {
+            var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
+            return that.MiscellaneousPushpinTemplate;
+        }
+        private void set_91_TrafficIncidentPushpinOptions_MiscellaneousPushpinTemplate(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
+            that.MiscellaneousPushpinTemplate = (global::Windows.UI.Xaml.Controls.ControlTemplate)Value;
+        }
+        private object get_92_TrafficIncidentPushpinOptions_MassTransitPushpinTemplate(object instance)
+        {
+            var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
+            return that.MassTransitPushpinTemplate;
+        }
+        private void set_92_TrafficIncidentPushpinOptions_MassTransitPushpinTemplate(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
+            that.MassTransitPushpinTemplate = (global::Windows.UI.Xaml.Controls.ControlTemplate)Value;
+        }
+        private object get_93_TrafficIncidentPushpinOptions_DisabledVehiclePushpinTemplate(object instance)
+        {
+            var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
+            return that.DisabledVehiclePushpinTemplate;
+        }
+        private void set_93_TrafficIncidentPushpinOptions_DisabledVehiclePushpinTemplate(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
+            that.DisabledVehiclePushpinTemplate = (global::Windows.UI.Xaml.Controls.ControlTemplate)Value;
+        }
+        private object get_94_TrafficIncidentPushpinOptions_CongestionPushpinTemplate(object instance)
+        {
+            var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
+            return that.CongestionPushpinTemplate;
+        }
+        private void set_94_TrafficIncidentPushpinOptions_CongestionPushpinTemplate(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
+            that.CongestionPushpinTemplate = (global::Windows.UI.Xaml.Controls.ControlTemplate)Value;
+        }
+        private object get_95_TrafficIncidentPushpinOptions_AccidentPushpinTemplate(object instance)
+        {
+            var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
+            return that.AccidentPushpinTemplate;
+        }
+        private void set_95_TrafficIncidentPushpinOptions_AccidentPushpinTemplate(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Traffic.TrafficIncidentPushpinOptions)instance;
+            that.AccidentPushpinTemplate = (global::Windows.UI.Xaml.Controls.ControlTemplate)Value;
+        }
+        private object get_96_Pushpin_AssociateObject(object instance)
+        {
+            var that = (global::Bing.Maps.Pushpin)instance;
+            return that.AssociateObject;
+        }
+        private object get_97_Pushpin_Selected(object instance)
+        {
+            var that = (global::Bing.Maps.Pushpin)instance;
+            return that.Selected;
+        }
+        private void set_97_Pushpin_Selected(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Pushpin)instance;
+            that.Selected = (global::System.Boolean)Value;
+        }
+        private object get_98_Pushpin_Text(object instance)
         {
             var that = (global::Bing.Maps.Pushpin)instance;
             return that.Text;
         }
-        private void set_59_Pushpin_Text(object instance, object Value)
+        private void set_98_Pushpin_Text(object instance, object Value)
         {
             var that = (global::Bing.Maps.Pushpin)instance;
             that.Text = (global::System.String)Value;
         }
-        private object get_60_VenueFloorDataSource_Items(object instance)
+        private object get_99_VenueFloorDataSource_Items(object instance)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueFloorDataSource)instance;
             return that.Items;
         }
-        private object get_61_VenueFloorDataSource_Name(object instance)
+        private object get_100_VenueFloorDataSource_Name(object instance)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueFloorDataSource)instance;
             return that.Name;
         }
-        private void set_61_VenueFloorDataSource_Name(object instance, object Value)
+        private void set_100_VenueFloorDataSource_Name(object instance, object Value)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueFloorDataSource)instance;
             that.Name = (global::System.String)Value;
         }
-        private object get_62_VenueEntity_Highlighted(object instance)
+        private object get_101_VenueEntity_Highlighted(object instance)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             return that.Highlighted;
         }
-        private object get_63_VenueEntity_LineWidth(object instance)
+        private object get_102_VenueEntity_LineWidth(object instance)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             return that.LineWidth;
         }
-        private void set_63_VenueEntity_LineWidth(object instance, object Value)
+        private void set_102_VenueEntity_LineWidth(object instance, object Value)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             that.LineWidth = (global::System.Double)Value;
         }
-        private object get_64_VenueEntity_HighlightColor(object instance)
+        private object get_103_VenueEntity_HighlightColor(object instance)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             return that.HighlightColor;
         }
-        private void set_64_VenueEntity_HighlightColor(object instance, object Value)
+        private void set_103_VenueEntity_HighlightColor(object instance, object Value)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             that.HighlightColor = (global::Windows.UI.Color)Value;
         }
-        private object get_65_VenueEntity_FillColor(object instance)
+        private object get_104_VenueEntity_FillColor(object instance)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             return that.FillColor;
         }
-        private void set_65_VenueEntity_FillColor(object instance, object Value)
+        private void set_104_VenueEntity_FillColor(object instance, object Value)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             that.FillColor = (global::Windows.UI.Color)Value;
         }
-        private object get_66_VenueEntity_LineColor(object instance)
+        private object get_105_VenueEntity_LineColor(object instance)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             return that.LineColor;
         }
-        private void set_66_VenueEntity_LineColor(object instance, object Value)
+        private void set_105_VenueEntity_LineColor(object instance, object Value)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             that.LineColor = (global::Windows.UI.Color)Value;
         }
-        private object get_67_VenueEntity_Type(object instance)
+        private object get_106_VenueEntity_Type(object instance)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             return that.Type;
         }
-        private object get_68_VenueEntity_PhoneNumber(object instance)
+        private object get_107_VenueEntity_PhoneNumber(object instance)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             return that.PhoneNumber;
         }
-        private object get_69_VenueEntity_Name(object instance)
+        private object get_108_VenueEntity_Name(object instance)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             return that.Name;
         }
-        private object get_70_VenueEntity_Outline(object instance)
+        private object get_109_VenueEntity_Outline(object instance)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             return that.Outline;
         }
-        private object get_71_VenueEntity_Id(object instance)
+        private object get_110_VenueEntity_Id(object instance)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             return that.Id;
         }
-        private object get_72_VenueEntity_FloorName(object instance)
+        private object get_111_VenueEntity_FloorName(object instance)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             return that.FloorName;
         }
-        private object get_73_VenueEntity_Floor(object instance)
+        private object get_112_VenueEntity_Floor(object instance)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             return that.Floor;
         }
-        private object get_74_VenueEntity_Location(object instance)
+        private object get_113_VenueEntity_Location(object instance)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             return that.Location;
         }
-        private object get_75_VenueEntity_Description(object instance)
+        private object get_114_VenueEntity_Description(object instance)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             return that.Description;
         }
-        private object get_76_VenueEntity_CategoryName(object instance)
+        private object get_115_VenueEntity_CategoryName(object instance)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             return that.CategoryName;
         }
-        private object get_77_VenueEntity_CategoryId(object instance)
+        private object get_116_VenueEntity_CategoryId(object instance)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             return that.CategoryId;
         }
-        private object get_78_VenueEntity_BusinessId(object instance)
+        private object get_117_VenueEntity_BusinessId(object instance)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             return that.BusinessId;
         }
-        private object get_79_VenueEntity_Address(object instance)
+        private object get_118_VenueEntity_Address(object instance)
         {
             var that = (global::Bing.Maps.VenueMaps.VenueEntity)instance;
             return that.Address;
+        }
+        private object get_119_DirectionsPushpinRenderOptions_Visible(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsPushpinRenderOptions)instance;
+            return that.Visible;
+        }
+        private void set_119_DirectionsPushpinRenderOptions_Visible(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsPushpinRenderOptions)instance;
+            that.Visible = (global::System.Boolean)Value;
+        }
+        private object get_120_DirectionsPushpinRenderOptions_Offset(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsPushpinRenderOptions)instance;
+            return that.Offset;
+        }
+        private void set_120_DirectionsPushpinRenderOptions_Offset(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsPushpinRenderOptions)instance;
+            that.Offset = (global::Bing.Maps.PushpinOffset)Value;
+        }
+        private object get_121_DirectionsPushpinRenderOptions_PushpinTemplate(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsPushpinRenderOptions)instance;
+            return that.PushpinTemplate;
+        }
+        private void set_121_DirectionsPushpinRenderOptions_PushpinTemplate(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsPushpinRenderOptions)instance;
+            that.PushpinTemplate = (global::Windows.UI.Xaml.Controls.ControlTemplate)Value;
+        }
+        private object get_122_DirectionsPolylineRenderOptions_Visible(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsPolylineRenderOptions)instance;
+            return that.Visible;
+        }
+        private void set_122_DirectionsPolylineRenderOptions_Visible(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsPolylineRenderOptions)instance;
+            that.Visible = (global::System.Boolean)Value;
+        }
+        private object get_123_DirectionsPolylineRenderOptions_LineWidth(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsPolylineRenderOptions)instance;
+            return that.LineWidth;
+        }
+        private void set_123_DirectionsPolylineRenderOptions_LineWidth(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsPolylineRenderOptions)instance;
+            that.LineWidth = (global::System.Double)Value;
+        }
+        private object get_124_DirectionsPolylineRenderOptions_LineColor(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsPolylineRenderOptions)instance;
+            return that.LineColor;
+        }
+        private void set_124_DirectionsPolylineRenderOptions_LineColor(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsPolylineRenderOptions)instance;
+            that.LineColor = (global::Windows.UI.Color)Value;
+        }
+        private object get_125_ItineraryItemDataSource_Warnings(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
+            return that.Warnings;
+        }
+        private object get_126_ItineraryItemDataSource_IconColor(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
+            return that.IconColor;
+        }
+        private void set_126_ItineraryItemDataSource_IconColor(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
+            that.IconColor = (global::Windows.UI.Xaml.Media.Brush)Value;
+        }
+        private object get_127_ItineraryItemDataSource_AutomationName(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
+            return that.AutomationName;
+        }
+        private void set_127_ItineraryItemDataSource_AutomationName(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
+            that.AutomationName = (global::System.String)Value;
+        }
+        private object get_128_ItineraryItemDataSource_Hint(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
+            return that.Hint;
+        }
+        private void set_128_ItineraryItemDataSource_Hint(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
+            that.Hint = (global::System.String)Value;
+        }
+        private object get_129_ItineraryItemDataSource_Icon(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
+            return that.Icon;
+        }
+        private void set_129_ItineraryItemDataSource_Icon(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
+            that.Icon = (global::System.String)Value;
+        }
+        private object get_130_ItineraryItemDataSource_Index(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
+            return that.Index;
+        }
+        private void set_130_ItineraryItemDataSource_Index(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
+            that.Index = (global::System.UInt32)Value;
+        }
+        private object get_131_ItineraryItemDataSource_RouteLegIndex(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
+            return that.RouteLegIndex;
+        }
+        private void set_131_ItineraryItemDataSource_RouteLegIndex(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
+            that.RouteLegIndex = (global::System.UInt32)Value;
+        }
+        private object get_132_ItineraryItemDataSource_TransitStop(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
+            return that.TransitStop;
+        }
+        private void set_132_ItineraryItemDataSource_TransitStop(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
+            that.TransitStop = (global::System.String)Value;
+        }
+        private object get_133_ItineraryItemDataSource_TransitDepartureTime(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
+            return that.TransitDepartureTime;
+        }
+        private void set_133_ItineraryItemDataSource_TransitDepartureTime(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
+            that.TransitDepartureTime = (global::System.String)Value;
+        }
+        private object get_134_ItineraryItemDataSource_TransitArrivalTime(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
+            return that.TransitArrivalTime;
+        }
+        private void set_134_ItineraryItemDataSource_TransitArrivalTime(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
+            that.TransitArrivalTime = (global::System.String)Value;
+        }
+        private object get_135_ItineraryItemDataSource_TransitArrivalInstructionHeader(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
+            return that.TransitArrivalInstructionHeader;
+        }
+        private void set_135_ItineraryItemDataSource_TransitArrivalInstructionHeader(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
+            that.TransitArrivalInstructionHeader = (global::System.String)Value;
+        }
+        private object get_136_ItineraryItemDataSource_TransitArrivalInstruction(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
+            return that.TransitArrivalInstruction;
+        }
+        private void set_136_ItineraryItemDataSource_TransitArrivalInstruction(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
+            that.TransitArrivalInstruction = (global::System.String)Value;
+        }
+        private object get_137_ItineraryItemDataSource_TransitInstructionHeader(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
+            return that.TransitInstructionHeader;
+        }
+        private void set_137_ItineraryItemDataSource_TransitInstructionHeader(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
+            that.TransitInstructionHeader = (global::System.String)Value;
+        }
+        private object get_138_ItineraryItemDataSource_DisplayIndex(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
+            return that.DisplayIndex;
+        }
+        private void set_138_ItineraryItemDataSource_DisplayIndex(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
+            that.DisplayIndex = (global::System.String)Value;
+        }
+        private object get_139_ItineraryItemDataSource_Instruction(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
+            return that.Instruction;
+        }
+        private void set_139_ItineraryItemDataSource_Instruction(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
+            that.Instruction = (global::System.String)Value;
+        }
+        private object get_140_ItineraryItemDataSource_Distance(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
+            return that.Distance;
+        }
+        private void set_140_ItineraryItemDataSource_Distance(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.ItineraryItemDataSource)instance;
+            that.Distance = (global::System.String)Value;
+        }
+        private object get_141_RouteLegDataSource_Items(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.RouteLegDataSource)instance;
+            return that.Items;
+        }
+        private object get_142_RouteLegDataSource_AutomationName(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.RouteLegDataSource)instance;
+            return that.AutomationName;
+        }
+        private void set_142_RouteLegDataSource_AutomationName(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.RouteLegDataSource)instance;
+            that.AutomationName = (global::System.String)Value;
+        }
+        private object get_143_RouteLegDataSource_Header(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.RouteLegDataSource)instance;
+            return that.Header;
+        }
+        private void set_143_RouteLegDataSource_Header(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.RouteLegDataSource)instance;
+            that.Header = (global::System.String)Value;
+        }
+        private object get_144_TransitRouteDataSource_AutomationName(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.TransitRouteDataSource)instance;
+            return that.AutomationName;
+        }
+        private void set_144_TransitRouteDataSource_AutomationName(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.TransitRouteDataSource)instance;
+            that.AutomationName = (global::System.String)Value;
+        }
+        private object get_145_TransitRouteDataSource_Icon(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.TransitRouteDataSource)instance;
+            return that.Icon;
+        }
+        private void set_145_TransitRouteDataSource_Icon(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.TransitRouteDataSource)instance;
+            that.Icon = (global::System.String)Value;
+        }
+        private object get_146_TransitRouteDataSource_Summary(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.TransitRouteDataSource)instance;
+            return that.Summary;
+        }
+        private void set_146_TransitRouteDataSource_Summary(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.TransitRouteDataSource)instance;
+            that.Summary = (global::System.String)Value;
+        }
+        private object get_147_RouteLegDataTemplateSelector_RouteLegHeaderItemTemplate(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.RouteLegDataTemplateSelector)instance;
+            return that.RouteLegHeaderItemTemplate;
+        }
+        private void set_147_RouteLegDataTemplateSelector_RouteLegHeaderItemTemplate(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.RouteLegDataTemplateSelector)instance;
+            that.RouteLegHeaderItemTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_148_RouteLegDataTemplateSelector_GroupRouteLegHeaderItemTemplate(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.RouteLegDataTemplateSelector)instance;
+            return that.GroupRouteLegHeaderItemTemplate;
+        }
+        private void set_148_RouteLegDataTemplateSelector_GroupRouteLegHeaderItemTemplate(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.RouteLegDataTemplateSelector)instance;
+            that.GroupRouteLegHeaderItemTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_149_RouteLegDataTemplateSelector_WalkItineraryItemTemplate(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.RouteLegDataTemplateSelector)instance;
+            return that.WalkItineraryItemTemplate;
+        }
+        private void set_149_RouteLegDataTemplateSelector_WalkItineraryItemTemplate(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.RouteLegDataTemplateSelector)instance;
+            that.WalkItineraryItemTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_150_RouteLegDataTemplateSelector_TransitWaypointTemplate(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.RouteLegDataTemplateSelector)instance;
+            return that.TransitWaypointTemplate;
+        }
+        private void set_150_RouteLegDataTemplateSelector_TransitWaypointTemplate(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.RouteLegDataTemplateSelector)instance;
+            that.TransitWaypointTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_151_RouteLegDataTemplateSelector_TransitItineraryItemTemplate(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.RouteLegDataTemplateSelector)instance;
+            return that.TransitItineraryItemTemplate;
+        }
+        private void set_151_RouteLegDataTemplateSelector_TransitItineraryItemTemplate(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.RouteLegDataTemplateSelector)instance;
+            that.TransitItineraryItemTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_152_RouteLegDataTemplateSelector_ItineraryItemTemplate(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.RouteLegDataTemplateSelector)instance;
+            return that.ItineraryItemTemplate;
+        }
+        private void set_152_RouteLegDataTemplateSelector_ItineraryItemTemplate(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.RouteLegDataTemplateSelector)instance;
+            that.ItineraryItemTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_153_RouteLegDataTemplateSelector_WaypointTemplate(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.RouteLegDataTemplateSelector)instance;
+            return that.WaypointTemplate;
+        }
+        private void set_153_RouteLegDataTemplateSelector_WaypointTemplate(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.RouteLegDataTemplateSelector)instance;
+            that.WaypointTemplate = (global::Windows.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_154_DirectionsContainerSelector_UnSelectableStyle(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsContainerSelector)instance;
+            return that.UnSelectableStyle;
+        }
+        private void set_154_DirectionsContainerSelector_UnSelectableStyle(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsContainerSelector)instance;
+            that.UnSelectableStyle = (global::Windows.UI.Xaml.Style)Value;
+        }
+        private object get_155_DirectionsContainerSelector_SelectableStyle(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsContainerSelector)instance;
+            return that.SelectableStyle;
+        }
+        private void set_155_DirectionsContainerSelector_SelectableStyle(object instance, object Value)
+        {
+            var that = (global::Bing.Maps.Directions.DirectionsContainerSelector)instance;
+            that.SelectableStyle = (global::Windows.UI.Xaml.Style)Value;
+        }
+        private object get_156_Warning_Type(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.Warning)instance;
+            return that.Type;
+        }
+        private object get_157_Warning_Severity(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.Warning)instance;
+            return that.Severity;
+        }
+        private object get_158_Warning_Message(object instance)
+        {
+            var that = (global::Bing.Maps.Directions.Warning)instance;
+            return that.Message;
         }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
@@ -1535,450 +2621,924 @@ namespace M0rg0tRss.MoscowMuseums_XamlTypeInfo
                 xamlMember.Getter = get_5_Map_Center;
                 xamlMember.Setter = set_5_Map_Center;
                 break;
+            case "Bing.Maps.Map.SearchManager":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "SearchManager", "Bing.Maps.Search.SearchManager");
+                xamlMember.Getter = get_6_Map_SearchManager;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Bing.Maps.Map.TrafficManager":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "TrafficManager", "Bing.Maps.Traffic.TrafficManager");
+                xamlMember.Getter = get_7_Map_TrafficManager;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Bing.Maps.Map.DirectionsManager":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "DirectionsManager", "Bing.Maps.Directions.DirectionsManager");
+                xamlMember.Getter = get_8_Map_DirectionsManager;
+                xamlMember.SetIsReadOnly();
+                break;
             case "Bing.Maps.Map.VenueManager":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "VenueManager", "Bing.Maps.VenueMaps.VenueManager");
-                xamlMember.Getter = get_6_Map_VenueManager;
+                xamlMember.Getter = get_9_Map_VenueManager;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.LogoPosition":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "LogoPosition", "Bing.Maps.MapForegroundPosition");
-                xamlMember.Getter = get_7_Map_LogoPosition;
-                xamlMember.Setter = set_7_Map_LogoPosition;
+                xamlMember.Getter = get_10_Map_LogoPosition;
+                xamlMember.Setter = set_10_Map_LogoPosition;
                 break;
             case "Bing.Maps.Map.CopyrightPosition":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "CopyrightPosition", "Bing.Maps.MapForegroundPosition");
-                xamlMember.Getter = get_8_Map_CopyrightPosition;
-                xamlMember.Setter = set_8_Map_CopyrightPosition;
+                xamlMember.Getter = get_11_Map_CopyrightPosition;
+                xamlMember.Setter = set_11_Map_CopyrightPosition;
                 break;
             case "Bing.Maps.Map.ScaleBarPosition":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "ScaleBarPosition", "Bing.Maps.MapForegroundPosition");
-                xamlMember.Getter = get_9_Map_ScaleBarPosition;
-                xamlMember.Setter = set_9_Map_ScaleBarPosition;
+                xamlMember.Getter = get_12_Map_ScaleBarPosition;
+                xamlMember.Setter = set_12_Map_ScaleBarPosition;
                 break;
             case "Bing.Maps.Map.ShowNavigationBar":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "ShowNavigationBar", "Boolean");
-                xamlMember.Getter = get_10_Map_ShowNavigationBar;
-                xamlMember.Setter = set_10_Map_ShowNavigationBar;
+                xamlMember.Getter = get_13_Map_ShowNavigationBar;
+                xamlMember.Setter = set_13_Map_ShowNavigationBar;
                 break;
             case "Bing.Maps.Map.SuppressNetworkRequests":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "SuppressNetworkRequests", "Boolean");
-                xamlMember.Getter = get_11_Map_SuppressNetworkRequests;
-                xamlMember.Setter = set_11_Map_SuppressNetworkRequests;
+                xamlMember.Getter = get_14_Map_SuppressNetworkRequests;
+                xamlMember.Setter = set_14_Map_SuppressNetworkRequests;
                 break;
             case "Bing.Maps.Map.ShowScaleBar":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "ShowScaleBar", "Boolean");
-                xamlMember.Getter = get_12_Map_ShowScaleBar;
-                xamlMember.Setter = set_12_Map_ShowScaleBar;
+                xamlMember.Getter = get_15_Map_ShowScaleBar;
+                xamlMember.Setter = set_15_Map_ShowScaleBar;
                 break;
             case "Bing.Maps.Map.TileLayers":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "TileLayers", "Bing.Maps.MapTileLayerCollection");
-                xamlMember.Getter = get_13_Map_TileLayers;
+                xamlMember.Getter = get_16_Map_TileLayers;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.MapTileLayer.Bounds":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapTileLayer");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Bounds", "Bing.Maps.LocationRectCollection");
-                xamlMember.Getter = get_14_MapTileLayer_Bounds;
-                xamlMember.Setter = set_14_MapTileLayer_Bounds;
+                xamlMember.Getter = get_17_MapTileLayer_Bounds;
+                xamlMember.Setter = set_17_MapTileLayer_Bounds;
                 break;
             case "Bing.Maps.LocationRect.West":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "West", "Double");
-                xamlMember.Getter = get_15_LocationRect_West;
+                xamlMember.Getter = get_18_LocationRect_West;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.LocationRect.Southeast":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Southeast", "Bing.Maps.Location");
-                xamlMember.Getter = get_16_LocationRect_Southeast;
+                xamlMember.Getter = get_19_LocationRect_Southeast;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.LocationRect.South":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "South", "Double");
-                xamlMember.Getter = get_17_LocationRect_South;
+                xamlMember.Getter = get_20_LocationRect_South;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.LocationRect.Northwest":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Northwest", "Bing.Maps.Location");
-                xamlMember.Getter = get_18_LocationRect_Northwest;
+                xamlMember.Getter = get_21_LocationRect_Northwest;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.LocationRect.North":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "North", "Double");
-                xamlMember.Getter = get_19_LocationRect_North;
+                xamlMember.Getter = get_22_LocationRect_North;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.LocationRect.East":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "East", "Double");
-                xamlMember.Getter = get_20_LocationRect_East;
+                xamlMember.Getter = get_23_LocationRect_East;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.LocationRect.Height":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Height", "Double");
-                xamlMember.Getter = get_21_LocationRect_Height;
-                xamlMember.Setter = set_21_LocationRect_Height;
+                xamlMember.Getter = get_24_LocationRect_Height;
+                xamlMember.Setter = set_24_LocationRect_Height;
                 break;
             case "Bing.Maps.LocationRect.Width":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Width", "Double");
-                xamlMember.Getter = get_22_LocationRect_Width;
-                xamlMember.Setter = set_22_LocationRect_Width;
+                xamlMember.Getter = get_25_LocationRect_Width;
+                xamlMember.Setter = set_25_LocationRect_Width;
                 break;
             case "Bing.Maps.LocationRect.Center":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.LocationRect");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Center", "Bing.Maps.Location");
-                xamlMember.Getter = get_23_LocationRect_Center;
-                xamlMember.Setter = set_23_LocationRect_Center;
+                xamlMember.Getter = get_26_LocationRect_Center;
+                xamlMember.Setter = set_26_LocationRect_Center;
                 break;
             case "Bing.Maps.MapTileLayer.FillMissingTiles":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapTileLayer");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "FillMissingTiles", "Boolean");
-                xamlMember.Getter = get_24_MapTileLayer_FillMissingTiles;
-                xamlMember.Setter = set_24_MapTileLayer_FillMissingTiles;
+                xamlMember.Getter = get_27_MapTileLayer_FillMissingTiles;
+                xamlMember.Setter = set_27_MapTileLayer_FillMissingTiles;
                 break;
             case "Bing.Maps.MapTileLayer.MaxZoomLevel":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapTileLayer");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "MaxZoomLevel", "Double");
-                xamlMember.Getter = get_25_MapTileLayer_MaxZoomLevel;
-                xamlMember.Setter = set_25_MapTileLayer_MaxZoomLevel;
+                xamlMember.Getter = get_28_MapTileLayer_MaxZoomLevel;
+                xamlMember.Setter = set_28_MapTileLayer_MaxZoomLevel;
                 break;
             case "Bing.Maps.MapTileLayer.MinZoomLevel":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapTileLayer");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "MinZoomLevel", "Double");
-                xamlMember.Getter = get_26_MapTileLayer_MinZoomLevel;
-                xamlMember.Setter = set_26_MapTileLayer_MinZoomLevel;
+                xamlMember.Getter = get_29_MapTileLayer_MinZoomLevel;
+                xamlMember.Setter = set_29_MapTileLayer_MinZoomLevel;
                 break;
             case "Bing.Maps.MapTileLayer.Visible":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapTileLayer");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Visible", "Boolean");
-                xamlMember.Getter = get_27_MapTileLayer_Visible;
-                xamlMember.Setter = set_27_MapTileLayer_Visible;
+                xamlMember.Getter = get_30_MapTileLayer_Visible;
+                xamlMember.Setter = set_30_MapTileLayer_Visible;
                 break;
             case "Bing.Maps.MapTileLayer.ZIndex":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapTileLayer");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "ZIndex", "Int32");
-                xamlMember.Getter = get_28_MapTileLayer_ZIndex;
-                xamlMember.Setter = set_28_MapTileLayer_ZIndex;
+                xamlMember.Getter = get_31_MapTileLayer_ZIndex;
+                xamlMember.Setter = set_31_MapTileLayer_ZIndex;
                 break;
             case "Bing.Maps.MapTileLayer.TileSource":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapTileLayer");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "TileSource", "String");
-                xamlMember.Getter = get_29_MapTileLayer_TileSource;
-                xamlMember.Setter = set_29_MapTileLayer_TileSource;
+                xamlMember.Getter = get_32_MapTileLayer_TileSource;
+                xamlMember.Setter = set_32_MapTileLayer_TileSource;
                 break;
             case "Bing.Maps.MapTileLayer.Opacity":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapTileLayer");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Opacity", "Double");
-                xamlMember.Getter = get_30_MapTileLayer_Opacity;
-                xamlMember.Setter = set_30_MapTileLayer_Opacity;
+                xamlMember.Getter = get_33_MapTileLayer_Opacity;
+                xamlMember.Setter = set_33_MapTileLayer_Opacity;
                 break;
             case "Bing.Maps.Map.ShapeLayers":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "ShapeLayers", "Bing.Maps.MapShapeLayerCollection");
-                xamlMember.Getter = get_31_Map_ShapeLayers;
+                xamlMember.Getter = get_34_Map_ShapeLayers;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.MapShapeLayer.Visible":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapShapeLayer");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Visible", "Boolean");
-                xamlMember.Getter = get_32_MapShapeLayer_Visible;
-                xamlMember.Setter = set_32_MapShapeLayer_Visible;
+                xamlMember.Getter = get_35_MapShapeLayer_Visible;
+                xamlMember.Setter = set_35_MapShapeLayer_Visible;
                 break;
             case "Bing.Maps.MapShapeLayer.ZIndex":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapShapeLayer");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "ZIndex", "Int32");
-                xamlMember.Getter = get_33_MapShapeLayer_ZIndex;
-                xamlMember.Setter = set_33_MapShapeLayer_ZIndex;
+                xamlMember.Getter = get_36_MapShapeLayer_ZIndex;
+                xamlMember.Setter = set_36_MapShapeLayer_ZIndex;
                 break;
             case "Bing.Maps.MapShapeLayer.Shapes":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapShapeLayer");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Shapes", "Bing.Maps.MapShapeCollection");
-                xamlMember.Getter = get_34_MapShapeLayer_Shapes;
-                xamlMember.Setter = set_34_MapShapeLayer_Shapes;
+                xamlMember.Getter = get_37_MapShapeLayer_Shapes;
+                xamlMember.Setter = set_37_MapShapeLayer_Shapes;
                 break;
             case "Bing.Maps.MapShape.Visible":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.MapShape");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Visible", "Boolean");
-                xamlMember.Getter = get_35_MapShape_Visible;
-                xamlMember.Setter = set_35_MapShape_Visible;
+                xamlMember.Getter = get_38_MapShape_Visible;
+                xamlMember.Setter = set_38_MapShape_Visible;
                 break;
             case "Bing.Maps.Map.RotationEnabled":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "RotationEnabled", "Boolean");
-                xamlMember.Getter = get_36_Map_RotationEnabled;
+                xamlMember.Getter = get_39_Map_RotationEnabled;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Bing.Maps.Map.TrafficIncidentPushpinOptions":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "TrafficIncidentPushpinOptions", "Bing.Maps.Traffic.TrafficIncidentPushpinOptions");
+                xamlMember.Getter = get_40_Map_TrafficIncidentPushpinOptions;
+                xamlMember.Setter = set_40_Map_TrafficIncidentPushpinOptions;
+                break;
+            case "Bing.Maps.Map.DirectionsUIEventManager":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "DirectionsUIEventManager", "Bing.Maps.Directions.DirectionsUIEventManager");
+                xamlMember.Getter = get_41_Map_DirectionsUIEventManager;
+                xamlMember.Setter = set_41_Map_DirectionsUIEventManager;
+                break;
+            case "Bing.Maps.Map.DirectionsRenderOptions":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "DirectionsRenderOptions", "Bing.Maps.Directions.DirectionsRenderOptions");
+                xamlMember.Getter = get_42_Map_DirectionsRenderOptions;
+                xamlMember.Setter = set_42_Map_DirectionsRenderOptions;
+                break;
+            case "Bing.Maps.Map.IsTransitDirectionsEnable":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "IsTransitDirectionsEnable", "Boolean");
+                xamlMember.Getter = get_43_Map_IsTransitDirectionsEnable;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.MaxZoomLevel":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "MaxZoomLevel", "Double");
-                xamlMember.Getter = get_37_Map_MaxZoomLevel;
+                xamlMember.Getter = get_44_Map_MaxZoomLevel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.MinZoomLevel":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "MinZoomLevel", "Double");
-                xamlMember.Getter = get_38_Map_MinZoomLevel;
+                xamlMember.Getter = get_45_Map_MinZoomLevel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.Culture":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Culture", "String");
-                xamlMember.Getter = get_39_Map_Culture;
-                xamlMember.Setter = set_39_Map_Culture;
+                xamlMember.Getter = get_46_Map_Culture;
+                xamlMember.Setter = set_46_Map_Culture;
                 break;
             case "Bing.Maps.Map.HomeRegion":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "HomeRegion", "String");
-                xamlMember.Getter = get_40_Map_HomeRegion;
-                xamlMember.Setter = set_40_Map_HomeRegion;
+                xamlMember.Getter = get_47_Map_HomeRegion;
+                xamlMember.Setter = set_47_Map_HomeRegion;
                 break;
             case "Bing.Maps.Map.TargetBounds":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "TargetBounds", "Bing.Maps.LocationRect");
-                xamlMember.Getter = get_41_Map_TargetBounds;
+                xamlMember.Getter = get_48_Map_TargetBounds;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.Bounds":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Bounds", "Bing.Maps.LocationRect");
-                xamlMember.Getter = get_42_Map_Bounds;
+                xamlMember.Getter = get_49_Map_Bounds;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.ShowBreadcrumb":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "ShowBreadcrumb", "Boolean");
-                xamlMember.Getter = get_43_Map_ShowBreadcrumb;
-                xamlMember.Setter = set_43_Map_ShowBreadcrumb;
+                xamlMember.Getter = get_50_Map_ShowBreadcrumb;
+                xamlMember.Setter = set_50_Map_ShowBreadcrumb;
                 break;
             case "Bing.Maps.Map.ShowBuildings":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "ShowBuildings", "Boolean");
-                xamlMember.Getter = get_44_Map_ShowBuildings;
-                xamlMember.Setter = set_44_Map_ShowBuildings;
+                xamlMember.Getter = get_51_Map_ShowBuildings;
+                xamlMember.Setter = set_51_Map_ShowBuildings;
                 break;
             case "Bing.Maps.Map.ShowTraffic":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "ShowTraffic", "Boolean");
-                xamlMember.Getter = get_45_Map_ShowTraffic;
-                xamlMember.Setter = set_45_Map_ShowTraffic;
+                xamlMember.Getter = get_52_Map_ShowTraffic;
+                xamlMember.Setter = set_52_Map_ShowTraffic;
                 break;
             case "Bing.Maps.Map.PreloadArea":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "PreloadArea", "Bing.Maps.PreloadArea");
-                xamlMember.Getter = get_46_Map_PreloadArea;
-                xamlMember.Setter = set_46_Map_PreloadArea;
+                xamlMember.Getter = get_53_Map_PreloadArea;
+                xamlMember.Setter = set_53_Map_PreloadArea;
                 break;
             case "Bing.Maps.Map.ViewRestriction":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "ViewRestriction", "Bing.Maps.MapViewRestriction");
-                xamlMember.Getter = get_47_Map_ViewRestriction;
-                xamlMember.Setter = set_47_Map_ViewRestriction;
+                xamlMember.Getter = get_54_Map_ViewRestriction;
+                xamlMember.Setter = set_54_Map_ViewRestriction;
                 break;
             case "Bing.Maps.Map.MapType":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "MapType", "Bing.Maps.MapType");
-                xamlMember.Getter = get_48_Map_MapType;
-                xamlMember.Setter = set_48_Map_MapType;
+                xamlMember.Getter = get_55_Map_MapType;
+                xamlMember.Setter = set_55_Map_MapType;
                 break;
             case "Bing.Maps.Map.TargetHeading":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "TargetHeading", "Double");
-                xamlMember.Getter = get_49_Map_TargetHeading;
+                xamlMember.Getter = get_56_Map_TargetHeading;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.TargetZoomLevel":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "TargetZoomLevel", "Double");
-                xamlMember.Getter = get_50_Map_TargetZoomLevel;
+                xamlMember.Getter = get_57_Map_TargetZoomLevel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.TargetCenter":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "TargetCenter", "Bing.Maps.Location");
-                xamlMember.Getter = get_51_Map_TargetCenter;
+                xamlMember.Getter = get_58_Map_TargetCenter;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Map.MetersPerPixel":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Map");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "MetersPerPixel", "Double");
-                xamlMember.Getter = get_52_Map_MetersPerPixel;
+                xamlMember.Getter = get_59_Map_MetersPerPixel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.Location.Longitude":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Location");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Longitude", "Double");
-                xamlMember.Getter = get_53_Location_Longitude;
-                xamlMember.Setter = set_53_Location_Longitude;
+                xamlMember.Getter = get_60_Location_Longitude;
+                xamlMember.Setter = set_60_Location_Longitude;
                 break;
             case "Bing.Maps.Location.Latitude":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Location");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Latitude", "Double");
-                xamlMember.Getter = get_54_Location_Latitude;
-                xamlMember.Setter = set_54_Location_Latitude;
+                xamlMember.Getter = get_61_Location_Latitude;
+                xamlMember.Setter = set_61_Location_Latitude;
                 break;
             case "M0rg0tRss.MyDataTemplateSelector.Template1":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("M0rg0tRss.MyDataTemplateSelector");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Template1", "Windows.UI.Xaml.DataTemplate");
-                xamlMember.Getter = get_55_MyDataTemplateSelector_Template1;
-                xamlMember.Setter = set_55_MyDataTemplateSelector_Template1;
+                xamlMember.Getter = get_62_MyDataTemplateSelector_Template1;
+                xamlMember.Setter = set_62_MyDataTemplateSelector_Template1;
                 break;
             case "M0rg0tRss.MyDataTemplateSelector.Template2":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("M0rg0tRss.MyDataTemplateSelector");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Template2", "Windows.UI.Xaml.DataTemplate");
-                xamlMember.Getter = get_56_MyDataTemplateSelector_Template2;
-                xamlMember.Setter = set_56_MyDataTemplateSelector_Template2;
+                xamlMember.Getter = get_63_MyDataTemplateSelector_Template2;
+                xamlMember.Setter = set_63_MyDataTemplateSelector_Template2;
                 break;
             case "M0rg0tRss.Common.RichTextColumns.RichTextContent":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("M0rg0tRss.Common.RichTextColumns");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "RichTextContent", "Windows.UI.Xaml.Controls.RichTextBlock");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_57_RichTextColumns_RichTextContent;
-                xamlMember.Setter = set_57_RichTextColumns_RichTextContent;
+                xamlMember.Getter = get_64_RichTextColumns_RichTextContent;
+                xamlMember.Setter = set_64_RichTextColumns_RichTextContent;
                 break;
             case "M0rg0tRss.Common.RichTextColumns.ColumnTemplate":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("M0rg0tRss.Common.RichTextColumns");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "ColumnTemplate", "Windows.UI.Xaml.DataTemplate");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_58_RichTextColumns_ColumnTemplate;
-                xamlMember.Setter = set_58_RichTextColumns_ColumnTemplate;
+                xamlMember.Getter = get_65_RichTextColumns_ColumnTemplate;
+                xamlMember.Setter = set_65_RichTextColumns_ColumnTemplate;
+                break;
+            case "Bing.Maps.Directions.DirectionsRenderOptions.WalkingPolylineOptions":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsRenderOptions");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "WalkingPolylineOptions", "Bing.Maps.Directions.DirectionsPolylineRenderOptions");
+                xamlMember.Getter = get_66_DirectionsRenderOptions_WalkingPolylineOptions;
+                xamlMember.Setter = set_66_DirectionsRenderOptions_WalkingPolylineOptions;
+                break;
+            case "Bing.Maps.Directions.DirectionsRenderOptions.TransitPolylineOptions":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsRenderOptions");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "TransitPolylineOptions", "Bing.Maps.Directions.DirectionsPolylineRenderOptions");
+                xamlMember.Getter = get_67_DirectionsRenderOptions_TransitPolylineOptions;
+                xamlMember.Setter = set_67_DirectionsRenderOptions_TransitPolylineOptions;
+                break;
+            case "Bing.Maps.Directions.DirectionsRenderOptions.DrivingPolylineOptions":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsRenderOptions");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "DrivingPolylineOptions", "Bing.Maps.Directions.DirectionsPolylineRenderOptions");
+                xamlMember.Getter = get_68_DirectionsRenderOptions_DrivingPolylineOptions;
+                xamlMember.Setter = set_68_DirectionsRenderOptions_DrivingPolylineOptions;
+                break;
+            case "Bing.Maps.Directions.DirectionsRenderOptions.ActiveRoutePolylineOptions":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsRenderOptions");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "ActiveRoutePolylineOptions", "Bing.Maps.Directions.DirectionsPolylineRenderOptions");
+                xamlMember.Getter = get_69_DirectionsRenderOptions_ActiveRoutePolylineOptions;
+                xamlMember.Setter = set_69_DirectionsRenderOptions_ActiveRoutePolylineOptions;
+                break;
+            case "Bing.Maps.Directions.DirectionsRenderOptions.StepPushpinOptions":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsRenderOptions");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "StepPushpinOptions", "Bing.Maps.Directions.DirectionsPushpinRenderOptions");
+                xamlMember.Getter = get_70_DirectionsRenderOptions_StepPushpinOptions;
+                xamlMember.Setter = set_70_DirectionsRenderOptions_StepPushpinOptions;
+                break;
+            case "Bing.Maps.Directions.DirectionsRenderOptions.DisambiguationPushpinOptions":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsRenderOptions");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "DisambiguationPushpinOptions", "Bing.Maps.Directions.DirectionsPushpinRenderOptions");
+                xamlMember.Getter = get_71_DirectionsRenderOptions_DisambiguationPushpinOptions;
+                xamlMember.Setter = set_71_DirectionsRenderOptions_DisambiguationPushpinOptions;
+                break;
+            case "Bing.Maps.Directions.DirectionsRenderOptions.EndWaypointColorBrush":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsRenderOptions");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "EndWaypointColorBrush", "Windows.UI.Xaml.Media.Brush");
+                xamlMember.Getter = get_72_DirectionsRenderOptions_EndWaypointColorBrush;
+                xamlMember.Setter = set_72_DirectionsRenderOptions_EndWaypointColorBrush;
+                break;
+            case "Bing.Maps.Directions.DirectionsRenderOptions.MiddleWaypointColorBrush":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsRenderOptions");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "MiddleWaypointColorBrush", "Windows.UI.Xaml.Media.Brush");
+                xamlMember.Getter = get_73_DirectionsRenderOptions_MiddleWaypointColorBrush;
+                xamlMember.Setter = set_73_DirectionsRenderOptions_MiddleWaypointColorBrush;
+                break;
+            case "Bing.Maps.Directions.DirectionsRenderOptions.StartWaypointColorBrush":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsRenderOptions");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "StartWaypointColorBrush", "Windows.UI.Xaml.Media.Brush");
+                xamlMember.Getter = get_74_DirectionsRenderOptions_StartWaypointColorBrush;
+                xamlMember.Setter = set_74_DirectionsRenderOptions_StartWaypointColorBrush;
+                break;
+            case "Bing.Maps.Directions.DirectionsRenderOptions.WaypointPushpinOptions":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsRenderOptions");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "WaypointPushpinOptions", "Bing.Maps.Directions.DirectionsPushpinRenderOptions");
+                xamlMember.Getter = get_75_DirectionsRenderOptions_WaypointPushpinOptions;
+                xamlMember.Setter = set_75_DirectionsRenderOptions_WaypointPushpinOptions;
+                break;
+            case "Bing.Maps.Directions.DirectionsRenderOptions.DisplayStepWarnings":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsRenderOptions");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "DisplayStepWarnings", "Boolean");
+                xamlMember.Getter = get_76_DirectionsRenderOptions_DisplayStepWarnings;
+                xamlMember.Setter = set_76_DirectionsRenderOptions_DisplayStepWarnings;
+                break;
+            case "Bing.Maps.Directions.DirectionsRenderOptions.DisplayItineraryItemHints":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsRenderOptions");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "DisplayItineraryItemHints", "Boolean");
+                xamlMember.Getter = get_77_DirectionsRenderOptions_DisplayItineraryItemHints;
+                xamlMember.Setter = set_77_DirectionsRenderOptions_DisplayItineraryItemHints;
+                break;
+            case "Bing.Maps.Directions.DirectionsRenderOptions.DisplayTransitIcons":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsRenderOptions");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "DisplayTransitIcons", "Boolean");
+                xamlMember.Getter = get_78_DirectionsRenderOptions_DisplayTransitIcons;
+                xamlMember.Setter = set_78_DirectionsRenderOptions_DisplayTransitIcons;
+                break;
+            case "Bing.Maps.Directions.DirectionsRenderOptions.DisplayManeuverIcons":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsRenderOptions");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "DisplayManeuverIcons", "Boolean");
+                xamlMember.Getter = get_79_DirectionsRenderOptions_DisplayManeuverIcons;
+                xamlMember.Setter = set_79_DirectionsRenderOptions_DisplayManeuverIcons;
+                break;
+            case "Bing.Maps.Directions.DirectionsRenderOptions.DisplayDisclaimer":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsRenderOptions");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "DisplayDisclaimer", "Boolean");
+                xamlMember.Getter = get_80_DirectionsRenderOptions_DisplayDisclaimer;
+                xamlMember.Setter = set_80_DirectionsRenderOptions_DisplayDisclaimer;
+                break;
+            case "Bing.Maps.Directions.DirectionsRenderOptions.AutoUpdateMapView":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsRenderOptions");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "AutoUpdateMapView", "Boolean");
+                xamlMember.Getter = get_81_DirectionsRenderOptions_AutoUpdateMapView;
+                xamlMember.Setter = set_81_DirectionsRenderOptions_AutoUpdateMapView;
+                break;
+            case "Bing.Maps.Directions.DirectionsRenderOptions.AutoDisplayDisambiguation":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsRenderOptions");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "AutoDisplayDisambiguation", "Boolean");
+                xamlMember.Getter = get_82_DirectionsRenderOptions_AutoDisplayDisambiguation;
+                xamlMember.Setter = set_82_DirectionsRenderOptions_AutoDisplayDisambiguation;
+                break;
+            case "Bing.Maps.Directions.DirectionsRenderOptions.AutoSetActiveRoute":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsRenderOptions");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "AutoSetActiveRoute", "Boolean");
+                xamlMember.Getter = get_83_DirectionsRenderOptions_AutoSetActiveRoute;
+                xamlMember.Setter = set_83_DirectionsRenderOptions_AutoSetActiveRoute;
+                break;
+            case "Bing.Maps.Directions.DirectionsRenderOptions.UseDefaultPushpins":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsRenderOptions");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "UseDefaultPushpins", "Boolean");
+                xamlMember.Getter = get_84_DirectionsRenderOptions_UseDefaultPushpins;
+                xamlMember.Setter = set_84_DirectionsRenderOptions_UseDefaultPushpins;
+                break;
+            case "Bing.Maps.Traffic.TrafficIncidentPushpinOptions.WeatherPushpinTemplate":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Traffic.TrafficIncidentPushpinOptions");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "WeatherPushpinTemplate", "Windows.UI.Xaml.Controls.ControlTemplate");
+                xamlMember.Getter = get_85_TrafficIncidentPushpinOptions_WeatherPushpinTemplate;
+                xamlMember.Setter = set_85_TrafficIncidentPushpinOptions_WeatherPushpinTemplate;
+                break;
+            case "Bing.Maps.Traffic.TrafficIncidentPushpinOptions.AlertPushpinTemplate":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Traffic.TrafficIncidentPushpinOptions");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "AlertPushpinTemplate", "Windows.UI.Xaml.Controls.ControlTemplate");
+                xamlMember.Getter = get_86_TrafficIncidentPushpinOptions_AlertPushpinTemplate;
+                xamlMember.Setter = set_86_TrafficIncidentPushpinOptions_AlertPushpinTemplate;
+                break;
+            case "Bing.Maps.Traffic.TrafficIncidentPushpinOptions.ConstructionPushpinTemplate":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Traffic.TrafficIncidentPushpinOptions");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "ConstructionPushpinTemplate", "Windows.UI.Xaml.Controls.ControlTemplate");
+                xamlMember.Getter = get_87_TrafficIncidentPushpinOptions_ConstructionPushpinTemplate;
+                xamlMember.Setter = set_87_TrafficIncidentPushpinOptions_ConstructionPushpinTemplate;
+                break;
+            case "Bing.Maps.Traffic.TrafficIncidentPushpinOptions.RoadHazardPushpinTemplate":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Traffic.TrafficIncidentPushpinOptions");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "RoadHazardPushpinTemplate", "Windows.UI.Xaml.Controls.ControlTemplate");
+                xamlMember.Getter = get_88_TrafficIncidentPushpinOptions_RoadHazardPushpinTemplate;
+                xamlMember.Setter = set_88_TrafficIncidentPushpinOptions_RoadHazardPushpinTemplate;
+                break;
+            case "Bing.Maps.Traffic.TrafficIncidentPushpinOptions.PlannedEventPushpinTemplate":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Traffic.TrafficIncidentPushpinOptions");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "PlannedEventPushpinTemplate", "Windows.UI.Xaml.Controls.ControlTemplate");
+                xamlMember.Getter = get_89_TrafficIncidentPushpinOptions_PlannedEventPushpinTemplate;
+                xamlMember.Setter = set_89_TrafficIncidentPushpinOptions_PlannedEventPushpinTemplate;
+                break;
+            case "Bing.Maps.Traffic.TrafficIncidentPushpinOptions.OtherNewsPushpinTemplate":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Traffic.TrafficIncidentPushpinOptions");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "OtherNewsPushpinTemplate", "Windows.UI.Xaml.Controls.ControlTemplate");
+                xamlMember.Getter = get_90_TrafficIncidentPushpinOptions_OtherNewsPushpinTemplate;
+                xamlMember.Setter = set_90_TrafficIncidentPushpinOptions_OtherNewsPushpinTemplate;
+                break;
+            case "Bing.Maps.Traffic.TrafficIncidentPushpinOptions.MiscellaneousPushpinTemplate":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Traffic.TrafficIncidentPushpinOptions");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "MiscellaneousPushpinTemplate", "Windows.UI.Xaml.Controls.ControlTemplate");
+                xamlMember.Getter = get_91_TrafficIncidentPushpinOptions_MiscellaneousPushpinTemplate;
+                xamlMember.Setter = set_91_TrafficIncidentPushpinOptions_MiscellaneousPushpinTemplate;
+                break;
+            case "Bing.Maps.Traffic.TrafficIncidentPushpinOptions.MassTransitPushpinTemplate":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Traffic.TrafficIncidentPushpinOptions");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "MassTransitPushpinTemplate", "Windows.UI.Xaml.Controls.ControlTemplate");
+                xamlMember.Getter = get_92_TrafficIncidentPushpinOptions_MassTransitPushpinTemplate;
+                xamlMember.Setter = set_92_TrafficIncidentPushpinOptions_MassTransitPushpinTemplate;
+                break;
+            case "Bing.Maps.Traffic.TrafficIncidentPushpinOptions.DisabledVehiclePushpinTemplate":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Traffic.TrafficIncidentPushpinOptions");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "DisabledVehiclePushpinTemplate", "Windows.UI.Xaml.Controls.ControlTemplate");
+                xamlMember.Getter = get_93_TrafficIncidentPushpinOptions_DisabledVehiclePushpinTemplate;
+                xamlMember.Setter = set_93_TrafficIncidentPushpinOptions_DisabledVehiclePushpinTemplate;
+                break;
+            case "Bing.Maps.Traffic.TrafficIncidentPushpinOptions.CongestionPushpinTemplate":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Traffic.TrafficIncidentPushpinOptions");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "CongestionPushpinTemplate", "Windows.UI.Xaml.Controls.ControlTemplate");
+                xamlMember.Getter = get_94_TrafficIncidentPushpinOptions_CongestionPushpinTemplate;
+                xamlMember.Setter = set_94_TrafficIncidentPushpinOptions_CongestionPushpinTemplate;
+                break;
+            case "Bing.Maps.Traffic.TrafficIncidentPushpinOptions.AccidentPushpinTemplate":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Traffic.TrafficIncidentPushpinOptions");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "AccidentPushpinTemplate", "Windows.UI.Xaml.Controls.ControlTemplate");
+                xamlMember.Getter = get_95_TrafficIncidentPushpinOptions_AccidentPushpinTemplate;
+                xamlMember.Setter = set_95_TrafficIncidentPushpinOptions_AccidentPushpinTemplate;
+                break;
+            case "Bing.Maps.Pushpin.AssociateObject":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Pushpin");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "AssociateObject", "Object");
+                xamlMember.Getter = get_96_Pushpin_AssociateObject;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Bing.Maps.Pushpin.Selected":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Pushpin");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Selected", "Boolean");
+                xamlMember.Getter = get_97_Pushpin_Selected;
+                xamlMember.Setter = set_97_Pushpin_Selected;
                 break;
             case "Bing.Maps.Pushpin.Text":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Pushpin");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Text", "String");
-                xamlMember.Getter = get_59_Pushpin_Text;
-                xamlMember.Setter = set_59_Pushpin_Text;
+                xamlMember.Getter = get_98_Pushpin_Text;
+                xamlMember.Setter = set_98_Pushpin_Text;
                 break;
             case "Bing.Maps.VenueMaps.VenueFloorDataSource.Items":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueFloorDataSource");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Items", "Windows.Foundation.Collections.IObservableVector<Object>");
-                xamlMember.Getter = get_60_VenueFloorDataSource_Items;
+                xamlMember.Getter = get_99_VenueFloorDataSource_Items;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueFloorDataSource.Name":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueFloorDataSource");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Name", "String");
-                xamlMember.Getter = get_61_VenueFloorDataSource_Name;
-                xamlMember.Setter = set_61_VenueFloorDataSource_Name;
+                xamlMember.Getter = get_100_VenueFloorDataSource_Name;
+                xamlMember.Setter = set_100_VenueFloorDataSource_Name;
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.Highlighted":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Highlighted", "Boolean");
-                xamlMember.Getter = get_62_VenueEntity_Highlighted;
+                xamlMember.Getter = get_101_VenueEntity_Highlighted;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.LineWidth":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "LineWidth", "Double");
-                xamlMember.Getter = get_63_VenueEntity_LineWidth;
-                xamlMember.Setter = set_63_VenueEntity_LineWidth;
+                xamlMember.Getter = get_102_VenueEntity_LineWidth;
+                xamlMember.Setter = set_102_VenueEntity_LineWidth;
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.HighlightColor":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "HighlightColor", "Windows.UI.Color");
-                xamlMember.Getter = get_64_VenueEntity_HighlightColor;
-                xamlMember.Setter = set_64_VenueEntity_HighlightColor;
+                xamlMember.Getter = get_103_VenueEntity_HighlightColor;
+                xamlMember.Setter = set_103_VenueEntity_HighlightColor;
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.FillColor":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "FillColor", "Windows.UI.Color");
-                xamlMember.Getter = get_65_VenueEntity_FillColor;
-                xamlMember.Setter = set_65_VenueEntity_FillColor;
+                xamlMember.Getter = get_104_VenueEntity_FillColor;
+                xamlMember.Setter = set_104_VenueEntity_FillColor;
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.LineColor":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "LineColor", "Windows.UI.Color");
-                xamlMember.Getter = get_66_VenueEntity_LineColor;
-                xamlMember.Setter = set_66_VenueEntity_LineColor;
+                xamlMember.Getter = get_105_VenueEntity_LineColor;
+                xamlMember.Setter = set_105_VenueEntity_LineColor;
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.Type":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Type", "Bing.Maps.VenueMaps.VenueEntityType");
-                xamlMember.Getter = get_67_VenueEntity_Type;
+                xamlMember.Getter = get_106_VenueEntity_Type;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.PhoneNumber":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "PhoneNumber", "String");
-                xamlMember.Getter = get_68_VenueEntity_PhoneNumber;
+                xamlMember.Getter = get_107_VenueEntity_PhoneNumber;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.Name":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Name", "String");
-                xamlMember.Getter = get_69_VenueEntity_Name;
+                xamlMember.Getter = get_108_VenueEntity_Name;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.Outline":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Outline", "Bing.Maps.LocationCollection");
-                xamlMember.Getter = get_70_VenueEntity_Outline;
+                xamlMember.Getter = get_109_VenueEntity_Outline;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.Id":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Id", "Int32");
-                xamlMember.Getter = get_71_VenueEntity_Id;
+                xamlMember.Getter = get_110_VenueEntity_Id;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.FloorName":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "FloorName", "String");
-                xamlMember.Getter = get_72_VenueEntity_FloorName;
+                xamlMember.Getter = get_111_VenueEntity_FloorName;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.Floor":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Floor", "Bing.Maps.VenueMaps.Floor");
-                xamlMember.Getter = get_73_VenueEntity_Floor;
+                xamlMember.Getter = get_112_VenueEntity_Floor;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.Location":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Location", "Bing.Maps.Location");
-                xamlMember.Getter = get_74_VenueEntity_Location;
+                xamlMember.Getter = get_113_VenueEntity_Location;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.Description":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Description", "String");
-                xamlMember.Getter = get_75_VenueEntity_Description;
+                xamlMember.Getter = get_114_VenueEntity_Description;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.CategoryName":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "CategoryName", "String");
-                xamlMember.Getter = get_76_VenueEntity_CategoryName;
+                xamlMember.Getter = get_115_VenueEntity_CategoryName;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.CategoryId":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "CategoryId", "String");
-                xamlMember.Getter = get_77_VenueEntity_CategoryId;
+                xamlMember.Getter = get_116_VenueEntity_CategoryId;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.BusinessId":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "BusinessId", "String");
-                xamlMember.Getter = get_78_VenueEntity_BusinessId;
+                xamlMember.Getter = get_117_VenueEntity_BusinessId;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Bing.Maps.VenueMaps.VenueEntity.Address":
                 userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.VenueMaps.VenueEntity");
                 xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Address", "Bing.Maps.VenueMaps.VenueAddress");
-                xamlMember.Getter = get_79_VenueEntity_Address;
+                xamlMember.Getter = get_118_VenueEntity_Address;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Bing.Maps.Directions.DirectionsPushpinRenderOptions.Visible":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsPushpinRenderOptions");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Visible", "Boolean");
+                xamlMember.Getter = get_119_DirectionsPushpinRenderOptions_Visible;
+                xamlMember.Setter = set_119_DirectionsPushpinRenderOptions_Visible;
+                break;
+            case "Bing.Maps.Directions.DirectionsPushpinRenderOptions.Offset":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsPushpinRenderOptions");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Offset", "Bing.Maps.PushpinOffset");
+                xamlMember.Getter = get_120_DirectionsPushpinRenderOptions_Offset;
+                xamlMember.Setter = set_120_DirectionsPushpinRenderOptions_Offset;
+                break;
+            case "Bing.Maps.Directions.DirectionsPushpinRenderOptions.PushpinTemplate":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsPushpinRenderOptions");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "PushpinTemplate", "Windows.UI.Xaml.Controls.ControlTemplate");
+                xamlMember.Getter = get_121_DirectionsPushpinRenderOptions_PushpinTemplate;
+                xamlMember.Setter = set_121_DirectionsPushpinRenderOptions_PushpinTemplate;
+                break;
+            case "Bing.Maps.Directions.DirectionsPolylineRenderOptions.Visible":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsPolylineRenderOptions");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Visible", "Boolean");
+                xamlMember.Getter = get_122_DirectionsPolylineRenderOptions_Visible;
+                xamlMember.Setter = set_122_DirectionsPolylineRenderOptions_Visible;
+                break;
+            case "Bing.Maps.Directions.DirectionsPolylineRenderOptions.LineWidth":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsPolylineRenderOptions");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "LineWidth", "Double");
+                xamlMember.Getter = get_123_DirectionsPolylineRenderOptions_LineWidth;
+                xamlMember.Setter = set_123_DirectionsPolylineRenderOptions_LineWidth;
+                break;
+            case "Bing.Maps.Directions.DirectionsPolylineRenderOptions.LineColor":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsPolylineRenderOptions");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "LineColor", "Windows.UI.Color");
+                xamlMember.Getter = get_124_DirectionsPolylineRenderOptions_LineColor;
+                xamlMember.Setter = set_124_DirectionsPolylineRenderOptions_LineColor;
+                break;
+            case "Bing.Maps.Directions.ItineraryItemDataSource.Warnings":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.ItineraryItemDataSource");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Warnings", "Windows.Foundation.Collections.IObservableVector<Object>");
+                xamlMember.Getter = get_125_ItineraryItemDataSource_Warnings;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Bing.Maps.Directions.ItineraryItemDataSource.IconColor":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.ItineraryItemDataSource");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "IconColor", "Windows.UI.Xaml.Media.Brush");
+                xamlMember.Getter = get_126_ItineraryItemDataSource_IconColor;
+                xamlMember.Setter = set_126_ItineraryItemDataSource_IconColor;
+                break;
+            case "Bing.Maps.Directions.ItineraryItemDataSource.AutomationName":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.ItineraryItemDataSource");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "AutomationName", "String");
+                xamlMember.Getter = get_127_ItineraryItemDataSource_AutomationName;
+                xamlMember.Setter = set_127_ItineraryItemDataSource_AutomationName;
+                break;
+            case "Bing.Maps.Directions.ItineraryItemDataSource.Hint":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.ItineraryItemDataSource");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Hint", "String");
+                xamlMember.Getter = get_128_ItineraryItemDataSource_Hint;
+                xamlMember.Setter = set_128_ItineraryItemDataSource_Hint;
+                break;
+            case "Bing.Maps.Directions.ItineraryItemDataSource.Icon":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.ItineraryItemDataSource");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Icon", "String");
+                xamlMember.Getter = get_129_ItineraryItemDataSource_Icon;
+                xamlMember.Setter = set_129_ItineraryItemDataSource_Icon;
+                break;
+            case "Bing.Maps.Directions.ItineraryItemDataSource.Index":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.ItineraryItemDataSource");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Index", "UInt32");
+                xamlMember.Getter = get_130_ItineraryItemDataSource_Index;
+                xamlMember.Setter = set_130_ItineraryItemDataSource_Index;
+                break;
+            case "Bing.Maps.Directions.ItineraryItemDataSource.RouteLegIndex":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.ItineraryItemDataSource");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "RouteLegIndex", "UInt32");
+                xamlMember.Getter = get_131_ItineraryItemDataSource_RouteLegIndex;
+                xamlMember.Setter = set_131_ItineraryItemDataSource_RouteLegIndex;
+                break;
+            case "Bing.Maps.Directions.ItineraryItemDataSource.TransitStop":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.ItineraryItemDataSource");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "TransitStop", "String");
+                xamlMember.Getter = get_132_ItineraryItemDataSource_TransitStop;
+                xamlMember.Setter = set_132_ItineraryItemDataSource_TransitStop;
+                break;
+            case "Bing.Maps.Directions.ItineraryItemDataSource.TransitDepartureTime":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.ItineraryItemDataSource");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "TransitDepartureTime", "String");
+                xamlMember.Getter = get_133_ItineraryItemDataSource_TransitDepartureTime;
+                xamlMember.Setter = set_133_ItineraryItemDataSource_TransitDepartureTime;
+                break;
+            case "Bing.Maps.Directions.ItineraryItemDataSource.TransitArrivalTime":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.ItineraryItemDataSource");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "TransitArrivalTime", "String");
+                xamlMember.Getter = get_134_ItineraryItemDataSource_TransitArrivalTime;
+                xamlMember.Setter = set_134_ItineraryItemDataSource_TransitArrivalTime;
+                break;
+            case "Bing.Maps.Directions.ItineraryItemDataSource.TransitArrivalInstructionHeader":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.ItineraryItemDataSource");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "TransitArrivalInstructionHeader", "String");
+                xamlMember.Getter = get_135_ItineraryItemDataSource_TransitArrivalInstructionHeader;
+                xamlMember.Setter = set_135_ItineraryItemDataSource_TransitArrivalInstructionHeader;
+                break;
+            case "Bing.Maps.Directions.ItineraryItemDataSource.TransitArrivalInstruction":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.ItineraryItemDataSource");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "TransitArrivalInstruction", "String");
+                xamlMember.Getter = get_136_ItineraryItemDataSource_TransitArrivalInstruction;
+                xamlMember.Setter = set_136_ItineraryItemDataSource_TransitArrivalInstruction;
+                break;
+            case "Bing.Maps.Directions.ItineraryItemDataSource.TransitInstructionHeader":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.ItineraryItemDataSource");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "TransitInstructionHeader", "String");
+                xamlMember.Getter = get_137_ItineraryItemDataSource_TransitInstructionHeader;
+                xamlMember.Setter = set_137_ItineraryItemDataSource_TransitInstructionHeader;
+                break;
+            case "Bing.Maps.Directions.ItineraryItemDataSource.DisplayIndex":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.ItineraryItemDataSource");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "DisplayIndex", "String");
+                xamlMember.Getter = get_138_ItineraryItemDataSource_DisplayIndex;
+                xamlMember.Setter = set_138_ItineraryItemDataSource_DisplayIndex;
+                break;
+            case "Bing.Maps.Directions.ItineraryItemDataSource.Instruction":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.ItineraryItemDataSource");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Instruction", "String");
+                xamlMember.Getter = get_139_ItineraryItemDataSource_Instruction;
+                xamlMember.Setter = set_139_ItineraryItemDataSource_Instruction;
+                break;
+            case "Bing.Maps.Directions.ItineraryItemDataSource.Distance":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.ItineraryItemDataSource");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Distance", "String");
+                xamlMember.Getter = get_140_ItineraryItemDataSource_Distance;
+                xamlMember.Setter = set_140_ItineraryItemDataSource_Distance;
+                break;
+            case "Bing.Maps.Directions.RouteLegDataSource.Items":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.RouteLegDataSource");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Items", "Windows.Foundation.Collections.IObservableVector<Object>");
+                xamlMember.Getter = get_141_RouteLegDataSource_Items;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Bing.Maps.Directions.RouteLegDataSource.AutomationName":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.RouteLegDataSource");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "AutomationName", "String");
+                xamlMember.Getter = get_142_RouteLegDataSource_AutomationName;
+                xamlMember.Setter = set_142_RouteLegDataSource_AutomationName;
+                break;
+            case "Bing.Maps.Directions.RouteLegDataSource.Header":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.RouteLegDataSource");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Header", "String");
+                xamlMember.Getter = get_143_RouteLegDataSource_Header;
+                xamlMember.Setter = set_143_RouteLegDataSource_Header;
+                break;
+            case "Bing.Maps.Directions.TransitRouteDataSource.AutomationName":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.TransitRouteDataSource");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "AutomationName", "String");
+                xamlMember.Getter = get_144_TransitRouteDataSource_AutomationName;
+                xamlMember.Setter = set_144_TransitRouteDataSource_AutomationName;
+                break;
+            case "Bing.Maps.Directions.TransitRouteDataSource.Icon":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.TransitRouteDataSource");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Icon", "String");
+                xamlMember.Getter = get_145_TransitRouteDataSource_Icon;
+                xamlMember.Setter = set_145_TransitRouteDataSource_Icon;
+                break;
+            case "Bing.Maps.Directions.TransitRouteDataSource.Summary":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.TransitRouteDataSource");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Summary", "String");
+                xamlMember.Getter = get_146_TransitRouteDataSource_Summary;
+                xamlMember.Setter = set_146_TransitRouteDataSource_Summary;
+                break;
+            case "Bing.Maps.Directions.RouteLegDataTemplateSelector.RouteLegHeaderItemTemplate":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.RouteLegDataTemplateSelector");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "RouteLegHeaderItemTemplate", "Windows.UI.Xaml.DataTemplate");
+                xamlMember.Getter = get_147_RouteLegDataTemplateSelector_RouteLegHeaderItemTemplate;
+                xamlMember.Setter = set_147_RouteLegDataTemplateSelector_RouteLegHeaderItemTemplate;
+                break;
+            case "Bing.Maps.Directions.RouteLegDataTemplateSelector.GroupRouteLegHeaderItemTemplate":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.RouteLegDataTemplateSelector");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "GroupRouteLegHeaderItemTemplate", "Windows.UI.Xaml.DataTemplate");
+                xamlMember.Getter = get_148_RouteLegDataTemplateSelector_GroupRouteLegHeaderItemTemplate;
+                xamlMember.Setter = set_148_RouteLegDataTemplateSelector_GroupRouteLegHeaderItemTemplate;
+                break;
+            case "Bing.Maps.Directions.RouteLegDataTemplateSelector.WalkItineraryItemTemplate":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.RouteLegDataTemplateSelector");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "WalkItineraryItemTemplate", "Windows.UI.Xaml.DataTemplate");
+                xamlMember.Getter = get_149_RouteLegDataTemplateSelector_WalkItineraryItemTemplate;
+                xamlMember.Setter = set_149_RouteLegDataTemplateSelector_WalkItineraryItemTemplate;
+                break;
+            case "Bing.Maps.Directions.RouteLegDataTemplateSelector.TransitWaypointTemplate":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.RouteLegDataTemplateSelector");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "TransitWaypointTemplate", "Windows.UI.Xaml.DataTemplate");
+                xamlMember.Getter = get_150_RouteLegDataTemplateSelector_TransitWaypointTemplate;
+                xamlMember.Setter = set_150_RouteLegDataTemplateSelector_TransitWaypointTemplate;
+                break;
+            case "Bing.Maps.Directions.RouteLegDataTemplateSelector.TransitItineraryItemTemplate":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.RouteLegDataTemplateSelector");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "TransitItineraryItemTemplate", "Windows.UI.Xaml.DataTemplate");
+                xamlMember.Getter = get_151_RouteLegDataTemplateSelector_TransitItineraryItemTemplate;
+                xamlMember.Setter = set_151_RouteLegDataTemplateSelector_TransitItineraryItemTemplate;
+                break;
+            case "Bing.Maps.Directions.RouteLegDataTemplateSelector.ItineraryItemTemplate":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.RouteLegDataTemplateSelector");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "ItineraryItemTemplate", "Windows.UI.Xaml.DataTemplate");
+                xamlMember.Getter = get_152_RouteLegDataTemplateSelector_ItineraryItemTemplate;
+                xamlMember.Setter = set_152_RouteLegDataTemplateSelector_ItineraryItemTemplate;
+                break;
+            case "Bing.Maps.Directions.RouteLegDataTemplateSelector.WaypointTemplate":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.RouteLegDataTemplateSelector");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "WaypointTemplate", "Windows.UI.Xaml.DataTemplate");
+                xamlMember.Getter = get_153_RouteLegDataTemplateSelector_WaypointTemplate;
+                xamlMember.Setter = set_153_RouteLegDataTemplateSelector_WaypointTemplate;
+                break;
+            case "Bing.Maps.Directions.DirectionsContainerSelector.UnSelectableStyle":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsContainerSelector");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "UnSelectableStyle", "Windows.UI.Xaml.Style");
+                xamlMember.Getter = get_154_DirectionsContainerSelector_UnSelectableStyle;
+                xamlMember.Setter = set_154_DirectionsContainerSelector_UnSelectableStyle;
+                break;
+            case "Bing.Maps.Directions.DirectionsContainerSelector.SelectableStyle":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.DirectionsContainerSelector");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "SelectableStyle", "Windows.UI.Xaml.Style");
+                xamlMember.Getter = get_155_DirectionsContainerSelector_SelectableStyle;
+                xamlMember.Setter = set_155_DirectionsContainerSelector_SelectableStyle;
+                break;
+            case "Bing.Maps.Directions.Warning.Type":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.Warning");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Type", "Bing.Maps.Directions.WarningType");
+                xamlMember.Getter = get_156_Warning_Type;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Bing.Maps.Directions.Warning.Severity":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.Warning");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Severity", "Bing.Maps.Directions.WarningSeverity");
+                xamlMember.Getter = get_157_Warning_Severity;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Bing.Maps.Directions.Warning.Message":
+                userType = (global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Bing.Maps.Directions.Warning");
+                xamlMember = new global::M0rg0tRss.MoscowMuseums_XamlTypeInfo.XamlMember(this, "Message", "String");
+                xamlMember.Getter = get_158_Warning_Message;
                 xamlMember.SetIsReadOnly();
                 break;
             }
