@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <config>
   <application>
@@ -36,4 +37,44 @@
 
 
   </feeds>
+=======
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <application>
+    <settings>
+      <title>Рыбинск</title>
+    </settings>
+  </application>
+  <feeds>
+    <feed>
+      <id>1</id>
+      <title>Новости туризма</title>
+      <url>http://travel.mos.ru/rss.227.xml</url>
+      <description>Новости туризма</description>
+      <type>rss</type>
+      <view>variablesize</view>
+      <policy>http://wintheweb.ru/openprivacy.html</policy>
+    </feed>
+    <feed>
+      <id>2</id>
+      <title>Новости искусства</title>
+      <url>http://travel.mos.ru/rss.537.xml</url>
+      <description>Новости искусства</description>
+      <type>rss</type>
+      <view>variablesize</view>
+      <policy>http://wintheweb.ru/openprivacy.html</policy>
+    </feed>
+    <feed>
+      <id>3</id>
+      <title>Новости театров</title>
+      <url>http://travel.mos.ru/rss.533.xml</url>
+      <description>Новости театров</description>
+      <type>rss</type>
+      <view>variablesize</view>
+      <policy>http://wintheweb.ru/openprivacy.html</policy>
+    </feed>
+
+
+  </feeds>
+>>>>>>> 22956bc956503b3515068830dc6bc8b9c760200d
 </config>

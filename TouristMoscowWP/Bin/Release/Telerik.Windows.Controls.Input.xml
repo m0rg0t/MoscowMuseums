@@ -1164,6 +1164,11 @@
             Identifies the <c cref="P:Telerik.Windows.Controls.RadCalendar.GridLinesBrush"/> dependency property.
             </summary>
         </member>
+        <member name="F:Telerik.Windows.Controls.RadCalendar.GridLinesThicknessProperty">
+            <summary>
+            Identifies the <c cref="P:Telerik.Windows.Controls.RadCalendar.GridLinesThickness"/> dependency property.
+            </summary>
+        </member>
         <member name="M:Telerik.Windows.Controls.RadCalendar.#ctor">
             <summary>
                 Initializes a new instance of the RadCalendar class.
@@ -1207,6 +1212,13 @@
             </summary>
             <param name="newBrush">The new brush.</param>
             <param name="oldBrush">The old brush.</param>
+        </member>
+        <member name="M:Telerik.Windows.Controls.RadCalendar.OnGridLinesThicknessChanged(System.Double,System.Double)">
+            <summary>
+            A virtual method that is called when the <see cref="P:Telerik.Windows.Controls.RadCalendar.GridLinesThickness"/> property changes.
+            </summary>
+            <param name="newThickness">The new thickness.</param>
+            <param name="oldThickness">The old thickness.</param>
         </member>
         <member name="M:Telerik.Windows.Controls.RadCalendar.IsDateSelectable(System.DateTime)">
             <summary>
@@ -1616,6 +1628,12 @@
         <member name="P:Telerik.Windows.Controls.RadCalendar.GridLinesBrush">
             <summary>
             Gets or sets the color for the grid lines. The lines that separate
+            the different time units.
+            </summary>
+        </member>
+        <member name="P:Telerik.Windows.Controls.RadCalendar.GridLinesThickness">
+            <summary>
+            Gets or sets the width for the grid lines. The lines that separate
             the different time units.
             </summary>
         </member>
