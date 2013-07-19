@@ -1177,6 +1177,8 @@ namespace M0rg0tRss.MoscowMuseums_XamlTypeInfo
                     _otherProviders.Add(provider); 
                     provider = new global::Callisto.Callisto_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
                     _otherProviders.Add(provider); 
+                    provider = new global::Coding4Fun.Toolkit.Controls.Coding4Fun_Toolkit_Controls_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    _otherProviders.Add(provider); 
                 }
                 return _otherProviders;
             }

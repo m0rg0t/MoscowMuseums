@@ -337,10 +337,9 @@
     <Language Code="zu-za" InMinimumRequirementSet="false" />
   </SupportedLocales>
   <ProductReservedInfo>
-    <MainPackageIdentityName>43337m0rg0t.4221071A35AC9</MainPackageIdentityName>
+    <MainPackageIdentityName>43337m0rg0t.11205334BDBA3</MainPackageIdentityName>
     <ReservedNames>
       <ReservedName>Туристическая Москва</ReservedName>
-      <ReservedName>Места Москвы</ReservedName>
     </ReservedNames>
   </ProductReservedInfo>
   <AccountPackageIdentityNames>
@@ -356,6 +355,7 @@
     <MainPackageIdentityName>43337m0rg0t.61938D133BA94</MainPackageIdentityName>
     <MainPackageIdentityName>43337m0rg0t.4529039618FD7</MainPackageIdentityName>
     <MainPackageIdentityName>43337m0rg0t.6385682C0B40</MainPackageIdentityName>
+    <MainPackageIdentityName>43337m0rg0t.4221071A35AC9</MainPackageIdentityName>
     <MainPackageIdentityName>43337m0rg0t.393615CC6A4B3</MainPackageIdentityName>
     <MainPackageIdentityName>43337m0rg0t.2435991D7DAA5</MainPackageIdentityName>
     <MainPackageIdentityName>43337m0rg0t.336746D1E5EC8</MainPackageIdentityName>
@@ -364,14 +364,5 @@
     <MainPackageIdentityName>43337m0rg0t.54199DE04DE4D</MainPackageIdentityName>
     <MainPackageIdentityName>43337m0rg0t.-</MainPackageIdentityName>
   </AccountPackageIdentityNames>
-  <PackageInfoList LandingUrl="https://appdev.microsoft.com:443/StorePortals/Developer/Catalog/ReleaseAnchor/ff371511-ce94-4fd0-b9eb-40382db1d408">
-    <PackageInfo>
-      <PackageArchitecture>x64</PackageArchitecture>
-      <PackageMaxArchitectureVersion>1.1.1.16</PackageMaxArchitectureVersion>
-    </PackageInfo>
-    <PackageInfo>
-      <PackageArchitecture>x86</PackageArchitecture>
-      <PackageMaxArchitectureVersion>1.1.1.16</PackageMaxArchitectureVersion>
-    </PackageInfo>
-  </PackageInfoList>
+  <PackageInfoList LandingUrl="https://appdev.microsoft.com:443/StorePortals/Developer/Catalog/ReleaseAnchor/0c679987-372c-4228-8b4c-085b0a7c260c" />
 </StoreAssociation>

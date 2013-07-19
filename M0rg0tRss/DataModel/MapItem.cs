@@ -75,15 +75,59 @@ namespace M0rg0tRss.DataModel
                 _object_audio_urls = value;
                 try
                 {
-                    JObject o = JObject.Parse(_object_audio_urls);
-                    ObservableCollection<string> items = new ObservableCollection<string>();
-                    foreach (var item in o)
+                    if (_object_audio_urls != "" && _object_audio_urls!=null && _object_audio_urls != "[]")
                     {
-                        items.Add(item.ToString());
+                        JArray o = JArray.Parse(_object_audio_urls);
+                        ObservableCollection<string> items = new ObservableCollection<string>();
+                        foreach (var item in o)
+                        {
+                            items.Add(item.ToString());
+                        };
+                        Audio_urls = items;
                     };
-                    Audio_urls = items;
                 }
                 catch { };
+            }
+        }
+
+        private string _object_image_urls = "";
+        public string Object_image_urls
+        {
+            get
+            {
+                return _object_image_urls;
+            }
+            set
+            {
+                _object_image_urls = value;
+                try
+                {
+                    if (_object_image_urls != "" && _object_image_urls != null && _object_image_urls != "[]")
+                    {
+                        JArray o = JArray.Parse(_object_image_urls);
+                        ObservableCollection<string> items = new ObservableCollection<string>();
+                        foreach (var item in o)
+                        {
+                            items.Add(item.ToString());
+                        };
+                        Image_urls = items;
+                    };
+                }
+                catch { };
+            }
+        }
+
+        private ObservableCollection<string> _image_urls = new ObservableCollection<string>();
+        [SQLite.Ignore]
+        public ObservableCollection<string> Image_urls
+        {
+            get
+            {
+                return _image_urls;
+            }
+            set
+            {
+                _image_urls = value;
             }
         }
 

@@ -496,7 +496,7 @@ namespace M0rg0tRss.ViewModel
         /// <param name="category"></param>
         public async void LoadTouristQuery(string query = "", string category = "Tourist")
         {
-            var dbPath = Path.Combine(Windows.Storage.ApplicationData.Current.LocalFolder.Path, "places.db");
+            var dbPath = Path.Combine(Windows.Storage.ApplicationData.Current.LocalFolder.Path, "Data/places.db");
             SQLiteAsyncConnection conn = new SQLiteAsyncConnection(dbPath);
             await conn.CreateTableAsync<MapItem>();
 
@@ -528,7 +528,28 @@ namespace M0rg0tRss.ViewModel
                     currentMapItem.Lon = item["object_geo"]["longitude"].Value<Double>();
                     currentMapItem.Object_rate = item["object_rate"].Value<Double>();
 
-                    currentMapItem.Object_audio_urls = item["object_audio_urls"].ToString();
+                    try
+                    {                        
+                        currentMapItem.Object_audio_urls = obj["result"]["object_audio_urls"].ToString();
+                        if (currentMapItem.Object_audio_urls != "" && currentMapItem.Object_audio_urls != null && currentMapItem.Object_audio_urls != "[]")
+                        {
+                            string id = obj["result"]["object_name"].ToString();
+                        };
+                       //currentMapItem.Object_audio_urls
+                    }
+                    catch {
+                        currentMapItem.Object_audio_urls = "";
+                    };
+
+                    try
+                    {
+                        currentMapItem.Object_image_urls = obj["result"]["object_img_urls"].ToString();
+                        //currentMapItem.Object_audio_urls
+                    }
+                    catch
+                    {
+                        currentMapItem.Object_audio_urls = "";
+                    };
 
                     await conn.QueryAsync<MapItem>("DELETE FROM MapItem WHERE UniqueId='" + currentMapItem.UniqueId + "'");
                     await conn.InsertAsync(currentMapItem);

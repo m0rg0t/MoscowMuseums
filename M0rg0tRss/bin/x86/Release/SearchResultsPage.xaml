@@ -140,7 +140,7 @@
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
             <Button x:ConnectionId='1' x:Name="backButton"                IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
-            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="Рыбинск" IsHitTestVisible="false" Style="{StaticResource PageHeaderTextStyle}"  />
+            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="Туристическая Москва" IsHitTestVisible="false" Style="{StaticResource PageHeaderTextStyle}"  />
             <TextBlock x:Name="resultText" Grid.Column="2" Text="Результаты для&#x00a0;" IsHitTestVisible="false" Style="{StaticResource PageSubheaderTextStyle}"/>
             <TextBlock x:Name="queryText" Grid.Column="3" Text="{Binding QueryText}" IsHitTestVisible="false" Style="{StaticResource PageSubheaderTextStyle}"/>
         </Grid>

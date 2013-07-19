@@ -7,9 +7,9 @@
 
  Дополнительные сведения о файлах манифестов приложений см. по адресу http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="43337m0rg0t.4221071A35AC9" Publisher="CN=F7642D27-CCE9-4988-9BED-35B1F14EED65" Version="1.1.1.17" ProcessorArchitecture="x86" />
+  <Identity Name="43337m0rg0t.11205334BDBA3" Publisher="CN=F7642D27-CCE9-4988-9BED-35B1F14EED65" Version="1.1.1.17" ProcessorArchitecture="x86" />
   <Properties>
-    <DisplayName>Места Москвы</DisplayName>
+    <DisplayName>Туристическая Москва</DisplayName>
     <PublisherDisplayName>m0rg0t</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -22,7 +22,7 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="M0rg0tRss.exe" EntryPoint="M0rg0tRss.App">
-      <VisualElements DisplayName="Места Москвы" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="Места Москвы" ForegroundText="light" BackgroundColor="#A8002C">
+      <VisualElements DisplayName="Туристическая Москва" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="Места Москвы" ForegroundText="light" BackgroundColor="#A8002C">
         <DefaultTile ShowName="allLogos" WideLogo="Assets\WideLogo.png" />
         <SplashScreen Image="Assets\SplashScreen.png" />
         <InitialRotationPreference>
@@ -45,107 +45,100 @@
     <Extension Category="windows.activatableClass.inProcessServer">
       <InProcessServer>
         <Path>Bing.Maps.dll</Path>
-        <ActivatableClass ActivatableClassId="Bing.Maps.MapShapeLayerCollection" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.MapStyleChangedEventArgs" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.MapAutomationPeer" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.PushpinAutomationPeer" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.LocationCollection" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.ViewChangeStartedEventArgs" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.MapPolyline" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.TileServersAvailabilityChangedEventArgs" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.AccessibleContainer" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.TileDownloadCompletedEventArgs" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.MapMultiPoint" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.LandmarkCollection" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.LocationRectCollection" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.MapShape" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.RouteLegCollection" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.DirectionsPushpinRenderOptions" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.TransitLineCollection" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.ItineraryItemCollection" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.TransitRouteDataSource" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.RouteLegDataTemplateSelector" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.NamesCollection" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.ItineraryItemDataSource" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.Waypoint" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.DirectionsRenderOptions" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.RouteCollection" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.LocationDisambiguationCollection" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.DirectionsRequestOptions" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.ItineraryItemDetailsCollection" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.HintCollection" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.DirectionsUIEventManager" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.DirectionsPolylineRenderOptions" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.DirectionsContainerSelector" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.WaypointCollection" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.RouteLegDataSource" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.SignCollection" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.WarningCollection" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.MapShapeCollection" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.Map" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.MapAddress" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.Search.ReverseGeocodeRequestOptions" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.Search.GeocodePointCollection" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.Search.GeocodeLocationCollection" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.Search.GeocodeRequestOptions" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.Pushpin" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.CopyrightChangedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.MapTileLayer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.LandmarkTappedEventArgs" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Bing.Maps.MapLayer" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.MapPolygon" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.TargetViewChangedEventArgs" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.MapTileLayerCollection" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.MapUIElementCollection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.ViewChangeStartedEventArgs" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Bing.Maps.MapShapeLayer" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.ViewChangeEndedEventArgs" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.VenueMaps.VenueFloorDataSource" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.VenueMaps.VenueByCountryOptions" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.VenueMaps.NearbyVenueOptions" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.VenueMaps.VenueEntityCollection" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.VenueMaps.ActiveFloorChangedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.CopyrightChangedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.MapMultiPoint" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.TileServersAvailabilityChangedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.MapItemsControl" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Bing.Maps.VenueMaps.VenueByCountryCollection" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Bing.Maps.VenueMaps.FloorCollection" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Bing.Maps.VenueMaps.NearbyVenueCollection" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.VenueMaps.ActiveVenueChangedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.VenueMaps.ActiveFloorChangedEventArgs" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Bing.Maps.VenueMaps.VenueCountryCollection" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.Traffic.TrafficIncidentPushpinOptions" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.Traffic.TrafficIncidentRequestOptions" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.Traffic.TrafficIncidentCollection" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.ViewChangedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.VenueMaps.VenueFloorDataSource" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.VenueMaps.VenueEntityCollection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.VenueMaps.VenueByCountryOptions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.VenueMaps.ActiveVenueChangedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.VenueMaps.NearbyVenueOptions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.LandmarkCollection" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Bing.Maps.PanelBase" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.CustomListView" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.TransitRouteCollection" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.LandmarkTappedEventArgs" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.Location" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.MapItemsControl" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.LocationRect" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.Bing_Maps_XamlTypeInfo.XamlMetaDataProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.AccessibleContainer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.MapStyleChangedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.MapShape" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.Search.ReverseGeocodeRequestOptions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.Search.GeocodePointCollection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.Search.GeocodeRequestOptions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.Search.GeocodeLocationCollection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.MapAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.LocationRectCollection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.MapPolygon" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.TransitLineCollection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.ItineraryItemDataSource" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.RouteLegDataSource" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.DirectionsUIEventManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.NamesCollection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.DirectionsContainerSelector" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.TransitRouteDataSource" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.LocationDisambiguationCollection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.DirectionsRequestOptions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.ItineraryItemDetailsCollection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.SignCollection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.DirectionsRenderOptions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.DirectionsPushpinRenderOptions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.DirectionsPolylineRenderOptions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.RouteLegCollection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.Waypoint" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.ItineraryItemCollection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.RouteLegDataTemplateSelector" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.WarningCollection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.RouteCollection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.HintCollection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.Directions.WaypointCollection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.Map" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.Pushpin" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Bing.Maps.MapAnimationDuration" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="Bing.Maps.MapTileLayer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.MapShapeCollection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.MapTileLayerCollection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.MapAddress" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.ViewChangeEndedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.TransitRouteCollection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.MapPolyline" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.MapShapeLayerCollection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.LocationCollection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.Traffic.TrafficIncidentCollection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.Traffic.TrafficIncidentRequestOptions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.Traffic.TrafficIncidentPushpinOptions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.TargetViewChangedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.Bing_Maps_XamlTypeInfo.XamlMetaDataProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.PushpinAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.ViewChangedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.LocationRect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.Location" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.CustomListView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.TileDownloadCompletedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Bing.Maps.MapUIElementCollection" ThreadingModel="both" />
       </InProcessServer>
     </Extension>
     <Extension Category="windows.activatableClass.inProcessServer">
       <InProcessServer>
         <Path>CLRHost.dll</Path>
-        <ActivatableClass ActivatableClassId="WindowsMapsHelper.MapsHelper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WindowsMapsHelper.MapBoundingBox" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WindowsMapsHelper.MapZoomLevel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WindowsMapsHelper.MapPosition" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="WindowsMapsHelper.MapOptions" ThreadingModel="both" />
-<<<<<<< HEAD
-        <ActivatableClass ActivatableClassId="WindowsMapsHelper.MapZoomLevel" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="WindowsMapsHelper.MapPosition" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="WindowsMapsHelper.MapAddress" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="WindowsMapsHelper.MapBoundingBox" ThreadingModel="both" />
-=======
-        <ActivatableClass ActivatableClassId="WindowsMapsHelper.MapPosition" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="WindowsMapsHelper.MapAddress" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="WindowsMapsHelper.MapBoundingBox" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="WindowsMapsHelper.MapZoomLevel" ThreadingModel="both" />
->>>>>>> 22956bc956503b3515068830dc6bc8b9c760200d
+        <ActivatableClass ActivatableClassId="WindowsMapsHelper.MapsHelper" ThreadingModel="both" />
       </InProcessServer>
     </Extension>
   </Extensions>
   <build:Metadata>
     <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v4.5" />
     <build:Item Name="VisualStudio" Version="11.0" />
-    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Professional 2012" />
+    <build:Item Name="VisualStudioEdition" Value="Экспресс-выпуск Microsoft Visual Studio 2012 для Windows 8" />
     <build:Item Name="OperatingSystem" Version="6.2.9200.16384 (win8_rtm.120725-1247)" />
     <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="11.0.60610.1" />
     <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="11.0.60315.1" />

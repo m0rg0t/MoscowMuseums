@@ -417,32 +417,18 @@
         <Setter Property="AutomationProperties.AutomationId" Value="SkipAheadAppBarButton"/>
         <Setter Property="AutomationProperties.Name" Value="Skip Ahead"/>
         <Setter Property="Content" Value="&#xE101;"/>
-<<<<<<< HEAD
-    </Style>
-    <Style x:Key="PlayAppBarButtonStyle" TargetType="ButtonBase" BasedOn="{StaticResource AppBarButtonStyle}">
-        <Setter Property="AutomationProperties.AutomationId" Value="PlayAppBarButton"/>
-        <Setter Property="AutomationProperties.Name" Value="Play"/>
-=======
     </Style>-->
     <Style x:Key="PlayAppBarButtonStyle" TargetType="ButtonBase" BasedOn="{StaticResource AppBarButtonStyle}">
         <Setter Property="AutomationProperties.AutomationId" Value="PlayAppBarButton"/>
         <Setter Property="AutomationProperties.Name" Value="Играть"/>
->>>>>>> 22956bc956503b3515068830dc6bc8b9c760200d
         <Setter Property="Content" Value="&#xE102;"/>
     </Style>
     <Style x:Key="PauseAppBarButtonStyle" TargetType="ButtonBase" BasedOn="{StaticResource AppBarButtonStyle}">
         <Setter Property="AutomationProperties.AutomationId" Value="PauseAppBarButton"/>
-<<<<<<< HEAD
-        <Setter Property="AutomationProperties.Name" Value="Pause"/>
-        <Setter Property="Content" Value="&#xE103;"/>
-    </Style>
-    <Style x:Key="EditAppBarButtonStyle" TargetType="ButtonBase" BasedOn="{StaticResource AppBarButtonStyle}">
-=======
         <Setter Property="AutomationProperties.Name" Value="Пауза"/>
         <Setter Property="Content" Value="&#xE103;"/>
     </Style>
     <!--<Style x:Key="EditAppBarButtonStyle" TargetType="ButtonBase" BasedOn="{StaticResource AppBarButtonStyle}">
->>>>>>> 22956bc956503b3515068830dc6bc8b9c760200d
         <Setter Property="AutomationProperties.AutomationId" Value="EditAppBarButton"/>
         <Setter Property="AutomationProperties.Name" Value="Edit"/>
         <Setter Property="Content" Value="&#xE104;"/>
