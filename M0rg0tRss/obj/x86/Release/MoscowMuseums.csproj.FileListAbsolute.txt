@@ -86,8 +86,3 @@ C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\obj\x86\Release\Proj
 C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\bin\x86\Release\Coding4Fun.Toolkit.Controls.dll
 C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\bin\x86\Release\Coding4Fun.Toolkit.Controls.pri
 C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\obj\x86\Release\Coding4Fun.Toolkit.Controls.pri.xml
-C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\obj\x86\Release\priconfig.xml.intermediate
-C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\obj\x86\Release\layout.resfiles.intermediate
-C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\obj\x86\Release\resources.resfiles.intermediate
-C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\obj\x86\Release\pri.resfiles.intermediate
-C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\obj\x86\Release\MoscowMuseums.csprojResolveAssemblyReference.cache

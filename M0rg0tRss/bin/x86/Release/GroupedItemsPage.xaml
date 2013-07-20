@@ -266,7 +266,7 @@
             </Grid.ColumnDefinitions>
             
             <Button x:ConnectionId='4' x:Name="backButton"                IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
-            <TextBlock x:Name="pageTitle" Text="Места Москвы" Grid.Column="1" IsHitTestVisible="false" Style="{StaticResource PageHeaderTextStyle}"/>
+            <TextBlock x:Name="pageTitle" Text="Туристическая Москва" Grid.Column="1" IsHitTestVisible="false" Style="{StaticResource PageHeaderTextStyle}"/>
             <TextBlock x:Name="OfflineMode"  Grid.Column="2" IsHitTestVisible="false" 
                  Style="{StaticResource PageHeaderTextStyle}" Text="оффлайн режим" FontSize="18" 
                  Foreground="#DEF40B0B" HorizontalAlignment="Right" 

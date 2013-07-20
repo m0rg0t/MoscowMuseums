@@ -7,7 +7,7 @@
 
  Дополнительные сведения о файлах манифестов приложений см. по адресу http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="43337m0rg0t.11205334BDBA3" Publisher="CN=F7642D27-CCE9-4988-9BED-35B1F14EED65" Version="1.1.1.17" ProcessorArchitecture="x86" />
+  <Identity Name="43337m0rg0t.11205334BDBA3" Publisher="CN=F7642D27-CCE9-4988-9BED-35B1F14EED65" Version="1.1.1.18" ProcessorArchitecture="x86" />
   <Properties>
     <DisplayName>Туристическая Москва</DisplayName>
     <PublisherDisplayName>m0rg0t</PublisherDisplayName>
@@ -22,7 +22,7 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="M0rg0tRss.exe" EntryPoint="M0rg0tRss.App">
-      <VisualElements DisplayName="Туристическая Москва" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="Места Москвы" ForegroundText="light" BackgroundColor="#A8002C">
+      <VisualElements DisplayName="Туристическая Москва" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="Туристическая Москва" ForegroundText="light" BackgroundColor="#A8002C">
         <DefaultTile ShowName="allLogos" WideLogo="Assets\WideLogo.png" />
         <SplashScreen Image="Assets\SplashScreen.png" />
         <InitialRotationPreference>
