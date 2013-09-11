@@ -5,28 +5,28 @@
     <WindowsUser>m0rg0_000</WindowsUser>
     <SolutionConfiguration>Release|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
-    <RegisteredManifestChecksum>FE7C0505DA9B59DC4ED4A5E1A2B9A16FB34F1B86DA70E49494299271BF11F85A</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>43337m0rg0t.11205334BDBA3_1.1.1.17_x86__an4n55wjnzdp8</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>40867FD6F33D2988469056D4AEA531E0E2AFBDB5F5C36A022017F3595A450DF7</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>43337m0rg0t.11205334BDBA3_1.1.1.18_x86__an4n55wjnzdp8</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>43337m0rg0t.11205334BDBA3_an4n55wjnzdp8!App</RegisteredUserModeAppID>
     <RegisteredPackageID>43337m0rg0t.11205334BDBA3</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=F7642D27-CCE9-4988-9BED-35B1F14EED65</RegisteredPackagePublisher>
-    <RegisteredVersion>1.1.1.17</RegisteredVersion>
+    <RegisteredVersion>1.1.1.18</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\bin\x86\Release\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-19T21:08:23.044</Modified>
+      <Modified>2013-09-11T19:03:35.233</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\bin\x86\Release\M0rg0tRss.exe">
       <PackagePath>M0rg0tRss.exe</PackagePath>
-      <Modified>2013-07-19T21:08:18.967</Modified>
+      <Modified>2013-09-11T19:04:06.453</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\bin\x86\Release\M0rg0tRss.pdb">
       <PackagePath>M0rg0tRss.pdb</PackagePath>
-      <Modified>2013-07-19T21:08:18.910</Modified>
+      <Modified>2013-09-11T19:04:06.385</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.1\References\commonconfiguration\neutral\Bing.Maps.winmd">
       <PackagePath>Bing.Maps.winmd</PackagePath>
@@ -72,6 +72,14 @@
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
       <Modified>2013-06-18T19:00:00.546</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Telerik\RadControls for Windows 8 XAML Q2 2013\Binaries\Core\Telerik.Core.dll">
+      <PackagePath>Telerik.Core.dll</PackagePath>
+      <Modified>2013-06-11T09:24:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Telerik\RadControls for Windows 8 XAML Q2 2013\Binaries\Primitives\Telerik.UI.Xaml.Primitives.dll">
+      <PackagePath>Telerik.UI.Xaml.Primitives.dll</PackagePath>
+      <Modified>2013-06-11T09:24:08.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\packages\MvvmLightLibs.4.1.27.0\lib\netcore45\GalaSoft.MvvmLight.Extras.Win8.pdb">
       <PackagePath>GalaSoft.MvvmLight.Extras.Win8.pdb</PackagePath>
       <Modified>2013-05-02T06:47:50.297</Modified>
@@ -88,9 +96,9 @@
       <PackagePath>Bing.Maps.dll</PackagePath>
       <Modified>2013-07-06T17:10:53.031</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\SQLite.WinRT\3.7.17\Redist\Retail\x86\sqlite3.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\SQLite.WinRT\3.8.0.2\Redist\Retail\x86\sqlite3.dll">
       <PackagePath>sqlite3.dll</PackagePath>
-      <Modified>2013-06-18T18:57:20.737</Modified>
+      <Modified>2013-09-11T11:58:40.669</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\AppData\Local\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Bing.Maps.Xaml\1.113.0601.1\Redist\CommonConfiguration\neutral\Bing.Maps\Font\Bing_Maps_Symbol.ttf">
       <PackagePath>Bing.Maps\Font\Bing_Maps_Symbol.ttf</PackagePath>
@@ -396,9 +404,13 @@
       <PackagePath>Bing.Maps\UnifiedStyle.MapStyle</PackagePath>
       <Modified>2013-07-06T17:10:51.976</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\Assets\church.jpg">
+      <PackagePath>Assets\church.jpg</PackagePath>
+      <Modified>2013-09-11T15:23:15.463</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\Data\places.db">
       <PackagePath>Data\places.db</PackagePath>
-      <Modified>2013-07-19T20:06:03.656</Modified>
+      <Modified>2013-07-19T21:28:48.599</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\appicon.png">
       <PackagePath>appicon.png</PackagePath>
@@ -495,7 +507,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\bin\x86\Release\GroupedItemsPage.xaml">
       <PackagePath>GroupedItemsPage.xaml</PackagePath>
-      <Modified>2013-07-08T17:46:17.313</Modified>
+      <Modified>2013-09-11T19:04:00.259</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\bin\x86\Release\GroupDetailPage.xaml">
       <PackagePath>GroupDetailPage.xaml</PackagePath>
@@ -513,9 +525,37 @@
       <PackagePath>Coding4Fun.Toolkit.Controls\Themes\Generic.xaml</PackagePath>
       <Modified>2013-06-18T19:00:17.369</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Telerik\RadControls for Windows 8 XAML Q2 2013\Binaries\Primitives\Telerik.UI.Xaml.Primitives\Themes\Generic.xaml">
+      <PackagePath>Telerik.UI.Xaml.Primitives\Themes\Generic.xaml</PackagePath>
+      <Modified>2013-06-11T09:21:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Telerik\RadControls for Windows 8 XAML Q2 2013\Binaries\Primitives\Telerik.UI.Xaml.Primitives\Themes\GlobalPaletteDark.xaml">
+      <PackagePath>Telerik.UI.Xaml.Primitives\Themes\GlobalPaletteDark.xaml</PackagePath>
+      <Modified>2013-06-11T09:21:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Telerik\RadControls for Windows 8 XAML Q2 2013\Binaries\Primitives\Telerik.UI.Xaml.Primitives\Themes\GlobalPaletteLight.xaml">
+      <PackagePath>Telerik.UI.Xaml.Primitives\Themes\GlobalPaletteLight.xaml</PackagePath>
+      <Modified>2013-06-11T09:21:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Telerik\RadControls for Windows 8 XAML Q2 2013\Binaries\Primitives\Telerik.UI.Xaml.Primitives\Themes\HubTile.xaml">
+      <PackagePath>Telerik.UI.Xaml.Primitives\Themes\HubTile.xaml</PackagePath>
+      <Modified>2013-06-11T09:21:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Telerik\RadControls for Windows 8 XAML Q2 2013\Binaries\Primitives\Telerik.UI.Xaml.Primitives\Themes\Pagination.xaml">
+      <PackagePath>Telerik.UI.Xaml.Primitives\Themes\Pagination.xaml</PackagePath>
+      <Modified>2013-06-11T09:21:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Telerik\RadControls for Windows 8 XAML Q2 2013\Binaries\Primitives\Telerik.UI.Xaml.Primitives\Themes\PaletteDark.xaml">
+      <PackagePath>Telerik.UI.Xaml.Primitives\Themes\PaletteDark.xaml</PackagePath>
+      <Modified>2013-06-11T09:21:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Telerik\RadControls for Windows 8 XAML Q2 2013\Binaries\Primitives\Telerik.UI.Xaml.Primitives\Themes\PaletteLight.xaml">
+      <PackagePath>Telerik.UI.Xaml.Primitives\Themes\PaletteLight.xaml</PackagePath>
+      <Modified>2013-06-11T09:21:14.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\m0rg0_000\Documents\GitHub\MoscowMuseums\M0rg0tRss\bin\x86\Release\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-07-19T21:08:20.671</Modified>
+      <Modified>2013-09-11T19:03:32.425</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

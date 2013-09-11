@@ -83,6 +83,17 @@ namespace M0rg0tRss.ViewModel
                 //LoadTouristQuery();
                 await LoadRandomFromDB();
                 await LoadBestFromDB();
+                await LoadCustomGroupFromDB("Музей", "museumGroup", 10, "Музеи Москвы");
+                await LoadCustomGroupFromDB("Парк", "parksGroup", 10, "Парки Москвы");
+                await LoadCustomGroupFromDB("кинотеатр", "cinemaGroup", 10, "Кинотеатры Москвы");
+                await LoadCustomGroupFromDB("театр", "theatreGroup", 10, "Театры Москвы");
+
+                BestItems = ViewModelLocator.MainStatic.GetGroup("TouristBest");
+                RandomItems = ViewModelLocator.MainStatic.GetGroup("TouristRandom");
+                MuseumItems = ViewModelLocator.MainStatic.GetGroup("museumGroup");
+                ParksItems = ViewModelLocator.MainStatic.GetGroup("parksGroup");
+                CinemaItems = ViewModelLocator.MainStatic.GetGroup("cinemaGroup");
+                TheatreItems = ViewModelLocator.MainStatic.GetGroup("theatreGroup");
 
                 var feeds = await App.ReadSettings();
 
@@ -102,20 +113,92 @@ namespace M0rg0tRss.ViewModel
             return true;
         }
 
+        private RssDataGroup _TheatreItems;
+        /// <summary>
+        /// 
+        /// </summary>
+        public RssDataGroup TheatreItems
+        {
+            get { return _TheatreItems; }
+            set { _TheatreItems = value; }
+        }
+        
+
+        private RssDataGroup _cinemaItems;
+        /// <summary>
+        /// 
+        /// </summary>
+        public RssDataGroup CinemaItems
+        {
+            get { return _cinemaItems; }
+            set { _cinemaItems = value; }
+        }
+        
+
+        private RssDataGroup _ParksItems;
+        /// <summary>
+        /// 
+        /// </summary>
+        public RssDataGroup ParksItems
+        {
+            get { return _ParksItems; }
+            set { _ParksItems = value; }
+        }
+        
+
+        private RssDataGroup _museumItems;
+        /// <summary>
+        /// 
+        /// </summary>
+        public RssDataGroup MuseumItems
+        {
+            get { return _museumItems; }
+            set { _museumItems = value; }
+        }
+        
+
+        private RssDataGroup _bestItems;
+        /// <summary>
+        /// 
+        /// </summary>
+        public RssDataGroup BestItems
+        {
+            get { return _bestItems; }
+            set { 
+                _bestItems = value;
+                RaisePropertyChanged("RandomItems");
+            }
+        }
+
+        private RssDataGroup _randomItems;
+        /// <summary>
+        /// 
+        /// </summary>
+        public RssDataGroup RandomItems
+        {
+            get { return _randomItems; }
+            set { 
+                _randomItems = value;
+                RaisePropertyChanged("RandomItems");
+            }
+        }
+        
+        
+
         private ObservableCollection<RssDataGroup> _allGroups = new ObservableCollection<RssDataGroup>();
         public ObservableCollection<RssDataGroup> AllGroups
         {
             get
             {
-                ObservableCollection<RssDataGroup> tempGroups = new ObservableCollection<RssDataGroup>();
+                /*ObservableCollection<RssDataGroup> tempGroups = new ObservableCollection<RssDataGroup>();
                 var sorted = (from groupitem in _allGroups
                               orderby groupitem.Order descending
                               select groupitem).ToList();
                 foreach(var item in sorted) {
                     tempGroups.Add(item);
                 };
-                return tempGroups;
-                //return _allGroups;
+                return tempGroups;*/
+                return _allGroups;
             }
             set
             {
@@ -397,6 +480,8 @@ namespace M0rg0tRss.ViewModel
             return true;
         }
 
+
+
         public async Task<bool> LoadBestFromDB()
         {
             try
@@ -433,6 +518,63 @@ namespace M0rg0tRss.ViewModel
             return true;
         }
 
+        public async Task<bool> LoadCustomGroupFromDB(string search = "", string uniqueId = "", int order = 10, string GroupName="")
+        {
+            if (search != "")
+            {
+                try
+                {
+                    try
+                    {
+                        await prepareData();
+                    }
+                    catch { };
+
+                    var dbPath = Path.Combine(Windows.Storage.ApplicationData.Current.LocalFolder.Path, "Data/places.db");
+                    SQLiteAsyncConnection conn = new SQLiteAsyncConnection(dbPath);
+
+                    var tourist = new RssDataGroup(uniqueId,
+                        GroupName, "Достопримечательности", "", "");
+                    tourist.Order = order;
+
+                    try
+                    {
+                        //OR Content LIKE '%" + search + "%'
+                        string query = "SELECT * FROM MapItem WHERE (Title LIKE '%" + search + "%') OR (Description LIKE '%" + search + "%') OR (Content LIKE '%" + search + "%') ORDER BY Object_rate DESC LIMIT 0,200";
+                        query = "SELECT * FROM MapItem ORDER BY Object_rate";
+                        var SomeItems = await conn.QueryAsync<MapItem>(query);
+                        var i = 0;
+                        foreach (var item in SomeItems)
+                        {
+                            if ((item.Title != null && item.Title.Contains(search) ||
+                                (item.Content != null && item.Content.Contains(search))) && (i < 100))
+                            {
+                                i++;
+                                item.Group = tourist;
+                                tourist.Items.Add(item);
+                            };
+                        };
+
+                        if (i > 0)
+                        {
+                            try
+                            {
+                                this._allGroups.Remove(this._allGroups.FirstOrDefault(c => c.UniqueId == uniqueId));
+                                tourist.ImagePath = tourist.Items.First().ImagePath;
+                            }
+                            catch { };
+                            this._allGroups.Add(tourist);
+                            RaisePropertyChanged("AllGroups");
+                        };
+                    }
+                    catch { };
+                }
+                catch { };
+            };
+            return true;
+        }
+
+
         public async Task<bool> LoadSearchFromDB(string search = "")
         {
             if (search != "")
@@ -450,7 +592,7 @@ namespace M0rg0tRss.ViewModel
 
                     var tourist = new RssDataGroup("TouristSearch",
                         "Результаты поиска " + search.Trim(), "Достопримечательности", "", "");
-                    tourist.Order = 4;
+                    tourist.Order = 554;
 
                     try
                     {

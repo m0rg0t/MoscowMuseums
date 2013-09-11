@@ -126,12 +126,12 @@
     <Extension Category="windows.activatableClass.inProcessServer">
       <InProcessServer>
         <Path>CLRHost.dll</Path>
-        <ActivatableClass ActivatableClassId="WindowsMapsHelper.MapBoundingBox" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="WindowsMapsHelper.MapZoomLevel" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="WindowsMapsHelper.MapPosition" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="WindowsMapsHelper.MapOptions" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="WindowsMapsHelper.MapAddress" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="WindowsMapsHelper.MapsHelper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WindowsMapsHelper.MapZoomLevel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WindowsMapsHelper.MapBoundingBox" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WindowsMapsHelper.MapAddress" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WindowsMapsHelper.MapPosition" ThreadingModel="both" />
       </InProcessServer>
     </Extension>
   </Extensions>
@@ -143,7 +143,7 @@
     <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="11.0.60610.1" />
     <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="11.0.60315.1" />
     <build:Item Name="Bing.Maps.Xaml" Version="1.113.0601.1" />
-    <build:Item Name="SQLite.WinRT" Version="3.7.17" />
+    <build:Item Name="SQLite.WinRT" Version="3.8.0.2" />
     <build:Item Name="MakePri.exe" Version="6.2.9200.16384 (win8_rtm.120725-1247)" />
   </build:Metadata>
 </Package>

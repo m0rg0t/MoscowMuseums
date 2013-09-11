@@ -9,6 +9,7 @@
     xmlns:viewmodel="M0rg0tRss.ViewModel"
     xmlns:common="using:M0rg0tRss.Common"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:telerik="using:Telerik.UI.Xaml.Controls.Primitives"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d" Background="#FFE0E0E0">
 
@@ -154,6 +155,75 @@
             IsSwipeEnabled="false"
             IsItemClickEnabled="True"
                                           >
+
+                    <GridView.Header>
+                        <StackPanel Margin="0,4,14,0">
+
+                                <GridView MaxWidth="500">
+                                <GridView.ItemsPanel>
+                                    <ItemsPanelTemplate>
+                                        <WrapGrid Orientation="Horizontal"                                                   
+                                                  VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                    </ItemsPanelTemplate>
+                                </GridView.ItemsPanel>
+
+                                    <telerik:RadMosaicHubTile Name="RandomTile" 
+                                                      DataContext="{Binding Main.RandomItems.Items, Source={StaticResource Locator}}" 
+                                                      PicturesSource="{Binding}" Title="Случайные">
+                                        <telerik:RadMosaicHubTile.PictureSourceProvider>
+                                            <common:MyPictureProvider></common:MyPictureProvider>
+                                        </telerik:RadMosaicHubTile.PictureSourceProvider>
+                                    </telerik:RadMosaicHubTile>
+
+                                    <telerik:RadMosaicHubTile Name="BestTile" 
+                                                      DataContext="{Binding Main.BestItems.Items, Source={StaticResource Locator}}" 
+                                                      PicturesSource="{Binding}" Title="Лучшие по рейтингу">
+                                        <telerik:RadMosaicHubTile.PictureSourceProvider>
+                                            <common:MyPictureProvider></common:MyPictureProvider>
+                                        </telerik:RadMosaicHubTile.PictureSourceProvider>
+                                    </telerik:RadMosaicHubTile>
+
+                                    <telerik:RadMosaicHubTile Name="MuseumTile" 
+                                                      DataContext="{Binding Main.MuseumItems.Items, Source={StaticResource Locator}}" 
+                                                      PicturesSource="{Binding}" Title="Музеи Москвы">
+                                        <telerik:RadMosaicHubTile.PictureSourceProvider>
+                                            <common:MyPictureProvider></common:MyPictureProvider>
+                                        </telerik:RadMosaicHubTile.PictureSourceProvider>
+                                    </telerik:RadMosaicHubTile>
+
+                                    <telerik:RadMosaicHubTile Name="ParksTile" 
+                                                      DataContext="{Binding Main.ParksItems.Items, Source={StaticResource Locator}}" 
+                                                      PicturesSource="{Binding}" Title="Парки Москвы">
+                                        <telerik:RadMosaicHubTile.PictureSourceProvider>
+                                            <common:MyPictureProvider></common:MyPictureProvider>
+                                        </telerik:RadMosaicHubTile.PictureSourceProvider>
+                                    </telerik:RadMosaicHubTile>
+
+                                <telerik:RadMosaicHubTile Name="CinemaTile" 
+                                                      DataContext="{Binding Main.CinemaItems.Items, Source={StaticResource Locator}}" 
+                                                      PicturesSource="{Binding}" Title="Кинотеатры Москвы">
+                                    <telerik:RadMosaicHubTile.PictureSourceProvider>
+                                        <common:MyPictureProvider></common:MyPictureProvider>
+                                    </telerik:RadMosaicHubTile.PictureSourceProvider>
+                                </telerik:RadMosaicHubTile>
+
+                                <telerik:RadMosaicHubTile Name="TheatreTile" 
+                                                      DataContext="{Binding Main.TheatreItems.Items, Source={StaticResource Locator}}" 
+                                                      PicturesSource="{Binding}" Title="Театры Москвы">
+                                    <telerik:RadMosaicHubTile.PictureSourceProvider>
+                                        <common:MyPictureProvider></common:MyPictureProvider>
+                                    </telerik:RadMosaicHubTile.PictureSourceProvider>
+                                </telerik:RadMosaicHubTile>
+                            </GridView>
+
+                        </StackPanel>
+                    </GridView.Header>
+                    <!--<GridView.ItemContainerStyle>
+                        <Style TargetType="FrameworkElement">
+                            <Setter Property="Margin" Value="52,0,0,10"/>
+                        </Style>
+                    </GridView.ItemContainerStyle>-->
+
                     <GridView.ItemsPanel>
                         <ItemsPanelTemplate>
                             <VariableSizedWrapGrid Orientation="Vertical"/>
@@ -266,7 +336,7 @@
             </Grid.ColumnDefinitions>
             
             <Button x:ConnectionId='4' x:Name="backButton"                IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
-            <TextBlock x:Name="pageTitle" Text="Места Москвы" Grid.Column="1" IsHitTestVisible="false" Style="{StaticResource PageHeaderTextStyle}"/>
+            <TextBlock x:Name="pageTitle" Text="Туристическая Москва" Grid.Column="1" IsHitTestVisible="false" Style="{StaticResource PageHeaderTextStyle}"/>
             <TextBlock x:Name="OfflineMode"  Grid.Column="2" IsHitTestVisible="false" 
                  Style="{StaticResource PageHeaderTextStyle}" Text="оффлайн режим" FontSize="18" 
                  Foreground="#DEF40B0B" HorizontalAlignment="Right" 

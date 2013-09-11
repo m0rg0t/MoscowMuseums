@@ -69,6 +69,13 @@ namespace M0rg0tRss
                 OfflineMode.Visibility = Visibility.Collapsed;
                 zommedOutView.ItemsSource = groupedItemsViewSource.View.CollectionGroups;
             }
+
+            this.BestTile.DataContext = ViewModelLocator.MainStatic.BestItems.Items;
+            this.RandomTile.DataContext = ViewModelLocator.MainStatic.RandomItems.Items;
+            this.MuseumTile.DataContext = ViewModelLocator.MainStatic.MuseumItems.Items;
+            this.ParksTile.DataContext = ViewModelLocator.MainStatic.ParksItems.Items;
+            this.CinemaTile.DataContext = ViewModelLocator.MainStatic.CinemaItems.Items;
+            this.TheatreTile.DataContext = ViewModelLocator.MainStatic.TheatreItems.Items;
         }
 
         protected override void OnNavigatedFrom(NavigationEventArgs e)

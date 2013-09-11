@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="Telerik.UI.Xaml.Primitives" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="Telerik.UI.Xaml.Primitives">
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xaml" uri="ms-resource://Telerik.UI.Xaml.Primitives/Files/Telerik.UI.Xaml.Primitives/Themes/Generic.xaml">
+						<Candidate type="Path">
+							<Value>Telerik.UI.Xaml.Primitives\Themes\Generic.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="GlobalPaletteDark.xaml" uri="ms-resource://Telerik.UI.Xaml.Primitives/Files/Telerik.UI.Xaml.Primitives/Themes/GlobalPaletteDark.xaml">
+						<Candidate type="Path">
+							<Value>Telerik.UI.Xaml.Primitives\Themes\GlobalPaletteDark.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="GlobalPaletteLight.xaml" uri="ms-resource://Telerik.UI.Xaml.Primitives/Files/Telerik.UI.Xaml.Primitives/Themes/GlobalPaletteLight.xaml">
+						<Candidate type="Path">
+							<Value>Telerik.UI.Xaml.Primitives\Themes\GlobalPaletteLight.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="HubTile.xaml" uri="ms-resource://Telerik.UI.Xaml.Primitives/Files/Telerik.UI.Xaml.Primitives/Themes/HubTile.xaml">
+						<Candidate type="Path">
+							<Value>Telerik.UI.Xaml.Primitives\Themes\HubTile.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Pagination.xaml" uri="ms-resource://Telerik.UI.Xaml.Primitives/Files/Telerik.UI.Xaml.Primitives/Themes/Pagination.xaml">
+						<Candidate type="Path">
+							<Value>Telerik.UI.Xaml.Primitives\Themes\Pagination.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="PaletteDark.xaml" uri="ms-resource://Telerik.UI.Xaml.Primitives/Files/Telerik.UI.Xaml.Primitives/Themes/PaletteDark.xaml">
+						<Candidate type="Path">
+							<Value>Telerik.UI.Xaml.Primitives\Themes\PaletteDark.xaml</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="PaletteLight.xaml" uri="ms-resource://Telerik.UI.Xaml.Primitives/Files/Telerik.UI.Xaml.Primitives/Themes/PaletteLight.xaml">
+						<Candidate type="Path">
+							<Value>Telerik.UI.Xaml.Primitives\Themes\PaletteLight.xaml</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>
