@@ -56,7 +56,7 @@
             AutomationProperties.Name="Items In Group"
             TabIndex="1"
             Grid.RowSpan="2"
-            Padding="120,126,120,50"
+            Padding="60,126,120,50"
             ItemsSource="{Binding Source={StaticResource itemsViewSource}}"
             ItemTemplate="{StaticResource Standard500x130ItemTemplate}"
             SelectionMode="None"
@@ -64,13 +64,13 @@
             IsItemClickEnabled="True"
             ItemClick="ItemView_ItemClick">
 
-            <GridView.Header>
+            <!--<GridView.Header>
                 <StackPanel Width="480" Margin="0,4,14,0">
                     <TextBlock Text="{Binding Subtitle}" Margin="0,0,18,20" Style="{StaticResource SubheaderTextStyle}" MaxHeight="60"/>
                     <Image Source="{Binding Image}" Height="400" Margin="0,0,18,20" Stretch="UniformToFill" AutomationProperties.Name="{Binding Title}"/>
                     <TextBlock Text="{Binding Description}" Margin="0,0,18,0" Style="{StaticResource BodyTextStyle}"/>
                 </StackPanel>
-            </GridView.Header>
+            </GridView.Header>-->
             <GridView.ItemContainerStyle>
                 <Style TargetType="FrameworkElement">
                     <Setter Property="Margin" Value="52,0,0,10"/>
@@ -110,7 +110,7 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <Button x:Name="backButton" Click="GoBack" IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
-            <TextBlock x:Name="pageTitle" Text="{Binding Title}" Style="{StaticResource PageHeaderTextStyle}" Grid.Column="1" IsHitTestVisible="false"/>
+            <TextBlock x:Name="pageTitle" Text="Просмотр категории" Style="{StaticResource PageHeaderTextStyle}" Grid.Column="1" IsHitTestVisible="false"/>
         </Grid>
 
         <VisualStateManager.VisualStateGroups>

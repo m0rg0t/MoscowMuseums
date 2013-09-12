@@ -491,7 +491,13 @@ namespace M0rg0tRss.Common
 
             public bool ContainsKey(K key)
             {
-                return this._dictionary.ContainsKey(key);
+                try
+                {
+                    return this._dictionary.ContainsKey(key);
+                }
+                catch {
+                    return false;
+                };
             }
 
             public bool TryGetValue(K key, out V value)

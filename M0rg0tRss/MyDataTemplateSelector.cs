@@ -29,7 +29,7 @@ namespace M0rg0tRss
                 }
                 else
                 {
-                    return Template2;
+                    return Template1;
                 };
             }
             catch {

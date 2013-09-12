@@ -159,17 +159,23 @@
                     <GridView.Header>
                         <StackPanel Margin="0,4,14,0">
 
-                                <GridView MaxWidth="500">
+                            <!--<StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Меню" Margin="3,-7,10,10" Style="{StaticResource GroupHeaderTextStyle}" />
+                                <TextBlock Text="{StaticResource ChevronGlyph}" FontFamily="Segoe UI Symbol" Margin="0,-7,0,10" Style="{StaticResource GroupHeaderTextStyle}"/>
+                            </StackPanel>-->
+
+                            <GridView Name="MenuGrid" MaxWidth="600" SelectionMode="None">
                                 <GridView.ItemsPanel>
                                     <ItemsPanelTemplate>
-                                        <WrapGrid Orientation="Horizontal"                                                   
+                                        <WrapGrid Orientation="Horizontal" 
+                                                  ItemHeight="191" ItemWidth="191"
                                                   VerticalAlignment="Center" HorizontalAlignment="Center"/>
                                     </ItemsPanelTemplate>
                                 </GridView.ItemsPanel>
 
                                     <telerik:RadMosaicHubTile Name="RandomTile" 
                                                       DataContext="{Binding Main.RandomItems.Items, Source={StaticResource Locator}}" 
-                                                      PicturesSource="{Binding}" Title="Случайные">
+                                                      PicturesSource="{Binding}" Title="Случайные" Tapped="RandomTile_Tapped">
                                         <telerik:RadMosaicHubTile.PictureSourceProvider>
                                             <common:MyPictureProvider></common:MyPictureProvider>
                                         </telerik:RadMosaicHubTile.PictureSourceProvider>
@@ -177,7 +183,7 @@
 
                                     <telerik:RadMosaicHubTile Name="BestTile" 
                                                       DataContext="{Binding Main.BestItems.Items, Source={StaticResource Locator}}" 
-                                                      PicturesSource="{Binding}" Title="Лучшие по рейтингу">
+                                                      PicturesSource="{Binding}" Title="Лучшие по рейтингу" Tapped="BestTile_Tapped">
                                         <telerik:RadMosaicHubTile.PictureSourceProvider>
                                             <common:MyPictureProvider></common:MyPictureProvider>
                                         </telerik:RadMosaicHubTile.PictureSourceProvider>
@@ -185,7 +191,7 @@
 
                                     <telerik:RadMosaicHubTile Name="MuseumTile" 
                                                       DataContext="{Binding Main.MuseumItems.Items, Source={StaticResource Locator}}" 
-                                                      PicturesSource="{Binding}" Title="Музеи Москвы">
+                                                      PicturesSource="{Binding}" Title="Музеи Москвы" Tapped="MuseumTile_Tapped">
                                         <telerik:RadMosaicHubTile.PictureSourceProvider>
                                             <common:MyPictureProvider></common:MyPictureProvider>
                                         </telerik:RadMosaicHubTile.PictureSourceProvider>
@@ -193,7 +199,7 @@
 
                                     <telerik:RadMosaicHubTile Name="ParksTile" 
                                                       DataContext="{Binding Main.ParksItems.Items, Source={StaticResource Locator}}" 
-                                                      PicturesSource="{Binding}" Title="Парки Москвы">
+                                                      PicturesSource="{Binding}" Title="Парки Москвы" Tapped="ParksTile_Tapped">
                                         <telerik:RadMosaicHubTile.PictureSourceProvider>
                                             <common:MyPictureProvider></common:MyPictureProvider>
                                         </telerik:RadMosaicHubTile.PictureSourceProvider>
@@ -201,7 +207,7 @@
 
                                 <telerik:RadMosaicHubTile Name="CinemaTile" 
                                                       DataContext="{Binding Main.CinemaItems.Items, Source={StaticResource Locator}}" 
-                                                      PicturesSource="{Binding}" Title="Кинотеатры Москвы">
+                                                      PicturesSource="{Binding}" Title="Кинотеатры Москвы" Tapped="CinemaTile_Tapped">
                                     <telerik:RadMosaicHubTile.PictureSourceProvider>
                                         <common:MyPictureProvider></common:MyPictureProvider>
                                     </telerik:RadMosaicHubTile.PictureSourceProvider>
@@ -209,11 +215,16 @@
 
                                 <telerik:RadMosaicHubTile Name="TheatreTile" 
                                                       DataContext="{Binding Main.TheatreItems.Items, Source={StaticResource Locator}}" 
-                                                      PicturesSource="{Binding}" Title="Театры Москвы">
+                                                      PicturesSource="{Binding}" Title="Театры Москвы" Tapped="TheatreTile_Tapped">
                                     <telerik:RadMosaicHubTile.PictureSourceProvider>
                                         <common:MyPictureProvider></common:MyPictureProvider>
                                     </telerik:RadMosaicHubTile.PictureSourceProvider>
                                 </telerik:RadMosaicHubTile>
+
+                                <telerik:RadHubTile Title="Карта мест"
+                                                    ImageSource="Assets/map2.png" Tapped="RadHubTile_Tapped">                                    
+                                </telerik:RadHubTile>
+
                             </GridView>
 
                         </StackPanel>

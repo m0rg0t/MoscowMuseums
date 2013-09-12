@@ -85,10 +85,10 @@ namespace M0rg0tRss.ViewModel
                 await LoadBestFromDB();
                 await LoadCustomGroupFromDB("Музей", "museumGroup", 10, "Музеи Москвы");
                 await LoadCustomGroupFromDB("Парк", "parksGroup", 10, "Парки Москвы");
-                await LoadCustomGroupFromDB("кинотеатр", "cinemaGroup", 10, "Кинотеатры Москвы");
+                await LoadCustomGroupFromDB("кинотеатр", "cinemaGroup", 10, "Кинотеатры Москвы", true);
                 await LoadCustomGroupFromDB("театр", "theatreGroup", 10, "Театры Москвы");
 
-                BestItems = ViewModelLocator.MainStatic.GetGroup("TouristBest");
+                BestItems = ViewModelLocator.MainStatic.GetGroup("touristBestItems");
                 RandomItems = ViewModelLocator.MainStatic.GetGroup("TouristRandom");
                 MuseumItems = ViewModelLocator.MainStatic.GetGroup("museumGroup");
                 ParksItems = ViewModelLocator.MainStatic.GetGroup("parksGroup");
@@ -493,7 +493,7 @@ namespace M0rg0tRss.ViewModel
             var dbPath = Path.Combine(Windows.Storage.ApplicationData.Current.LocalFolder.Path, "Data/places.db");
             SQLiteAsyncConnection conn = new SQLiteAsyncConnection(dbPath);
 
-            var tourist = new RssDataGroup("TouristBest",
+            var tourist = new RssDataGroup("touristBestItems",
                 "Лучшие по рейтингу", "Достопримечательности", "", "");
             tourist.Order = 15;
 
@@ -518,7 +518,7 @@ namespace M0rg0tRss.ViewModel
             return true;
         }
 
-        public async Task<bool> LoadCustomGroupFromDB(string search = "", string uniqueId = "", int order = 10, string GroupName="")
+        public async Task<bool> LoadCustomGroupFromDB(string search = "", string uniqueId = "", int order = 10, string GroupName="", bool searchInContent=false)
         {
             if (search != "")
             {
@@ -546,13 +546,21 @@ namespace M0rg0tRss.ViewModel
                         var i = 0;
                         foreach (var item in SomeItems)
                         {
-                            if ((item.Title != null && item.Title.Contains(search) ||
-                                (item.Content != null && item.Content.Contains(search))) && (i < 100))
-                            {
-                                i++;
-                                item.Group = tourist;
-                                tourist.Items.Add(item);
-                            };
+                            if (searchInContent) {
+                                if (((item.Title != null && item.Title.Contains(search)) || (item.Content != null && item.Content.Contains(search))) && (i < 100)) //(item.Content != null && item.Content.Contains(search))
+                                {
+                                    i++;
+                                    item.Group = tourist;
+                                    tourist.Items.Add(item);
+                                };
+                            } else {
+                                if ((item.Title != null && item.Title.Contains(search)) && (i < 100)) //(item.Content != null && item.Content.Contains(search))
+                                {
+                                    i++;
+                                    item.Group = tourist;
+                                    tourist.Items.Add(item);
+                                };
+                            };                            
                         };
 
                         if (i > 0)

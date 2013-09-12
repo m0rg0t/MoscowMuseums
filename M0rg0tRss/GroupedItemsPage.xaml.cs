@@ -122,14 +122,18 @@ namespace M0rg0tRss
             }
             else
             {
-                //if (((RssDataGroup)group).UniqueId == "Tourist")
-                //{
-                    this.Frame.Navigate(typeof(MapItemsPage), ((RssDataGroup)group).UniqueId);
-                /*}
-                else
+                try
                 {
-                    this.Frame.Navigate(typeof(GroupDetailPage), ((RssDataGroup)group).UniqueId);
-                };*/
+                    if (((RssDataGroup)group).UniqueId == "touristBestItems")
+                    {
+                        this.Frame.Navigate(typeof(GroupDetailPage), "touristBestItems");
+                    }
+                    else
+                    {
+                        this.Frame.Navigate(typeof(MapItemsPage), ((RssDataGroup)group).UniqueId);
+                    };
+                }
+                catch { };
             };            
         }
 
@@ -206,6 +210,119 @@ namespace M0rg0tRss
         private void RefreshButton_Click(object sender, RoutedEventArgs e)
         {
             ViewModelLocator.MainStatic.LoadRandomFromDB();
+        }
+
+        private void RadHubTile_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            try
+            {
+                this.Frame.Navigate(typeof(MapPage));
+            }
+            catch { };
+        }
+
+        private void RandomTile_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            try
+            {
+                if (ViewModelLocator.MainStatic.RandomItems != null)
+                {
+                    this.Frame.Navigate(typeof(MapItemsPage), "TouristRandom");
+                }
+                else
+                {
+                    MessageDialog item = new MessageDialog("Категория еще не загружена");
+                    item.ShowAsync();
+                };
+            }
+            catch { };
+        }
+
+        private void BestTile_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            try
+            {
+                if ((ViewModelLocator.MainStatic.GetGroup("touristBestItems") != null) &&
+                    (ViewModelLocator.MainStatic.GetGroup("touristBestItems").Items.Count>0))
+                {
+                    //this.Frame.Navigate(typeof(MapItemsPage), "touristBestItems");
+                    this.Frame.Navigate(typeof(GroupDetailPage), "touristBestItems");
+                }
+                else
+                {
+                    MessageDialog item = new MessageDialog("Категория еще не загружена");
+                    item.ShowAsync();
+                };
+            }
+            catch { };
+        }
+
+        private void MuseumTile_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            try
+            {
+                if (ViewModelLocator.MainStatic.MuseumItems != null)
+                {
+                    this.Frame.Navigate(typeof(MapItemsPage), "museumGroup");
+                }
+                else
+                {
+                    MessageDialog item = new MessageDialog("Категория еще не загружена");
+                    item.ShowAsync();
+                };
+            }
+            catch { };
+        }
+
+        private void ParksTile_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            try
+            {
+                if (ViewModelLocator.MainStatic.ParksItems != null)
+                {
+                    this.Frame.Navigate(typeof(MapItemsPage), "parksGroup");
+                }
+                else
+                {
+                    MessageDialog item = new MessageDialog("Категория еще не загружена");
+                    item.ShowAsync();
+                };
+            }
+            catch { };
+        }
+
+        private void CinemaTile_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            try
+            {
+                if (ViewModelLocator.MainStatic.CinemaItems != null)
+                {
+                    this.Frame.Navigate(typeof(MapItemsPage), "cinemaGroup");
+                }
+                else
+                {
+                    MessageDialog item = new MessageDialog("Категория еще не загружена");
+                    item.ShowAsync();
+                };
+            }
+            catch { };
+        }
+
+        private void TheatreTile_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            try
+            {
+                if (ViewModelLocator.MainStatic.TheatreItems != null)
+                {
+                    this.Frame.Navigate(typeof(MapItemsPage), "theatreGroup");
+                }
+                else
+                {
+                    MessageDialog item = new MessageDialog("Категория еще не загружена");
+                    item.ShowAsync();
+                };
+            }
+            catch { };
         }
 
     }
