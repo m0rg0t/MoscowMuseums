@@ -77,14 +77,21 @@ namespace TouristMoscowWP.ViewModel
         public string ImagePath
         {
             get { return this._imagePath; }
-            set { this.SetProperty(ref this._imagePath, value, "ImagePath"); }
+            set
+            {
+                if (this.SetProperty(ref this._imagePath, value, "ImagePath"))
+                {
+                    this._image = null;
+                    RaisePropertyChanged("Image");
+                }
+            }
         }
 
         public ImageSource Image
         {
             get
             {
-                if (this._image == null && this.ImagePath != null)
+                if (this._image == null && !String.IsNullOrEmpty(this.ImagePath))
                 {
                     this._image = new BitmapImage(new Uri(this.ImagePath));
                 }
@@ -94,7 +101,7 @@ namespace TouristMoscowWP.ViewModel
             set
             {
                 this.ImagePath = null;
-                this.SetProperty(ref this._image, value);
+                this.SetProperty(ref this._image, value, "Image");
             }
         }
 
@@ -229,3 +236,4 @@ namespace TouristMoscowWP.ViewModel
         }
     }
 }
+
